@@ -205,10 +205,10 @@ export default function Loyalty() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-violet-50 py-24 lg:py-32">
+      <section className="bg-ct-slate-subtle py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-4xl">
-            <p className="text-xs font-bold tracking-widest uppercase text-violet-600 mb-6">
+            <p className="text-xs font-bold tracking-widest uppercase text-ct-slate mb-6">
               Loyalty &amp; CRM Consulting
             </p>
             <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight tracking-tight mb-6">
@@ -227,7 +227,7 @@ export default function Loyalty() {
               href="https://calendly.com/challenge-that/introduction"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-3 bg-violet-600 text-white font-medium rounded-lg hover:bg-violet-700 transition-colors"
+              className="px-6 py-3 bg-ct-slate text-white font-medium rounded-lg hover:bg-ct-slate-dark transition-colors"
             >
               Book a free consultation
             </Link>
@@ -247,8 +247,8 @@ export default function Loyalty() {
           <p className="text-gray-500 mb-12">Here&rsquo;s what we hear most often from venues like yours:</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {problemCards.map((card) => (
-              <div key={card.title} className="bg-violet-50 border border-violet-100 rounded-xl p-6">
-                <h3 className="font-semibold text-violet-700 mb-3 leading-snug">{card.title}</h3>
+              <div key={card.title} className="bg-ct-slate-subtle border border-ct-slate-subtle rounded-xl p-6">
+                <h3 className="font-semibold text-ct-slate-dark mb-3 leading-snug">{card.title}</h3>
                 <p className="text-sm text-gray-600 leading-relaxed">{card.body}</p>
               </div>
             ))}
@@ -260,7 +260,7 @@ export default function Loyalty() {
       <section className="bg-gray-50 py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-3xl mb-12">
-            <p className="text-xs font-bold tracking-widest uppercase text-violet-600 mb-4">How we work</p>
+            <p className="text-xs font-bold tracking-widest uppercase text-ct-slate mb-4">How we work</p>
             <h2 className="text-3xl font-bold text-gray-900 mb-4">We start with strategy. Technology comes last.</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
               Most CRM failures aren&rsquo;t technology problems. They&rsquo;re strategy problems that get handed to a
@@ -271,10 +271,10 @@ export default function Loyalty() {
             {fourPs.map((step) => (
               <div key={step.number} className="flex gap-8 py-8">
                 <div className="flex-shrink-0">
-                  <span className="text-3xl font-bold text-violet-300">{step.number}</span>
+                  <span className="text-3xl font-bold text-ct-gray-mid">{step.number}</span>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-violet-700 text-lg mb-2">{step.title}</h3>
+                  <h3 className="font-semibold text-ct-slate-dark text-lg mb-2">{step.title}</h3>
                   <p className="text-gray-600 leading-relaxed">{step.body}</p>
                 </div>
               </div>
@@ -295,8 +295,8 @@ export default function Loyalty() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {services.map((s) => (
-              <div key={s.title} className="bg-violet-50 border border-violet-100 rounded-xl p-7">
-                <h3 className="font-semibold text-violet-700 mb-2">{s.title}</h3>
+              <div key={s.title} className="bg-ct-slate-subtle border border-ct-slate-subtle rounded-xl p-7">
+                <h3 className="font-semibold text-ct-slate-dark mb-2">{s.title}</h3>
                 <p className="text-sm text-gray-600 leading-relaxed">{s.body}</p>
               </div>
             ))}
@@ -320,13 +320,13 @@ export default function Loyalty() {
             {lifecycleStages.map((stage, i) => (
               <div
                 key={stage.number}
-                className={`rounded-xl p-6 ${i % 2 === 0 ? 'bg-violet-600 text-white' : 'bg-violet-100 text-violet-900'}`}
+                className={`rounded-xl p-6 ${i % 2 === 0 ? 'bg-ct-slate text-white' : 'bg-ct-slate-subtle text-ct-dark'}`}
               >
-                <p className={`text-xs font-bold mb-2 ${i % 2 === 0 ? 'text-violet-200' : 'text-violet-400'}`}>
+                <p className={`text-xs font-bold mb-2 ${i % 2 === 0 ? 'text-ct-gray-mid' : 'text-ct-slate'}`}>
                   {stage.number}
                 </p>
                 <h3 className="font-bold text-lg mb-2">{stage.title}</h3>
-                <p className={`text-xs leading-relaxed ${i % 2 === 0 ? 'text-violet-100' : 'text-violet-700'}`}>
+                <p className={`text-xs leading-relaxed ${i % 2 === 0 ? 'text-ct-slate-subtle' : 'text-ct-slate-dark'}`}>
                   {stage.desc}
                 </p>
               </div>
@@ -340,13 +340,13 @@ export default function Loyalty() {
       </section>
 
       {/* Platform Agnostic */}
-      <section className="bg-violet-900 py-20">
+      <section className="bg-ct-dark py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-3xl">
             <h2 className="text-3xl font-bold text-white mb-6">
               We work with any platform. That&rsquo;s not a footnote &mdash; it&rsquo;s the whole point.
             </h2>
-            <div className="space-y-4 text-violet-200 text-lg leading-relaxed">
+            <div className="space-y-4 text-ct-gray-mid text-lg leading-relaxed">
               <p>
                 A lot of &ldquo;CRM consultants&rdquo; are actually platform resellers. They have a preferred vendor,
                 and their recommendation &mdash; whatever your situation &mdash; tends to land there.
@@ -373,26 +373,26 @@ export default function Loyalty() {
       {/* Case Studies */}
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <p className="text-xs font-bold tracking-widest uppercase text-violet-600 mb-4">Case studies</p>
+          <p className="text-xs font-bold tracking-widest uppercase text-ct-slate mb-4">Case studies</p>
           <h2 className="text-3xl font-bold text-gray-900 mb-12">Results that speak for themselves.</h2>
           <div className="space-y-8">
             {caseStudies.map((cs) => (
               <div key={cs.client} className="rounded-2xl border border-gray-100 bg-gray-50 overflow-hidden">
-                <div className="bg-violet-600 px-8 py-4">
+                <div className="bg-ct-slate px-8 py-4">
                   <h3 className="text-white font-semibold text-lg">{cs.client}</h3>
                 </div>
                 <div className="p-8 grid grid-cols-1 lg:grid-cols-3 gap-8">
                   {/* Challenge + Solution */}
                   <div className="lg:col-span-2 space-y-6">
                     <div>
-                      <p className="text-xs font-bold tracking-widest uppercase text-violet-500 mb-2">Challenge</p>
+                      <p className="text-xs font-bold tracking-widest uppercase text-ct-slate mb-2">Challenge</p>
                       <p className="text-gray-600 leading-relaxed text-sm">{cs.challenge}</p>
                     </div>
                     <div>
-                      <p className="text-xs font-bold tracking-widest uppercase text-violet-500 mb-2">Solution</p>
+                      <p className="text-xs font-bold tracking-widest uppercase text-ct-slate mb-2">Solution</p>
                       <p className="text-gray-600 leading-relaxed text-sm">{cs.solution}</p>
                     </div>
-                    <blockquote className="border-l-4 border-violet-300 pl-4 mt-4">
+                    <blockquote className="border-l-4 border-ct-gray-mid pl-4 mt-4">
                       <p className="text-gray-700 italic text-sm leading-relaxed">&ldquo;{cs.quote}&rdquo;</p>
                       <p className="text-xs text-gray-400 mt-2">&mdash; {cs.attribution}</p>
                     </blockquote>
@@ -400,18 +400,18 @@ export default function Loyalty() {
                   {/* Results + Services */}
                   <div className="space-y-6">
                     <div>
-                      <p className="text-xs font-bold tracking-widest uppercase text-violet-500 mb-3">Results</p>
+                      <p className="text-xs font-bold tracking-widest uppercase text-ct-slate mb-3">Results</p>
                       <ul className="space-y-2">
                         {cs.results.map((r) => (
                           <li key={r} className="flex gap-2 text-sm text-gray-700">
-                            <span className="text-violet-400 mt-0.5 flex-shrink-0">✓</span>
+                            <span className="text-ct-slate mt-0.5 flex-shrink-0">✓</span>
                             <span>{r}</span>
                           </li>
                         ))}
                       </ul>
                     </div>
                     <div>
-                      <p className="text-xs font-bold tracking-widest uppercase text-violet-500 mb-3">
+                      <p className="text-xs font-bold tracking-widest uppercase text-ct-slate mb-3">
                         Services provided
                       </p>
                       <ul className="space-y-1">
@@ -442,15 +442,15 @@ export default function Loyalty() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {team.map((member) => (
               <div key={member.name} className="bg-white rounded-2xl border border-gray-100 p-8">
-                <div className="w-16 h-16 rounded-full bg-violet-100 flex items-center justify-center mb-6">
-                  <span className="text-lg font-bold text-violet-600">{member.initials}</span>
+                <div className="w-16 h-16 rounded-full bg-ct-slate-subtle flex items-center justify-center mb-6">
+                  <span className="text-lg font-bold text-ct-slate">{member.initials}</span>
                 </div>
                 <h3 className="font-bold text-gray-900 text-lg">{member.name}</h3>
-                <p className="text-violet-600 font-medium text-sm mb-4">{member.role}</p>
+                <p className="text-ct-slate font-medium text-sm mb-4">{member.role}</p>
                 <p className="text-gray-600 text-sm leading-relaxed mb-6">{member.bio}</p>
                 <div className="flex flex-wrap gap-2">
                   {member.skills.map((skill) => (
-                    <span key={skill} className="text-xs text-violet-500 italic">
+                    <span key={skill} className="text-xs text-ct-slate italic">
                       {skill}
                     </span>
                   ))}
@@ -462,11 +462,11 @@ export default function Loyalty() {
       </section>
 
       {/* Closing CTA */}
-      <section id="contact" className="bg-violet-900 py-20">
+      <section id="contact" className="bg-ct-dark py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-2xl">
             <h2 className="text-3xl font-bold text-white mb-4">Let&rsquo;s talk about what&rsquo;s not working.</h2>
-            <p className="text-violet-200 text-lg leading-relaxed mb-4">
+            <p className="text-ct-gray-mid text-lg leading-relaxed mb-4">
               Book a free 30-minute consultation. We&rsquo;ll listen to where you are, what you&rsquo;re trying to fix,
               and give you an honest view of whether and how we can help.
             </p>
@@ -476,12 +476,12 @@ export default function Loyalty() {
                 href="https://calendly.com/challenge-that/introduction"
               target="_blank"
               rel="noopener noreferrer"
-                className="px-6 py-3 bg-white text-violet-900 font-semibold rounded-lg hover:bg-violet-50 transition-colors"
+                className="px-6 py-3 bg-white text-ct-dark font-semibold rounded-lg hover:bg-ct-slate-subtle transition-colors"
               >
                 Book a free consultation
               </Link>
             </div>
-            <p className="mt-6 text-violet-300 text-sm">
+            <p className="mt-6 text-ct-gray-mid text-sm">
               If you&rsquo;re exploring ANALYTIQ instead,{' '}
               <Link href="/analytiq" className="underline hover:text-white transition-colors">
                 visit the ANALYTIQ page

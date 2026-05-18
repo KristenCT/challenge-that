@@ -12,7 +12,7 @@ export default function Nav() {
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="font-bold text-xl tracking-tight" onClick={() => setOpen(false)}>
             <span className="text-gray-900">Challenge</span>
-            <span className="text-teal-600">That</span>
+            <span className="text-ct-teal">That</span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-8">
@@ -29,7 +29,7 @@ export default function Nav() {
               href="https://calendly.com/challenge-that/introduction"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 rounded-lg bg-teal-600 text-white text-sm font-medium hover:bg-teal-700 transition-colors"
+              className="px-4 py-2 rounded-lg bg-ct-teal text-white text-sm font-medium hover:bg-ct-teal-mid transition-colors"
             >
               Book a demo
             </Link>
@@ -65,7 +65,7 @@ export default function Nav() {
               href="https://calendly.com/challenge-that/introduction"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 rounded-lg bg-teal-600 text-white text-sm font-medium w-fit"
+              className="px-4 py-2 rounded-lg bg-ct-teal text-white text-sm font-medium w-fit"
               onClick={() => setOpen(false)}
             >
               Book a demo

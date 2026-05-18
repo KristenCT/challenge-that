@@ -145,11 +145,11 @@ export default function Analytiq() {
       <section className="bg-white py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-4xl">
-            <p className="text-xs font-bold tracking-widest uppercase text-teal-600 mb-6">Analytics Platform</p>
+            <p className="text-xs font-bold tracking-widest uppercase text-ct-teal mb-6">Analytics Platform</p>
             <h1 className="text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-6">
               <span className="text-gray-900">Every venue has data.</span>
               <br />
-              <span className="text-teal-600">Almost none can use it.</span>
+              <span className="text-ct-teal">Almost none can use it.</span>
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed mb-4">
               ANALYTIQ is the analytics platform built for Australian pubs, clubs and hospitality venues &mdash; by
@@ -164,7 +164,7 @@ export default function Analytiq() {
                 href="https://calendly.com/challenge-that/introduction"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 py-3 bg-teal-600 text-white font-medium rounded-lg hover:bg-teal-700 transition-colors"
+                className="px-6 py-3 bg-ct-teal text-white font-medium rounded-lg hover:bg-ct-teal-mid transition-colors"
               >
                 Book a demo
               </Link>
@@ -212,7 +212,7 @@ export default function Analytiq() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {features.map((f) => (
               <div key={f.title} className="rounded-xl border border-gray-100 bg-gray-50 p-7">
-                <h3 className="font-semibold text-teal-600 mb-2">{f.title}</h3>
+                <h3 className="font-semibold text-ct-teal mb-2">{f.title}</h3>
                 <p className="text-sm text-gray-600 leading-relaxed">{f.body}</p>
               </div>
             ))}
@@ -221,10 +221,10 @@ export default function Analytiq() {
       </section>
 
       {/* AI Query Engine */}
-      <section className="bg-teal-50 py-20">
+      <section className="bg-ct-teal-subtle py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-xs font-bold tracking-widest uppercase text-teal-600 mb-4">AI Query Engine</p>
+            <p className="text-xs font-bold tracking-widest uppercase text-ct-teal mb-4">AI Query Engine</p>
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Ask a question. Get a real answer.</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
               The ANALYTIQ AI engine doesn&rsquo;t just give you dashboards &mdash; it lets you interrogate your data
@@ -234,10 +234,10 @@ export default function Analytiq() {
             <p className="text-gray-500 mt-4">Here&rsquo;s what that looks like in practice:</p>
           </div>
 
-          <div className="overflow-x-auto rounded-xl border border-teal-100 shadow-sm">
+          <div className="overflow-x-auto rounded-xl border border-ct-teal-subtle shadow-sm">
             <table className="w-full text-sm">
               <thead>
-                <tr className="bg-teal-600 text-white">
+                <tr className="bg-ct-teal text-white">
                   <th className="px-6 py-4 text-left font-semibold">Type</th>
                   <th className="px-6 py-4 text-left font-semibold">Question</th>
                   <th className="px-6 py-4 text-left font-semibold">What you get back</th>
@@ -246,7 +246,7 @@ export default function Analytiq() {
               <tbody className="bg-white divide-y divide-gray-100">
                 {queryExamples.map((row) => (
                   <tr key={row.type}>
-                    <td className="px-6 py-4 font-medium text-teal-700 whitespace-nowrap align-top">{row.type}</td>
+                    <td className="px-6 py-4 font-medium text-ct-teal-mid whitespace-nowrap align-top">{row.type}</td>
                     <td className="px-6 py-4 text-gray-700 align-top">{row.question}</td>
                     <td className="px-6 py-4 text-gray-600 align-top">{row.result}</td>
                   </tr>
@@ -288,10 +288,10 @@ export default function Analytiq() {
             ].map((item) => (
               <div
                 key={item.label}
-                className="rounded-xl border-2 border-dashed border-teal-200 bg-teal-50 p-16 text-center"
+                className="rounded-xl border-2 border-dashed border-ct-teal-subtle bg-ct-teal-subtle p-16 text-center"
               >
-                <p className="font-medium text-teal-600 mb-1">{item.label}</p>
-                <p className="text-sm text-teal-400">{item.caption}</p>
+                <p className="font-medium text-ct-teal mb-1">{item.label}</p>
+                <p className="text-sm text-ct-teal-light">{item.caption}</p>
               </div>
             ))}
           </div>
@@ -308,8 +308,8 @@ export default function Analytiq() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {roles.map((role) => (
-              <div key={role.title} className="bg-teal-50 border border-teal-100 rounded-xl p-7">
-                <h3 className="font-semibold text-teal-700 mb-2">{role.title}</h3>
+              <div key={role.title} className="bg-ct-teal-subtle border border-ct-teal-subtle rounded-xl p-7">
+                <h3 className="font-semibold text-ct-teal-mid mb-2">{role.title}</h3>
                 <p className="text-sm text-gray-600 leading-relaxed">{role.body}</p>
               </div>
             ))}
@@ -332,7 +332,7 @@ export default function Analytiq() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {connectionTiles.map((tile) => (
               <div key={tile.title} className="border border-gray-100 rounded-xl p-6 bg-gray-50">
-                <h3 className="font-semibold text-teal-600 mb-2">{tile.title}</h3>
+                <h3 className="font-semibold text-ct-teal mb-2">{tile.title}</h3>
                 <p className="text-sm text-gray-600 leading-relaxed">{tile.body}</p>
               </div>
             ))}
@@ -346,7 +346,7 @@ export default function Analytiq() {
           <h2 className="text-3xl font-bold text-gray-900 mb-12">What our clients say.</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {testimonials.map((t) => (
-              <div key={t.attribution} className="border-l-4 border-teal-500 pl-6">
+              <div key={t.attribution} className="border-l-4 border-ct-teal pl-6">
                 <blockquote className="text-lg text-gray-700 leading-relaxed mb-4">
                   &ldquo;{t.quote}&rdquo;
                 </blockquote>
@@ -358,11 +358,11 @@ export default function Analytiq() {
       </section>
 
       {/* Closing CTA */}
-      <section id="contact" className="bg-teal-900 py-20">
+      <section id="contact" className="bg-ct-dark py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-2xl">
             <h2 className="text-3xl font-bold text-white mb-4">Ready to see it in action?</h2>
-            <p className="text-teal-200 text-lg leading-relaxed mb-8">
+            <p className="text-ct-teal-subtle text-lg leading-relaxed mb-8">
               Book a 30-minute demo and we&rsquo;ll walk you through the platform using your venue type as the context.
               No generic slideshow &mdash; just the dashboards and queries that are relevant to you.
             </p>
@@ -371,7 +371,7 @@ export default function Analytiq() {
                 href="https://calendly.com/challenge-that/introduction"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 py-3 bg-white text-teal-900 font-semibold rounded-lg hover:bg-teal-50 transition-colors"
+                className="px-6 py-3 bg-white text-ct-dark font-semibold rounded-lg hover:bg-ct-teal-subtle transition-colors"
               >
                 Book a demo
               </Link>
@@ -379,7 +379,7 @@ export default function Analytiq() {
                 href="https://calendly.com/challenge-that/introduction"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 py-3 border border-teal-600 text-teal-100 font-medium rounded-lg hover:border-teal-400 hover:text-white transition-colors"
+                className="px-6 py-3 border border-ct-teal text-ct-teal-subtle font-medium rounded-lg hover:border-ct-teal-light hover:text-white transition-colors"
               >
                 Talk to us about your data
               </Link>

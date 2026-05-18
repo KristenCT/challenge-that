@@ -2,13 +2,25 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #111827;
+  --foreground: #383839;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
+
+  /* Challenge That brand palette */
+  --color-ct-dark:         #383839;
+  --color-ct-teal:         #00cbc7;
+  --color-ct-teal-mid:     #4eb8b5;
+  --color-ct-teal-light:   #41e4e4;
+  --color-ct-teal-subtle:  #e4fafa;
+  --color-ct-gray-mid:     #adb2b4;
+  --color-ct-gray-light:   #d1d6d5;
+  --color-ct-slate:        #6a6574;
+  --color-ct-slate-dark:   #504c58;
+  --color-ct-slate-subtle: #f0eef1;
 }
 
 body {

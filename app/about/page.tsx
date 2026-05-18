@@ -43,7 +43,7 @@ export default function About() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gray-900 py-24 lg:py-32">
+      <section className="bg-ct-dark py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-3xl">
             <h1 className="text-4xl lg:text-5xl font-bold text-white mb-6">
@@ -62,7 +62,7 @@ export default function About() {
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-3xl">
-            <p className="text-teal-600 text-xs font-bold tracking-widest uppercase mb-4">Our credentials</p>
+            <p className="text-ct-teal text-xs font-bold tracking-widest uppercase mb-4">Our credentials</p>
             <h2 className="text-2xl font-bold text-gray-900 mb-6">40+ years of combined experience.</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
               We bring over 40 years of combined Loyalty and CRM experience across international sportsbooks, online
@@ -81,7 +81,7 @@ export default function About() {
             <div className="space-y-4">
               {differentiators.map((item, i) => (
                 <div key={i} className="flex gap-5 p-6 bg-white rounded-xl border border-gray-100">
-                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-teal-50 flex items-center justify-center text-teal-600 font-bold text-sm">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-ct-teal-subtle flex items-center justify-center text-ct-teal font-bold text-sm">
                     {i + 1}
                   </div>
                   <p className="text-gray-700 leading-relaxed">{item}</p>
@@ -95,7 +95,7 @@ export default function About() {
       {/* Meet the Team */}
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <p className="text-teal-600 text-xs font-bold tracking-widest uppercase mb-4">The people behind it</p>
+          <p className="text-ct-teal text-xs font-bold tracking-widest uppercase mb-4">The people behind it</p>
           <h2 className="text-2xl font-bold text-gray-900 mb-12">Meet the team.</h2>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
             {team.map((person) => (
@@ -110,7 +110,7 @@ export default function About() {
                   </div>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900">{person.name}</h3>
-                <p className="text-teal-600 font-medium text-sm mb-4">{person.role}</p>
+                <p className="text-ct-teal font-medium text-sm mb-4">{person.role}</p>
                 <p className="text-gray-600 leading-relaxed mb-6">{person.bio}</p>
                 <div className="flex flex-wrap gap-2 mt-auto">
                   {person.expertise.map((tag) => (
@@ -139,7 +139,7 @@ export default function About() {
                 href="https://calendly.com/challenge-that/introduction"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 py-3 bg-violet-600 text-white font-medium rounded-lg hover:bg-violet-700 transition-colors"
+                className="px-6 py-3 bg-ct-slate text-white font-medium rounded-lg hover:bg-ct-slate-dark transition-colors"
               >
                 Talk to us about loyalty
               </Link>
@@ -147,7 +147,7 @@ export default function About() {
                 href="https://calendly.com/challenge-that/introduction"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 py-3 bg-teal-600 text-white font-medium rounded-lg hover:bg-teal-700 transition-colors"
+                className="px-6 py-3 bg-ct-teal text-white font-medium rounded-lg hover:bg-ct-teal-mid transition-colors"
               >
                 Book an ANALYTIQ demo
               </Link>

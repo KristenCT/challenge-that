@@ -14,7 +14,7 @@ export default function Home() {
       <section className="bg-white py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-4xl">
-            <p className="text-xs font-bold tracking-widest uppercase text-teal-600 mb-6">
+            <p className="text-xs font-bold tracking-widest uppercase text-ct-teal mb-6">
               Australian Hospitality Specialists
             </p>
             <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight tracking-tight mb-6">
@@ -27,13 +27,13 @@ export default function Home() {
             <div className="flex flex-wrap gap-4">
               <Link
                 href="/loyalty"
-                className="px-6 py-3 bg-violet-600 text-white font-medium rounded-lg hover:bg-violet-700 transition-colors"
+                className="px-6 py-3 bg-ct-slate text-white font-medium rounded-lg hover:bg-ct-slate-dark transition-colors"
               >
                 Explore loyalty strategy
               </Link>
               <Link
                 href="/analytiq"
-                className="px-6 py-3 bg-teal-600 text-white font-medium rounded-lg hover:bg-teal-700 transition-colors"
+                className="px-6 py-3 bg-ct-teal text-white font-medium rounded-lg hover:bg-ct-teal-mid transition-colors"
               >
                 See ANALYTIQ
               </Link>
@@ -69,8 +69,8 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Loyalty & CRM */}
-            <div className="rounded-2xl bg-violet-50 border border-violet-100 p-10 flex flex-col">
-              <span className="text-xs font-bold tracking-widest uppercase text-violet-600 bg-violet-100 px-3 py-1 rounded-full w-fit mb-6">
+            <div className="rounded-2xl bg-ct-slate-subtle border border-ct-slate-subtle p-10 flex flex-col">
+              <span className="text-xs font-bold tracking-widest uppercase text-ct-slate bg-ct-slate-subtle px-3 py-1 rounded-full w-fit mb-6">
                 Consulting
               </span>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Loyalty &amp; CRM Strategy</h3>
@@ -80,15 +80,15 @@ export default function Home() {
               </p>
               <Link
                 href="/loyalty"
-                className="inline-flex items-center gap-2 font-medium text-violet-600 hover:text-violet-700 transition-colors"
+                className="inline-flex items-center gap-2 font-medium text-ct-slate hover:text-ct-slate-dark transition-colors"
               >
                 Learn more <span aria-hidden>→</span>
               </Link>
             </div>
 
             {/* ANALYTIQ */}
-            <div className="rounded-2xl bg-teal-50 border border-teal-100 p-10 flex flex-col">
-              <span className="text-xs font-bold tracking-widest uppercase text-teal-600 bg-teal-100 px-3 py-1 rounded-full w-fit mb-6">
+            <div className="rounded-2xl bg-ct-teal-subtle border border-ct-teal-subtle p-10 flex flex-col">
+              <span className="text-xs font-bold tracking-widest uppercase text-ct-teal bg-ct-teal-subtle px-3 py-1 rounded-full w-fit mb-6">
                 Platform
               </span>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">ANALYTIQ</h3>
@@ -98,7 +98,7 @@ export default function Home() {
               </p>
               <Link
                 href="/analytiq"
-                className="inline-flex items-center gap-2 font-medium text-teal-600 hover:text-teal-700 transition-colors"
+                className="inline-flex items-center gap-2 font-medium text-ct-teal hover:text-ct-teal-mid transition-colors"
               >
                 Learn more <span aria-hidden>→</span>
               </Link>
@@ -108,10 +108,10 @@ export default function Home() {
       </section>
 
       {/* Credibility Strip */}
-      <section className="bg-gray-900 py-20">
+      <section className="bg-ct-dark py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-3xl">
-            <p className="text-teal-400 text-xs font-bold tracking-widest uppercase mb-4">Our experience</p>
+            <p className="text-ct-teal-light text-xs font-bold tracking-widest uppercase mb-4">Our experience</p>
             <p className="text-4xl font-bold text-white mb-6">40+ years of combined Loyalty and CRM experience.</p>
             <p className="text-lg text-gray-300 leading-relaxed">
               Senior marketing roles at international sportsbooks, online gaming operators, land-based casinos, and

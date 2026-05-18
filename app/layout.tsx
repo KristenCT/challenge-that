@@ -33,12 +33,12 @@ export default function RootLayout({
 
 function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-400">
+    <footer className="bg-ct-dark text-gray-400">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
             <p className="font-bold text-xl text-white mb-4">
-              Challenge<span className="text-teal-400">That</span>
+              Challenge<span className="text-ct-teal-light">That</span>
             </p>
             <p className="text-sm leading-relaxed">
               Australia&rsquo;s hospitality customer and loyalty specialists. Helping pubs, clubs and leisure venues
@@ -82,7 +82,7 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="border-t border-gray-800 mt-12 pt-8">
+        <div className="border-t border-ct-dark mt-12 pt-8">
           <p className="text-xs">&copy; 2026 Challenge That. All rights reserved.</p>
         </div>
       </div>
