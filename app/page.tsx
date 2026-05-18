@@ -107,6 +107,66 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Contact */}
+      <section id="contact" className="bg-gray-50 py-20">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+            <div>
+              <p className="text-ct-teal text-xs font-bold tracking-widest uppercase mb-4">Contact us</p>
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Let&rsquo;s talk.</h2>
+              <p className="text-gray-600 leading-relaxed mb-10">
+                Whether you&rsquo;re looking to improve your loyalty program, get more from your CRM, or see ANALYTIQ in action &mdash; we&rsquo;d love to hear from you.
+              </p>
+              <ul className="space-y-5 text-gray-700">
+                <li className="flex items-center gap-3">
+                  <svg className="w-5 h-5 text-ct-teal shrink-0" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                  </svg>
+                  Maroubra, NSW, Australia
+                </li>
+                <li className="flex items-center gap-3">
+                  <svg className="w-5 h-5 text-ct-teal shrink-0" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 6.75z" />
+                  </svg>
+                  <a href="tel:0401379901" className="hover:text-ct-teal transition-colors">0401 379 901</a>
+                </li>
+                <li className="flex items-center gap-3">
+                  <svg className="w-5 h-5 text-ct-teal shrink-0" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                  </svg>
+                  <a href="mailto:info@challengethat.com.au" className="hover:text-ct-teal transition-colors">info@challengethat.com.au</a>
+                </li>
+              </ul>
+            </div>
+            <form action="mailto:info@challengethat.com.au" method="post" encType="text/plain" className="space-y-5">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-1.5">Name</label>
+                  <input type="text" name="name" required className="w-full px-4 py-2.5 rounded-lg border border-gray-200 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-ct-teal focus:border-transparent text-sm" placeholder="Your name" />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-1.5">Venue / Company</label>
+                  <input type="text" name="venue" className="w-full px-4 py-2.5 rounded-lg border border-gray-200 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-ct-teal focus:border-transparent text-sm" placeholder="Your venue or company" />
+                </div>
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1.5">Email</label>
+                <input type="email" name="email" required className="w-full px-4 py-2.5 rounded-lg border border-gray-200 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-ct-teal focus:border-transparent text-sm" placeholder="you@yourvenue.com.au" />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1.5">What are you looking for help with?</label>
+                <textarea name="message" rows={4} className="w-full px-4 py-2.5 rounded-lg border border-gray-200 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-ct-teal focus:border-transparent text-sm resize-none" placeholder="Tell us a bit about your venue and what you&rsquo;re trying to achieve..." />
+              </div>
+              <button type="submit" className="w-full px-6 py-3 bg-ct-teal text-white font-medium rounded-lg hover:bg-ct-teal-mid transition-colors">
+                Send message
+              </button>
+              <p className="text-xs text-gray-400 text-center">Or <a href="https://calendly.com/challenge-that/introduction" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-600">book a time directly</a> if you prefer.</p>
+            </form>
+          </div>
+        </div>
+      </section>
+
       {/* Credibility Strip */}
       <section className="bg-ct-dark py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">

@@ -73,15 +73,18 @@ function Footer() {
           <div>
             <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">Get in touch</h3>
             <ul className="space-y-3 text-sm">
-              <li>challengethat.com.au</li>
-              <li>
-                <Link href="https://calendly.com/challenge-that/introduction" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
-                  Book a demo
-                </Link>
+              <li className="flex items-start gap-2">
+                <span>Maroubra, NSW, Australia</span>
               </li>
               <li>
+                <a href="tel:0401379901" className="hover:text-white transition-colors">0401 379 901</a>
+              </li>
+              <li>
+                <a href="mailto:info@challengethat.com.au" className="hover:text-white transition-colors">info@challengethat.com.au</a>
+              </li>
+              <li className="pt-1">
                 <Link href="https://calendly.com/challenge-that/introduction" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
-                  Book a consultation
+                  Book a demo →
                 </Link>
               </li>
             </ul>
