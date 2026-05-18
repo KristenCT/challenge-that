@@ -10,6 +10,9 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
 
+  /* Fonts */
+  --font-serif: var(--font-serif);
+
   /* Challenge That brand palette */
   --color-ct-dark:         #383839;
   --color-ct-teal:         #00cbc7;
@@ -21,9 +24,20 @@
   --color-ct-slate:        #6a6574;
   --color-ct-slate-dark:   #504c58;
   --color-ct-slate-subtle: #f0eef1;
+
+  /* Insights article accent colors */
+  --color-ct-amber:        #b45309;
+  --color-ct-amber-subtle: #fef3c7;
+  --color-ct-coral:        #c2410c;
+  --color-ct-coral-subtle: #fff1ee;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
 }
+
+.prose-custom p { font-size: 1rem; line-height: 1.8; color: #4b5563; margin-bottom: 1.25rem; }
+.prose-custom p strong { color: #383839; font-weight: 600; }
+.prose-custom h2 { font-family: var(--font-serif); font-size: 1.35rem; font-weight: 700; color: #383839; margin: 2.5rem 0 0.75rem; }
+.prose-custom h3 { font-size: 1rem; font-weight: 600; color: #383839; margin: 1.75rem 0 0.5rem; }

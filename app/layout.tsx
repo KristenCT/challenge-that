@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Geist } from 'next/font/google'
+import { Geist, Libre_Baskerville } from 'next/font/google'
 import './globals.css'
 import Nav from './components/Nav'
 import Image from 'next/image'
@@ -8,6 +8,13 @@ import Link from 'next/link'
 const geist = Geist({
   variable: '--font-geist-sans',
   subsets: ['latin'],
+})
+
+const libreBaskerville = Libre_Baskerville({
+  weight: ['400', '700'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  variable: '--font-serif',
 })
 
 export const metadata: Metadata = {
@@ -22,7 +29,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${geist.variable} h-full`}>
+    <html lang="en" className={`${geist.variable} ${libreBaskerville.variable} h-full`}>
       <body className="min-h-full flex flex-col font-sans antialiased">
         <Nav />
         <main className="flex-1">{children}</main>

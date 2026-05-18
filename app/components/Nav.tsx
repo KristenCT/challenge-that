@@ -28,6 +28,9 @@ export default function Nav() {
             <Link href="/analytiq" className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">
               ANALYTIQ
             </Link>
+            <Link href="/insights" className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">
+              Insights
+            </Link>
             <Link href="/about" className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">
               About
             </Link>
@@ -63,6 +66,9 @@ export default function Nav() {
             </Link>
             <Link href="/analytiq" className="text-sm font-medium text-gray-700 py-1" onClick={() => setOpen(false)}>
               ANALYTIQ
+            </Link>
+            <Link href="/insights" className="text-sm font-medium text-gray-700 py-1" onClick={() => setOpen(false)}>
+              Insights
             </Link>
             <Link href="/about" className="text-sm font-medium text-gray-700 py-1" onClick={() => setOpen(false)}>
               About
