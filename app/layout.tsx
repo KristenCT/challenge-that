@@ -71,6 +71,11 @@ function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/work" className="hover:text-white transition-colors">
+                  Our Work
+                </Link>
+              </li>
+              <li>
                 <Link href="/about" className="hover:text-white transition-colors">
                   About Us
                 </Link>
