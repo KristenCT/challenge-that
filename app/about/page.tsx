@@ -16,6 +16,7 @@ const team = [
     photo: '/assets/team/fiona-nilsson.png',
     bio: 'Experienced Marketing Director, and passionate customer champion. Fiona has a solid track record developing successful commercial and marketing strategies with particular focus on category growth, customer acquisition and customer retention.',
     expertise: ['Consulting', 'Revenue Operations', 'Strategy & Planning', 'CRM', 'Loyalty', 'Digital Marketing', 'Affiliate Marketing', 'Acquisition', 'Campaign Management'],
+    bookAuthor: true,
   },
   {
     name: 'Kristen Makin',
@@ -24,6 +25,7 @@ const team = [
     photo: '/assets/team/kristen-makin.png',
     bio: 'A highly regarded CRM Specialist with a particular focus on customer strategy and business transformation through MarTech. Kristen has extensive experience designing Loyalty and VIP programs, and developing high performance teams.',
     expertise: ['Consulting', 'CRM', 'Salesforce', 'Loyalty', 'Marketing Automation', 'Personalisation', 'Data & Analytics', 'Customer Lifecycle', 'Business Intelligence'],
+    bookAuthor: true,
   },
   {
     name: 'Ankur Ghai',
@@ -96,6 +98,40 @@ export default function About() {
         </div>
       </section>
 
+      {/* Published Work */}
+      <section className="bg-white py-20">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <p className="text-ct-teal text-xs font-bold tracking-widest uppercase mb-4">Published work</p>
+          <h2 className="text-2xl font-bold text-gray-900 mb-10">The MOVE Methodology.</h2>
+          <div className="flex flex-col md:flex-row gap-10 items-start bg-gray-50 rounded-2xl p-8 md:p-10">
+            <div className="shrink-0 w-32 md:w-40 aspect-[2/3] bg-ct-teal-subtle rounded-xl border-2 border-dashed border-ct-teal flex items-center justify-center text-ct-teal text-xs font-medium text-center px-2">
+              Book cover coming soon
+            </div>
+            <div className="flex-1">
+              <h3 className="text-xl font-bold text-gray-900 mb-1">The MOVE Methodology</h3>
+              <p className="text-ct-teal font-medium text-sm mb-4">The Missing Manual for CRM</p>
+              <p className="text-gray-600 leading-relaxed mb-6">
+                An innovative four-step approach to CRM — complete with practical frameworks and templates designed to align your CRM strategy, operations and technology. Bridging the gap between business teams and the technical teams responsible for maintaining CRM technology.
+              </p>
+              <p className="text-sm text-gray-500 mb-6">
+                Co-authored by <span className="font-semibold text-gray-700">Kristen Makin</span> and <span className="font-semibold text-gray-700">Fiona Nilsson</span> with Ian Sampson.
+              </p>
+              <Link
+                href="https://www.amazon.com.au/MOVE-Methodology-Missing-Manual-CRM/dp/192327743X/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-ct-dark text-white font-medium text-sm rounded-lg hover:opacity-80 transition-opacity"
+              >
+                View on Amazon
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                </svg>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Meet the Team */}
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -112,7 +148,14 @@ export default function About() {
                     className="object-cover object-top"
                   />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900">{person.name}</h3>
+                <div className="flex items-start justify-between gap-2 mb-1">
+                  <h3 className="text-xl font-bold text-gray-900">{person.name}</h3>
+                  {person.bookAuthor && (
+                    <span className="shrink-0 px-2 py-1 bg-ct-teal-subtle text-ct-teal text-xs font-semibold rounded-full">
+                      Published Author
+                    </span>
+                  )}
+                </div>
                 <p className="text-ct-teal font-medium text-sm mb-4">{person.role}</p>
                 <p className="text-gray-600 leading-relaxed mb-6">{person.bio}</p>
                 <div className="flex flex-wrap gap-2 mt-auto">
