@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
 
@@ -10,9 +11,14 @@ export default function Nav() {
     <header className="bg-white border-b border-gray-100 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="font-bold text-xl tracking-tight" onClick={() => setOpen(false)}>
-            <span className="text-gray-900">Challenge</span>
-            <span className="text-ct-teal">That</span>
+          <Link href="/" onClick={() => setOpen(false)}>
+            <Image
+              src="/assets/logos/CT-logo-whitebg-Vertical.png"
+              alt="Challenge That"
+              width={80}
+              height={80}
+              className="h-10 w-auto"
+            />
           </Link>
 
           <nav className="hidden md:flex items-center gap-8">

@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Geist } from 'next/font/google'
 import './globals.css'
 import Nav from './components/Nav'
+import Image from 'next/image'
 import Link from 'next/link'
 
 const geist = Geist({
@@ -37,9 +38,13 @@ function Footer() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
-            <p className="font-bold text-xl text-white mb-4">
-              Challenge<span className="text-ct-teal-light">That</span>
-            </p>
+            <Image
+              src="/assets/logos/CT-logo-whitebg-Vertical.png"
+              alt="Challenge That"
+              width={100}
+              height={100}
+              className="h-14 w-auto mb-4"
+            />
             <p className="text-sm leading-relaxed">
               Australia&rsquo;s hospitality customer and loyalty specialists. Helping pubs, clubs and leisure venues
               understand their customers and unlock the data in their systems.
