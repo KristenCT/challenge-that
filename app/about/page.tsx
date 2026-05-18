@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -12,6 +13,7 @@ const team = [
     name: 'Fiona Nilsson',
     role: 'Marketing & Strategy',
     initials: 'FN',
+    photo: '/assets/team/fiona-nilsson.png',
     bio: 'Experienced Marketing Director, and passionate customer champion. Fiona has a solid track record developing successful commercial and marketing strategies with particular focus on category growth, customer acquisition and customer retention.',
     expertise: ['Consulting', 'Revenue Operations', 'Strategy & Planning', 'CRM', 'Loyalty', 'Digital Marketing', 'Affiliate Marketing', 'Acquisition', 'Campaign Management'],
   },
@@ -19,6 +21,7 @@ const team = [
     name: 'Kristen Makin',
     role: 'CRM & Loyalty',
     initials: 'KM',
+    photo: '/assets/team/kristen-makin.png',
     bio: 'A highly regarded CRM Specialist with a particular focus on customer strategy and business transformation through MarTech. Kristen has extensive experience designing Loyalty and VIP programs, and developing high performance teams.',
     expertise: ['Consulting', 'CRM', 'Salesforce', 'Loyalty', 'Marketing Automation', 'Personalisation', 'Data & Analytics', 'Customer Lifecycle', 'Business Intelligence'],
   },
@@ -26,6 +29,7 @@ const team = [
     name: 'Ankur Ghai',
     role: 'Data & Analysis',
     initials: 'AG',
+    photo: '/assets/team/ankur-ghai.png',
     bio: 'Experienced Data Scientist empowering businesses to harness the power of data. Ankur thrives on translating complex data into actionable business insights and helps businesses implement data warehousing, data integration, ETL processes and creates predictive CRM data models.',
     expertise: ['Data Science', 'Tableau', 'Salesforce', 'ETL', 'Data Modelling', 'Power BI', 'Business Intelligence', 'Python', 'R'],
   },
@@ -100,14 +104,13 @@ export default function About() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
             {team.map((person) => (
               <div key={person.name} className="flex flex-col">
-                {/* Photo placeholder */}
-                <div className="w-full aspect-square bg-gray-100 rounded-2xl mb-6 flex items-center justify-center border-2 border-dashed border-gray-300">
-                  <div className="flex flex-col items-center gap-2 text-gray-400">
-                    <div className="w-16 h-16 rounded-full bg-gray-200 flex items-center justify-center text-2xl font-bold text-gray-500">
-                      {person.initials}
-                    </div>
-                    <span className="text-sm">Photo coming soon</span>
-                  </div>
+                <div className="w-full aspect-square relative rounded-2xl overflow-hidden mb-6 bg-gray-100">
+                  <Image
+                    src={person.photo}
+                    alt={person.name}
+                    fill
+                    className="object-cover object-top"
+                  />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900">{person.name}</h3>
                 <p className="text-ct-teal font-medium text-sm mb-4">{person.role}</p>
