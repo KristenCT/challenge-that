@@ -287,7 +287,7 @@ export default function Analytiq() {
             ANALYTIQ gives every member of your team a clear, real-time view of the metrics that matter to their role.
             No training required. No analyst middleman.
           </p>
-          <div className="space-y-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <ScrollReveal>
               <div>
                 <Image
@@ -295,7 +295,7 @@ export default function Analytiq() {
                   alt="ANALYTIQ gaming overview dashboard"
                   width={2904}
                   height={3268}
-                  className="w-full h-auto rounded-2xl shadow-lg border border-gray-100"
+                  className="w-full h-auto rounded-xl shadow-md border border-gray-100"
                 />
                 <p className="mt-3 text-sm text-gray-500 text-center">Gaming overview - turnover, visits, and year-on-year comparison at a glance.</p>
               </div>
@@ -307,7 +307,7 @@ export default function Analytiq() {
                   alt="ANALYTIQ member intelligence dashboard"
                   width={2904}
                   height={1852}
-                  className="w-full h-auto rounded-2xl shadow-lg border border-gray-100"
+                  className="w-full h-auto rounded-xl shadow-md border border-gray-100"
                 />
                 <p className="mt-3 text-sm text-gray-500 text-center">Member intelligence - active, inactive and lapsed members by tier, with ADT and visit frequency.</p>
               </div>
