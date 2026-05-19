@@ -129,8 +129,9 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="border-t border-ct-dark mt-12 pt-8">
+        <div className="border-t border-ct-dark mt-12 pt-8 flex flex-wrap items-center justify-between gap-4">
           <p className="text-xs">&copy; 2026 Challenge That. All rights reserved.</p>
+          <Link href="/privacy" className="text-xs hover:text-white transition-colors">Privacy Policy</Link>
         </div>
       </div>
     </footer>
