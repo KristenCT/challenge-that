@@ -324,10 +324,12 @@ export default function Loyalty() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {services.map((s, i) => (
               <ScrollReveal key={s.title} delay={i * 70}>
-                <div className="bg-ct-slate-subtle border border-ct-slate-subtle rounded-xl p-7 card-lift h-full">
-                  <Image src={s.icon} alt="" width={96} height={96} className="mb-5 w-16 h-16 object-contain" />
-                  <h3 className="font-semibold text-ct-slate-dark mb-2">{s.title}</h3>
-                  <p className="text-sm text-gray-600 leading-relaxed">{s.body}</p>
+                <div className="bg-ct-slate-subtle border border-ct-slate-subtle rounded-xl p-7 card-lift h-full flex items-start gap-6">
+                  <Image src={s.icon} alt="" width={96} height={96} className="w-16 h-16 object-contain shrink-0" />
+                  <div>
+                    <h3 className="font-semibold text-ct-slate-dark mb-2">{s.title}</h3>
+                    <p className="text-sm text-gray-600 leading-relaxed">{s.body}</p>
+                  </div>
                 </div>
               </ScrollReveal>
             ))}
