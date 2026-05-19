@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -81,20 +82,24 @@ const queryExamples = [
 
 const roles = [
   {
-    title: 'Head of Marketing / CRM Lead',
-    body: 'Full dashboard access plus the AI query engine. Answers member questions in minutes that used to take days. Runs ad hoc analysis without raising a request or waiting for a data team.',
+    icon: ‘/assets/icons/Dashboard.png’,
+    title: ‘Head of Marketing / CRM Lead’,
+    body: ‘Full dashboard access plus the AI query engine. Answers member questions in minutes that used to take days. Runs ad hoc analysis without raising a request or waiting for a data team.’,
   },
   {
-    title: 'Venue Manager',
-    body: 'Daily performance view for their venue: gaming, F&B, member activity — without waiting for a report to be sent or logging into a system IT need to manage.',
+    icon: ‘/assets/icons/Analysis.png.png’,
+    title: ‘Venue Manager’,
+    body: ‘Daily performance view for their venue: gaming, F&B, member activity — without waiting for a report to be sent or logging into a system IT need to manage.’,
   },
   {
-    title: 'Operations / F&B Head',
-    body: 'Revenue by category, top and bottom performers, period comparisons — without touching a spreadsheet. Filters to their venue or area so they see what’s relevant.',
+    icon: ‘/assets/icons/Segmentation.png.png’,
+    title: ‘Operations / F&B Head’,
+    body: ‘Revenue by category, top and bottom performers, period comparisons — without touching a spreadsheet. Filters to their venue or area so they see what’s relevant.’,
   },
   {
-    title: 'Multi-Venue groups',
-    body: 'Global view across all sites. Filter to any single venue in one click. Compare performance across the estate without building a separate consolidation report every time.',
+    icon: ‘/assets/icons/Engage.png.png’,
+    title: ‘Multi-Venue groups’,
+    body: ‘Global view across all sites. Filter to any single venue in one click. Compare performance across the estate without building a separate consolidation report every time.’,
   },
 ]
 
@@ -309,6 +314,7 @@ export default function Analytiq() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {roles.map((role) => (
               <div key={role.title} className="bg-ct-teal-subtle border border-ct-teal-subtle rounded-xl p-7">
+                <Image src={role.icon} alt="" width={52} height={52} className="mb-4" />
                 <h3 className="font-semibold text-ct-teal-mid mb-2">{role.title}</h3>
                 <p className="text-sm text-gray-600 leading-relaxed">{role.body}</p>
               </div>

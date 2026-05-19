@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -59,26 +60,32 @@ const fourPs = [
 
 const services = [
   {
+    icon: '/assets/icons/Loyalty.png.png',
     title: 'Loyalty program design and rebuild',
     body: 'Whether you\'re starting from scratch or fixing a program that isn\'t delivering, we audit what you have, identify what\'s working, and design programs that reward the right behaviours and differentiate your venue.',
   },
   {
+    icon: '/assets/icons/Framework.png.png',
     title: 'CRM strategy and platform optimisation',
     body: 'If you\'re evaluating a new CRM platform, we help you define requirements and select the right tool without vendor bias. If you already have a platform, we help you get significantly more from it — without buying something new.',
   },
   {
+    icon: '/assets/icons/Multi-Communication.png.png',
     title: 'Personalisation at scale',
     body: 'We help you move beyond batch-and-blast to communications that respond to where each member is in their lifecycle. We define the segments, the triggers, the channels and the measurement framework — and we build your team\'s capability to run it.',
   },
   {
+    icon: '/assets/icons/Process.png.png',
     title: 'Customer lifecycle mapping',
     body: 'We map every key touchpoint across your member\'s journey — from first visit through to reactivation — and align your CRM strategy to each stage. This gives your team a shared framework for every campaign and communication decision.',
   },
   {
+    icon: '/assets/icons/Reporting.png.png',
     title: 'Data audit and gap analysis',
     body: 'We assess the data you\'re currently collecting, identify the gaps that are limiting your personalisation and segmentation, and recommend what you need to capture — and how — to make better decisions.',
   },
   {
+    icon: '/assets/icons/Workshop.png.png',
     title: 'Team capability and upskilling',
     body: 'Strategy without capability doesn\'t stick. We work alongside your team — not just as consultants who hand over a document — to build the skills, processes and ownership structures that make the work sustainable after we\'re gone.',
   },
@@ -309,6 +316,7 @@ export default function Loyalty() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {services.map((s) => (
               <div key={s.title} className="bg-ct-slate-subtle border border-ct-slate-subtle rounded-xl p-7">
+                <Image src={s.icon} alt="" width={52} height={52} className="mb-4" />
                 <h3 className="font-semibold text-ct-slate-dark mb-2">{s.title}</h3>
                 <p className="text-sm text-gray-600 leading-relaxed">{s.body}</p>
               </div>
