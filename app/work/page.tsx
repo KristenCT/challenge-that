@@ -180,16 +180,6 @@ export default function Work() {
                   </div>
                 ) : null}
 
-                {/* Quote */}
-                <blockquote className="border-l-4 border-ct-teal pl-6">
-                  <p className="text-gray-700 leading-relaxed italic mb-4" style={{ fontFamily: 'var(--font-serif)' }}>
-                    &ldquo;{cs.quote}&rdquo;
-                  </p>
-                  <footer>
-                    <p className="text-sm font-semibold text-gray-900">{cs.attribution}</p>
-                    <p className="text-sm text-gray-500">{cs.role}</p>
-                  </footer>
-                </blockquote>
               </div>
             </div>
           ))}
