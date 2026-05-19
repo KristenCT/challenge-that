@@ -339,7 +339,7 @@ export default function Analytiq() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {roles.map((role) => (
               <div key={role.title} className="bg-ct-teal-subtle border border-ct-teal-subtle rounded-xl p-7 flex items-start gap-6">
-                <Image src={role.icon} alt="" width={72} height={72} className="w-16 h-16 object-contain shrink-0" />
+                <Image src={role.icon} alt="" width={72} height={72} className="w-32 h-32 object-contain shrink-0" />
                 <div>
                   <h3 className="font-semibold text-ct-teal-mid mb-2">{role.title}</h3>
                   <p className="text-sm text-gray-600 leading-relaxed">{role.body}</p>
