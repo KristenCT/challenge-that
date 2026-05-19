@@ -37,6 +37,17 @@ body {
   color: var(--foreground);
 }
 
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 35s linear infinite;
+}
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
 .prose-custom p { font-size: 1rem; line-height: 1.8; color: #4b5563; margin-bottom: 1.25rem; }
 .prose-custom p strong { color: #383839; font-weight: 600; }
 .prose-custom h2 { font-family: var(--font-serif); font-size: 1.35rem; font-weight: 700; color: #383839; margin: 2.5rem 0 0.75rem; }

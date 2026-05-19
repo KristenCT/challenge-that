@@ -219,6 +219,59 @@ export default function Work() {
         </div>
       </section>
 
+      {/* Partner Logo Carousel */}
+      <section className="bg-white py-16 overflow-hidden">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8 mb-10">
+          <p className="text-xs font-bold tracking-widest uppercase text-gray-400">Clients &amp; partners</p>
+        </div>
+        <div className="relative overflow-hidden">
+          <div className="flex items-center gap-14 animate-marquee w-max">
+            {[
+              { src: '/assets/partners/mounties.png',         alt: 'Mounties' },
+              { src: '/assets/partners/mindil.png',           alt: 'Mindil Beach' },
+              { src: '/assets/partners/frat.png',             alt: 'Frat Club' },
+              { src: '/assets/partners/wests.jpg',            alt: 'Wests Ashfield' },
+              { src: '/assets/partners/ulldulla.png',         alt: 'Ulladulla' },
+              { src: '/assets/partners/the-star.png',         alt: 'The Star' },
+              { src: '/assets/partners/crown-resorts.webp',   alt: 'Crown Resorts' },
+              { src: '/assets/partners/destination-nsw.png',  alt: 'Destination NSW' },
+              { src: '/assets/partners/kayo.webp',            alt: 'Kayo' },
+              { src: '/assets/partners/tdc.png',              alt: 'TDC' },
+              { src: '/assets/partners/mycar.png',            alt: 'mycar' },
+              { src: '/assets/partners/adma.png',             alt: 'ADMA' },
+              { src: '/assets/partners/KR.webp',              alt: 'KR' },
+              { src: '/assets/partners/cela.webp',            alt: 'CELA' },
+              { src: '/assets/partners/gravity-lab.png',      alt: 'Gravity Lab' },
+              { src: '/assets/partners/christians-saving.png',alt: 'Christians Saving' },
+              { src: '/assets/partners/mounties.png',         alt: 'Mounties' },
+              { src: '/assets/partners/mindil.png',           alt: 'Mindil Beach' },
+              { src: '/assets/partners/frat.png',             alt: 'Frat Club' },
+              { src: '/assets/partners/wests.jpg',            alt: 'Wests Ashfield' },
+              { src: '/assets/partners/ulldulla.png',         alt: 'Ulladulla' },
+              { src: '/assets/partners/the-star.png',         alt: 'The Star' },
+              { src: '/assets/partners/crown-resorts.webp',   alt: 'Crown Resorts' },
+              { src: '/assets/partners/destination-nsw.png',  alt: 'Destination NSW' },
+              { src: '/assets/partners/kayo.webp',            alt: 'Kayo' },
+              { src: '/assets/partners/tdc.png',              alt: 'TDC' },
+              { src: '/assets/partners/mycar.png',            alt: 'mycar' },
+              { src: '/assets/partners/adma.png',             alt: 'ADMA' },
+              { src: '/assets/partners/KR.webp',              alt: 'KR' },
+              { src: '/assets/partners/cela.webp',            alt: 'CELA' },
+              { src: '/assets/partners/gravity-lab.png',      alt: 'Gravity Lab' },
+              { src: '/assets/partners/christians-saving.png',alt: 'Christians Saving' },
+            ].map((logo, i) => (
+              /* eslint-disable-next-line @next/next/no-img-element */
+              <img
+                key={i}
+                src={logo.src}
+                alt={logo.alt}
+                className="h-10 w-auto object-contain grayscale opacity-50 hover:opacity-100 hover:grayscale-0 transition-all duration-300 shrink-0"
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="bg-ct-dark py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
