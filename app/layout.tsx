@@ -76,6 +76,11 @@ function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/move" className="hover:text-white transition-colors">
+                  The MOVE Methodology
+                </Link>
+              </li>
+              <li>
                 <Link href="/about" className="hover:text-white transition-colors">
                   About Us
                 </Link>

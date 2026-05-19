@@ -34,6 +34,9 @@ export default function Nav() {
             <Link href="/work" className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">
               Our Work
             </Link>
+            <Link href="/move" className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">
+              The Book
+            </Link>
             <Link href="/about" className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">
               About
             </Link>
@@ -75,6 +78,9 @@ export default function Nav() {
             </Link>
             <Link href="/work" className="text-sm font-medium text-gray-700 py-1" onClick={() => setOpen(false)}>
               Our Work
+            </Link>
+            <Link href="/move" className="text-sm font-medium text-gray-700 py-1" onClick={() => setOpen(false)}>
+              The Book
             </Link>
             <Link href="/about" className="text-sm font-medium text-gray-700 py-1" onClick={() => setOpen(false)}>
               About
