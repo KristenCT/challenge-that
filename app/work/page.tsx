@@ -210,7 +210,8 @@ export default function Work() {
       {/* Partner Logo Carousel */}
       <section className="bg-white py-16 overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 mb-10">
-          <p className="text-xs font-bold tracking-widest uppercase text-gray-400">Clients &amp; partners</p>
+          <p className="text-xs font-bold tracking-widest uppercase text-gray-400 mb-2">Clients &amp; partners</p>
+          <p className="text-gray-500 text-sm">Venues and organisations that trusted us to fix what wasn&rsquo;t working</p>
         </div>
         <div className="relative overflow-hidden">
           <div className="flex items-center gap-14 animate-marquee w-max">
