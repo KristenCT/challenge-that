@@ -169,12 +169,12 @@ export default function Work() {
                     </div>
                   </div>
                 ) : cs.outcomes ? (
-                  <div className="bg-gray-50 rounded-2xl p-8 mb-6">
-                    <p className="text-xs font-bold uppercase tracking-widest text-gray-400 mb-5">Outcomes delivered</p>
-                    <ul className="space-y-3">
+                  <div className="bg-gray-50 rounded-2xl p-10 mb-6">
+                    <p className="text-xs font-bold uppercase tracking-widest text-gray-400 mb-6">Outcomes delivered</p>
+                    <ul className="space-y-5">
                       {cs.outcomes.map((o) => (
-                        <li key={o} className="flex gap-3 text-sm text-gray-700">
-                          <span className="text-ct-teal mt-0.5 shrink-0">✓</span>
+                        <li key={o} className="flex gap-3 text-base text-gray-700 leading-snug">
+                          <span className="text-ct-teal mt-0.5 shrink-0 font-bold">✓</span>
                           {o}
                         </li>
                       ))}
