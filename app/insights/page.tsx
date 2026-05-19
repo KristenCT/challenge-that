@@ -4,7 +4,7 @@ import ScrollReveal from '../components/ScrollReveal'
 
 export const metadata: Metadata = {
   title: 'Insights | Challenge That',
-  description: 'Practical perspectives on loyalty, CRM and data for Australian hospitality venues — from the Challenge That team.',
+  description: 'Practical perspectives on loyalty, CRM and data for Australian hospitality venues - from the Challenge That team.',
 }
 
 const articles = [
@@ -13,7 +13,7 @@ const articles = [
     tag: 'Loyalty strategy',
     tagColor: 'slate',
     title: 'The five loyalty mistakes hospitality venues keep making (and how to fix them)',
-    excerpt: 'Gold, Silver, Bronze. Tiers exist. Emails go out. The program is technically live. So why aren\'t members coming back more often? Most loyalty programs in Australian hospitality aren\'t broken — they\'re just built on assumptions that were never tested.',
+    excerpt: 'Gold, Silver, Bronze. Tiers exist. Emails go out. The program is technically live. So why aren\'t members coming back more often? Most loyalty programs in Australian hospitality aren\'t broken - they\'re just built on assumptions that were never tested.',
     readTime: '8 min read',
     featured: true,
   },
@@ -21,7 +21,7 @@ const articles = [
     slug: 'crm-stalled',
     tag: 'CRM',
     tagColor: 'teal',
-    title: 'Why your CRM implementation stalled — and what to do about it',
+    title: 'Why your CRM implementation stalled - and what to do about it',
     excerpt: 'You bought the platform. You migrated the data. Six months later, your team is back to spreadsheets. Here\'s why implementation stalls happen and how to break out of them.',
     readTime: '6 min read',
     featured: false,
@@ -30,7 +30,7 @@ const articles = [
     slug: 'data-gaps',
     tag: 'Data quality',
     tagColor: 'amber',
-    title: 'Your member database is lying to you — the data gap audit every venue needs',
+    title: 'Your member database is lying to you - the data gap audit every venue needs',
     excerpt: 'Most venues assume their CRM data is messy but usable. The reality is often worse. We walk through the five data gaps that silently undermine personalisation and campaign performance.',
     readTime: '7 min read',
     featured: false,
@@ -40,7 +40,7 @@ const articles = [
     tag: 'Tier design',
     tagColor: 'coral',
     title: 'Gold, Silver, Bronze: why the standard loyalty tier model is failing Australian venues',
-    excerpt: 'Tier-based loyalty programs feel safe — they\'re what everyone else uses. But in hospitality, they consistently reward spend history over behaviour, and ignore the customers most likely to grow.',
+    excerpt: 'Tier-based loyalty programs feel safe - they\'re what everyone else uses. But in hospitality, they consistently reward spend history over behaviour, and ignore the customers most likely to grow.',
     readTime: '9 min read',
     featured: false,
   },
@@ -74,7 +74,7 @@ export default function Insights() {
             The loyalty and CRM problems nobody warns you about
           </h1>
           <p className="text-lg text-gray-300 max-w-xl leading-relaxed">
-            Practical perspectives from 40+ years in hospitality CRM — written for venue marketers who already know something isn&rsquo;t working.
+            Practical perspectives from 40+ years in hospitality CRM - written for venue marketers who already know something isn&rsquo;t working.
           </p>
         </div>
       </section>
@@ -104,7 +104,7 @@ export default function Insights() {
                       <span className="text-xs font-semibold text-gray-700 w-8 text-right">{row.pct}%</span>
                     </div>
                   ))}
-                  <p className="text-xs text-gray-400 pt-2 border-t border-gray-200">77% of members unreached — in a &ldquo;working&rdquo; program</p>
+                  <p className="text-xs text-gray-400 pt-2 border-t border-gray-200">77% of members unreached - in a &ldquo;working&rdquo; program</p>
                 </div>
               </div>
               {/* Content */}
@@ -162,7 +162,7 @@ export default function Insights() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
           <div>
             <h2 className="text-xl font-bold text-white mb-1">See these problems in your own data</h2>
-            <p className="text-gray-400 text-sm">ANALYTIQ surfaces loyalty gaps and CRM blind spots — without needing an analyst.</p>
+            <p className="text-gray-400 text-sm">ANALYTIQ surfaces loyalty gaps and CRM blind spots - without needing an analyst.</p>
           </div>
           <Link
             href="https://calendly.com/challenge-that/introduction"

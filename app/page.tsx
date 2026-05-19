@@ -48,12 +48,12 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <ScrollReveal className="max-w-3xl">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-              Most venues are missing opportunities &mdash; without knowing it.
+              Most venues are missing opportunities - without knowing it.
             </h2>
             <div className="space-y-4 text-lg text-gray-600 leading-relaxed">
               <p>
                 Your loyalty program runs on Gold, Silver and Bronze. Your data sits in systems your marketing team
-                can&rsquo;t access. Your best customers are being treated the same as everyone else &mdash; regardless
+                can&rsquo;t access. Your best customers are being treated the same as everyone else - regardless
                 of their actual value to your venue. And some of them have already quietly left.
               </p>
               <p className="text-gray-900 font-medium">
@@ -132,7 +132,7 @@ export default function Home() {
                 <p className="text-ct-teal text-xs font-bold tracking-widest uppercase mb-4">Contact us</p>
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Let&rsquo;s talk.</h2>
                 <p className="text-gray-600 leading-relaxed mb-10">
-                  Whether you&rsquo;re looking to improve your loyalty program, get more from your CRM, or see ANALYTIQ in action &mdash; we&rsquo;d love to hear from you.
+                  Whether you&rsquo;re looking to improve your loyalty program, get more from your CRM, or see ANALYTIQ in action - we&rsquo;d love to hear from you.
                 </p>
                 <ul className="space-y-5 text-gray-700">
                   <li className="flex items-center gap-3">
@@ -195,7 +195,7 @@ export default function Home() {
             <p className="text-4xl font-bold text-white mb-6">40+ years of combined Loyalty and CRM experience.</p>
             <p className="text-lg text-gray-300 leading-relaxed">
               Senior marketing roles at international sportsbooks, online gaming operators, land-based casinos, and
-              Australian pubs and clubs. We&rsquo;ve sat in the seat you&rsquo;re in &mdash; and we know what actually
+              Australian pubs and clubs. We&rsquo;ve sat in the seat you&rsquo;re in - and we know what actually
               works.
             </p>
             <div className="flex flex-wrap gap-4 mt-8">

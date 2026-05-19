@@ -6,7 +6,7 @@ import ScrollReveal from '../components/ScrollReveal'
 export const metadata: Metadata = {
   title: 'ANALYTIQ | Challenge That',
   description:
-    'The analytics platform built for Australian pubs, clubs and hospitality venues. Self-serve data and AI-powered insights — no analyst required.',
+    'The analytics platform built for Australian pubs, clubs and hospitality venues. Self-serve data and AI-powered insights - no analyst required.',
 }
 
 const painCards = [
@@ -16,7 +16,7 @@ const painCards = [
   },
   {
     title: 'Dashboards need analysts',
-    body: 'The data exists — but accessing it means raising a request and waiting days.',
+    body: 'The data exists - but accessing it means raising a request and waiting days.',
   },
   {
     title: 'Living in spreadsheets',
@@ -28,7 +28,7 @@ const painCards = [
   },
   {
     title: 'Instinct fills the gap',
-    body: 'When data is inaccessible, decisions get made on gut feel — and the insights that could drive revenue never surface.',
+    body: 'When data is inaccessible, decisions get made on gut feel - and the insights that could drive revenue never surface.',
   },
   {
     title: 'Members are a mystery',
@@ -39,15 +39,15 @@ const painCards = [
 const features = [
   {
     title: 'Gaming dashboards',
-    body: 'Overview, year-on-year comparisons, and top and bottom machines and games by turnover. Daily, weekly, monthly and quarterly views with instant period comparisons — so you always know where you stand.',
+    body: 'Overview, year-on-year comparisons, and top and bottom machines and games by turnover. Daily, weekly, monthly and quarterly views with instant period comparisons - so you always know where you stand.',
   },
   {
     title: 'Member intelligence',
-    body: 'Active, inactive and lapsed member analysis. Tier breakdowns by member count, turnover, ADT and visits — filtered to your current working database, not years of dormant records.',
+    body: 'Active, inactive and lapsed member analysis. Tier breakdowns by member count, turnover, ADT and visits - filtered to your current working database, not years of dormant records.',
   },
   {
     title: 'Promotions analytics',
-    body: 'Filter by date range, day of week and hour. Pre and post promo comparisons. Tier breakdown and member-by-member performance — sortable by any metric so you can see exactly what moved the needle.',
+    body: 'Filter by date range, day of week and hour. Pre and post promo comparisons. Tier breakdown and member-by-member performance - sortable by any metric so you can see exactly what moved the needle.',
   },
   {
     title: 'F&B reporting',
@@ -55,11 +55,11 @@ const features = [
   },
   {
     title: 'Tier movement',
-    body: 'Track tier upgrades and downgrades over time. See which tiers are growing or shrinking month on month — the single most requested missing report in hospitality loyalty programs.',
+    body: 'Track tier upgrades and downgrades over time. See which tiers are growing or shrinking month on month - the single most requested missing report in hospitality loyalty programs.',
   },
   {
     title: 'AI query engine',
-    body: 'Ask questions in plain English. Get a structured, downloadable answer. From simple member lookups to complex cross-table queries — without writing a line of SQL or raising a support ticket.',
+    body: 'Ask questions in plain English. Get a structured, downloadable answer. From simple member lookups to complex cross-table queries - without writing a line of SQL or raising a support ticket.',
   },
 ]
 
@@ -77,7 +77,7 @@ const queryExamples = [
   {
     type: 'Churn detection',
     question: 'Which high-value customers visited in 2025 but haven\'t been in since January 2026?',
-    result: 'Returns lapsed high-value members with their full 2025 turnover — ready for your reactivation campaign.',
+    result: 'Returns lapsed high-value members with their full 2025 turnover - ready for your reactivation campaign.',
   },
 ]
 
@@ -90,12 +90,12 @@ const roles = [
   {
     icon: '/assets/icons/transparent_Analysis.png',
     title: 'Venue Manager',
-    body: 'Daily performance view for their venue: gaming, F&B, member activity — without waiting for a report to be sent or logging into a system IT need to manage.',
+    body: 'Daily performance view for their venue: gaming, F&B, member activity - without waiting for a report to be sent or logging into a system IT need to manage.',
   },
   {
     icon: '/assets/icons/transparent_Segmentation.png',
     title: 'Operations / F&B Head',
-    body: 'Revenue by category, top and bottom performers, period comparisons — without touching a spreadsheet. Filters to their venue or area so they see what\'s relevant.',
+    body: 'Revenue by category, top and bottom performers, period comparisons - without touching a spreadsheet. Filters to their venue or area so they see what\'s relevant.',
   },
   {
     icon: '/assets/icons/transparent_Engage.png',
@@ -111,7 +111,7 @@ const connectionTiles = [
   },
   {
     title: 'Connects to existing data',
-    body: 'ANALYTIQ integrates with your current operational systems. We configure the connection — your team starts using it.',
+    body: 'ANALYTIQ integrates with your current operational systems. We configure the connection - your team starts using it.',
   },
   {
     title: 'Multi-venue from day one',
@@ -160,11 +160,11 @@ export default function Analytiq() {
               <span className="text-ct-teal">Almost none can use it.</span>
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed mb-4">
-              ANALYTIQ is the analytics platform built for Australian pubs, clubs and hospitality venues &mdash; by
+              ANALYTIQ is the analytics platform built for Australian pubs, clubs and hospitality venues - by
               people who&rsquo;ve run the marketing, operations and analysis.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed mb-10">
-              Give your whole team direct access to the customer insights that drive revenue &mdash; without waiting for
+              Give your whole team direct access to the customer insights that drive revenue - without waiting for
               an analyst, writing a single line of SQL, or downloading another spreadsheet.
             </p>
             <div className="flex flex-wrap gap-4">
@@ -210,10 +210,10 @@ export default function Analytiq() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-3xl mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              A reporting layer and data warehouse in one &mdash; built for hospitality.
+              A reporting layer and data warehouse in one - built for hospitality.
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              It&rsquo;s the tool your venue has been trying to build internally for years &mdash; delivered as a
+              It&rsquo;s the tool your venue has been trying to build internally for years - delivered as a
               platform that connects to your existing data and works from day one. No new systems to manage. No analyst
               required for everyday questions.
             </p>
@@ -239,7 +239,7 @@ export default function Analytiq() {
             <p className="text-xs font-bold tracking-widest uppercase text-ct-teal mb-4">AI Query Engine</p>
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Ask a question. Get a real answer.</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              The ANALYTIQ AI engine doesn&rsquo;t just give you dashboards &mdash; it lets you interrogate your data
+              The ANALYTIQ AI engine doesn&rsquo;t just give you dashboards - it lets you interrogate your data
               the way you actually think. Type a question in plain English. The engine reads your data tables, handles
               the logic, and returns a structured, downloadable result.
             </p>
@@ -286,16 +286,16 @@ export default function Analytiq() {
             {[
               {
                 label: 'Gaming overview dashboard',
-                caption: 'Gaming overview — turnover, visits, and year-on-year comparison at a glance.',
+                caption: 'Gaming overview - turnover, visits, and year-on-year comparison at a glance.',
               },
               {
                 label: 'Member tier breakdown',
                 caption:
-                  'Member intelligence — active, inactive and lapsed members by tier, with ADT and visit frequency.',
+                  'Member intelligence - active, inactive and lapsed members by tier, with ADT and visit frequency.',
               },
               {
                 label: 'AI query interface',
-                caption: 'The AI query engine — type a question, get a structured table back in seconds.',
+                caption: 'The AI query engine - type a question, get a structured table back in seconds.',
               },
             ].map((item) => (
               <div
@@ -315,7 +315,7 @@ export default function Analytiq() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Built for teams, not just analysts.</h2>
           <p className="text-lg text-gray-600 mb-12">
-            ANALYTIQ uses role-based access so different people get different levels of visibility &mdash; without
+            ANALYTIQ uses role-based access so different people get different levels of visibility - without
             needing separate systems, separate logins, or analyst support for every request.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -339,7 +339,7 @@ export default function Analytiq() {
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
               ANALYTIQ sits on top of your existing data sources as a reporting layer. It connects to what you already
-              have &mdash; you don&rsquo;t need to migrate, replace, or rebuild anything to get started.
+              have - you don&rsquo;t need to migrate, replace, or rebuild anything to get started.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
@@ -363,7 +363,7 @@ export default function Analytiq() {
                 <blockquote className="text-lg text-gray-700 leading-relaxed mb-4">
                   &ldquo;{t.quote}&rdquo;
                 </blockquote>
-                <p className="text-sm text-gray-400 italic">&mdash; {t.attribution}</p>
+                <p className="text-sm text-gray-400 italic">- {t.attribution}</p>
               </div>
             ))}
           </div>
@@ -377,7 +377,7 @@ export default function Analytiq() {
             <h2 className="text-3xl font-bold text-white mb-4">Ready to see it in action?</h2>
             <p className="text-ct-teal-subtle text-lg leading-relaxed mb-8">
               Book a 30-minute demo and we&rsquo;ll walk you through the platform using your venue type as the context.
-              No generic slideshow &mdash; just the dashboards and queries that are relevant to you.
+              No generic slideshow - just the dashboards and queries that are relevant to you.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link

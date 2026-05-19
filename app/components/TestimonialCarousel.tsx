@@ -25,7 +25,7 @@ export default function TestimonialCarousel({ testimonials }: { testimonials: Te
 
   return (
     <div className="relative max-w-3xl mx-auto">
-      {/* Quote content — keyed so the fade-in fires on every change */}
+      {/* Quote content - keyed so the fade-in fires on every change */}
       <div key={idx} className="animate-fade-in-up text-center px-4">
         <div className="text-ct-teal text-7xl leading-none mb-2 select-none">&ldquo;</div>
         <p className="text-lg lg:text-xl text-gray-700 leading-relaxed italic mb-10">

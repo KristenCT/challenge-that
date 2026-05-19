@@ -11,21 +11,21 @@ export default function Article() {
     <ArticleLayout
       tag="CRM"
       tagColor="teal"
-      title="Why your CRM implementation stalled — and what to do about it"
+      title="Why your CRM implementation stalled - and what to do about it"
       readTime="6 min read"
       topics="CRM · Operations"
       ctaHeading="Stalled CRM? We've seen it before."
-      ctaBody="A focused diagnostic engagement — not a full rebuild."
+      ctaBody="A focused diagnostic engagement - not a full rebuild."
       ctaPrompt="Talk to us →"
     >
-      <p>The pattern is consistent enough to have a name. We call it the CRM cliff: a venue invests in a platform, migrates data, trains staff, launches &mdash; and then, somewhere around the three-to-six month mark, usage quietly drops. Campaigns stop being sent. Segments sit unchanged. The team goes back to what they know.</p>
-      <p>It&rsquo;s not a people problem. It&rsquo;s an implementation problem &mdash; one that almost always traces back to the same set of structural gaps.</p>
+      <p>The pattern is consistent enough to have a name. We call it the CRM cliff: a venue invests in a platform, migrates data, trains staff, launches - and then, somewhere around the three-to-six month mark, usage quietly drops. Campaigns stop being sent. Segments sit unchanged. The team goes back to what they know.</p>
+      <p>It&rsquo;s not a people problem. It&rsquo;s an implementation problem - one that almost always traces back to the same set of structural gaps.</p>
 
       <h2>The gap between &ldquo;go live&rdquo; and &ldquo;actually useful&rdquo;</h2>
-      <p>Most CRM vendors will get you to go-live. That&rsquo;s what their implementation teams are measured on. <strong>What happens after go-live &mdash; building the workflows, establishing the cadence, connecting the data sources that matter &mdash; that part is usually left to you.</strong></p>
+      <p>Most CRM vendors will get you to go-live. That&rsquo;s what their implementation teams are measured on. <strong>What happens after go-live - building the workflows, establishing the cadence, connecting the data sources that matter - that part is usually left to you.</strong></p>
       <p>The result is a platform that technically works but doesn&rsquo;t yet fit the way your team operates. Features go unused not because the team doesn&rsquo;t want to use them, but because nobody has translated &ldquo;CRM capability&rdquo; into &ldquo;this is how we send the Tuesday win-back campaign.&rdquo;</p>
 
-      <Pullquote>Features go unused not because the team doesn&rsquo;t want to &mdash; but because nobody translated capability into workflow.</Pullquote>
+      <Pullquote>Features go unused not because the team doesn&rsquo;t want to - but because nobody translated capability into workflow.</Pullquote>
 
       <h2>The three most common stall points</h2>
 
@@ -33,24 +33,24 @@ export default function Article() {
       <p>Many venues migrate whatever is in their POS or old system without a cleanup pass first. The result is duplicate records, missing contact details, and transaction data that doesn&rsquo;t map cleanly to the new platform&rsquo;s structure. Teams quickly learn that campaign lists are unreliable and stop trusting the tool.</p>
 
       <h3>2. No owner and no cadence</h3>
-      <p>CRM doesn&rsquo;t run itself. Someone needs to own the weekly send, the segment review, the campaign calendar. In smaller venues, this often isn&rsquo;t a defined role &mdash; it&rsquo;s &ldquo;whoever has time.&rdquo; Without a clear owner and a recurring rhythm, the platform becomes a passive repository rather than an active tool.</p>
+      <p>CRM doesn&rsquo;t run itself. Someone needs to own the weekly send, the segment review, the campaign calendar. In smaller venues, this often isn&rsquo;t a defined role - it&rsquo;s &ldquo;whoever has time.&rdquo; Without a clear owner and a recurring rhythm, the platform becomes a passive repository rather than an active tool.</p>
 
       <h3>3. Success metrics that were never defined</h3>
-      <p>If nobody agreed upfront on what a good CRM outcome looks like, it&rsquo;s hard to demonstrate value &mdash; and equally hard to course-correct. Vague goals (&ldquo;better customer engagement&rdquo;) produce vague results. <strong>Specific metrics drive specific actions.</strong></p>
+      <p>If nobody agreed upfront on what a good CRM outcome looks like, it&rsquo;s hard to demonstrate value - and equally hard to course-correct. Vague goals (&ldquo;better customer engagement&rdquo;) produce vague results. <strong>Specific metrics drive specific actions.</strong></p>
 
       <Callout
         title="The CRM stall rescue checklist"
         items={[
-          'Audit data quality before relaunching campaigns — fix the foundation first',
+          'Audit data quality before relaunching campaigns - fix the foundation first',
           'Assign a named CRM owner, even if it\'s one of several responsibilities',
           'Define three measurable outcomes for the next 90 days',
           'Start with two campaigns that are simple to build and easy to measure',
-          'Review results weekly — even for five minutes — to build the habit',
+          'Review results weekly - even for five minutes - to build the habit',
         ]}
       />
 
       <h2>When to bring in external help</h2>
-      <p>If your implementation has been live for more than six months and you still can&rsquo;t answer &ldquo;is it working?&rdquo;, the stall has become structural. At that point, a short external engagement &mdash; not to rebuild, but to diagnose and reset &mdash; usually delivers more value than continued internal troubleshooting.</p>
+      <p>If your implementation has been live for more than six months and you still can&rsquo;t answer &ldquo;is it working?&rdquo;, the stall has become structural. At that point, a short external engagement - not to rebuild, but to diagnose and reset - usually delivers more value than continued internal troubleshooting.</p>
       <p>We work with venues in exactly this situation. Often the platform is fine. The data just needs cleaning, the workflows need mapping, and the team needs a clear activation plan. None of that requires starting over.</p>
     </ArticleLayout>
   )

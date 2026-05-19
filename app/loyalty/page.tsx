@@ -12,11 +12,11 @@ export const metadata: Metadata = {
 const problemCards = [
   {
     title: '"Our program looks like everyone else\'s"',
-    body: 'Gold, Silver, Bronze with the same earn-and-burn structure as the pub down the road. There\'s nothing that makes your best members feel recognised — or give you a reason to stay loyal.',
+    body: 'Gold, Silver, Bronze with the same earn-and-burn structure as the pub down the road. There\'s nothing that makes your best members feel recognised - or give you a reason to stay loyal.',
   },
   {
     title: '"We bought a CRM but barely use it"',
-    body: 'The platform was sold to you as the solution. But without a clear strategy behind it, it\'s become an expensive email tool — or worse, something IT manages but marketing can\'t access.',
+    body: 'The platform was sold to you as the solution. But without a clear strategy behind it, it\'s become an expensive email tool - or worse, something IT manages but marketing can\'t access.',
   },
   {
     title: '"Our best customers are leaving quietly"',
@@ -24,7 +24,7 @@ const problemCards = [
   },
   {
     title: '"We send the same offer to everyone"',
-    body: 'Every member gets the same communication, the same promotion, the same experience — regardless of how valuable they are or what they actually respond to. Personalisation feels out of reach.',
+    body: 'Every member gets the same communication, the same promotion, the same experience - regardless of how valuable they are or what they actually respond to. Personalisation feels out of reach.',
   },
   {
     title: '"We don\'t know if our campaigns work"',
@@ -45,17 +45,17 @@ const fourPs = [
   {
     number: '02',
     title: 'Process',
-    body: 'We define the business processes that need to sit behind your CRM and loyalty activity — in a way that both marketing and technology teams understand and can execute. A great strategy fails without a clear process to deliver it.',
+    body: 'We define the business processes that need to sit behind your CRM and loyalty activity - in a way that both marketing and technology teams understand and can execute. A great strategy fails without a clear process to deliver it.',
   },
   {
     number: '03',
     title: 'People',
-    body: 'We establish ownership at each stage of the customer lifecycle and each phase of the project. We provide support to upskill your existing team and source new skill sets where needed — because the strategy only works if your people can run it.',
+    body: 'We establish ownership at each stage of the customer lifecycle and each phase of the project. We provide support to upskill your existing team and source new skill sets where needed - because the strategy only works if your people can run it.',
   },
   {
     number: '04',
     title: 'Platform',
-    body: 'Only once Planning, Process and People are clear do we review your current technology capability and recommend a platform that bridges the gaps. We\'re not affiliated with any vendor — our recommendation is always based on what\'s right for your team.',
+    body: 'Only once Planning, Process and People are clear do we review your current technology capability and recommend a platform that bridges the gaps. We\'re not affiliated with any vendor - our recommendation is always based on what\'s right for your team.',
   },
 ]
 
@@ -68,27 +68,27 @@ const services = [
   {
     icon: '/assets/icons/transparent_Framework.png',
     title: 'CRM strategy and platform optimisation',
-    body: 'If you\'re evaluating a new CRM platform, we help you define requirements and select the right tool without vendor bias. If you already have a platform, we help you get significantly more from it — without buying something new.',
+    body: 'If you\'re evaluating a new CRM platform, we help you define requirements and select the right tool without vendor bias. If you already have a platform, we help you get significantly more from it - without buying something new.',
   },
   {
     icon: '/assets/icons/transparent_Multi-Communication.png',
     title: 'Personalisation at scale',
-    body: 'We help you move beyond batch-and-blast to communications that respond to where each member is in their lifecycle. We define the segments, the triggers, the channels and the measurement framework — and we build your team\'s capability to run it.',
+    body: 'We help you move beyond batch-and-blast to communications that respond to where each member is in their lifecycle. We define the segments, the triggers, the channels and the measurement framework - and we build your team\'s capability to run it.',
   },
   {
     icon: '/assets/icons/transparent_Process.png',
     title: 'Customer lifecycle mapping',
-    body: 'We map every key touchpoint across your member\'s journey — from first visit through to reactivation — and align your CRM strategy to each stage. This gives your team a shared framework for every campaign and communication decision.',
+    body: 'We map every key touchpoint across your member\'s journey - from first visit through to reactivation - and align your CRM strategy to each stage. This gives your team a shared framework for every campaign and communication decision.',
   },
   {
     icon: '/assets/icons/transparent_Reporting.png',
     title: 'Data audit and gap analysis',
-    body: 'We assess the data you\'re currently collecting, identify the gaps that are limiting your personalisation and segmentation, and recommend what you need to capture — and how — to make better decisions.',
+    body: 'We assess the data you\'re currently collecting, identify the gaps that are limiting your personalisation and segmentation, and recommend what you need to capture - and how - to make better decisions.',
   },
   {
     icon: '/assets/icons/transparent_Workshop.png',
     title: 'Team capability and upskilling',
-    body: 'Strategy without capability doesn\'t stick. We work alongside your team — not just as consultants who hand over a document — to build the skills, processes and ownership structures that make the work sustainable after we\'re gone.',
+    body: 'Strategy without capability doesn\'t stick. We work alongside your team - not just as consultants who hand over a document - to build the skills, processes and ownership structures that make the work sustainable after we\'re gone.',
   },
 ]
 
@@ -116,7 +116,7 @@ const caseStudies = [
     services: ['Marketing Strategy', 'Reward Program re-vamp', 'Digital Enablement', 'Member insights & Analysis'],
     quote:
       'Challenge That provided the strategic leadership we needed to scale and grow The Fraternity Club. Their expertise has driven over 20% year-over-year growth while enhancing member engagement.',
-    attribution: 'Glenn Ward, CEO — The Fraternity Club',
+    attribution: 'Glenn Ward, CEO - The Fraternity Club',
   },
   {
     client: 'Mounties Group',
@@ -137,7 +137,7 @@ const caseStudies = [
     ],
     quote:
       'Challenge That has delivered multiple CRM projects, loyalty program improvements, and Martech selections. Their direct, results-driven approach ensures rapid progress and ROI.',
-    attribution: 'David Callen, Chief Experience Officer — Mounties Group',
+    attribution: 'David Callen, Chief Experience Officer - Mounties Group',
   },
   {
     client: 'Mindil Beach Casino & Resort',
@@ -159,7 +159,7 @@ const caseStudies = [
     ],
     quote:
       'Challenge That provided clarity on customer segmentation through advanced data modeling. Their expertise in UX and technology has been invaluable.',
-    attribution: 'Karley McRae, Executive Marketing Manager — Mindil Beach Casino & Resort',
+    attribution: 'Karley McRae, Executive Marketing Manager - Mindil Beach Casino & Resort',
   },
   {
     client: 'Destination NSW',
@@ -180,8 +180,8 @@ const caseStudies = [
       'Preference Centre Development',
     ],
     quote:
-      'Working with Challenge That is a breath of fresh air! Their solutions are practical, actionable, and operationally sound. We need consultants who tell it like it is — and Challenge That delivers.',
-    attribution: 'Michaela Aguila — Destination NSW',
+      'Working with Challenge That is a breath of fresh air! Their solutions are practical, actionable, and operationally sound. We need consultants who tell it like it is - and Challenge That delivers.',
+    attribution: 'Michaela Aguila - Destination NSW',
   },
 ]
 
@@ -190,7 +190,7 @@ const team = [
     initials: 'FN',
     name: 'Fiona Nilsson',
     role: 'Marketing & Strategy',
-    bio: 'Experienced Marketing Director with a track record building commercial and marketing strategies across category growth, acquisition and retention. Fiona\'s the strategist — she ensures what we build is grounded in commercial reality.',
+    bio: 'Experienced Marketing Director with a track record building commercial and marketing strategies across category growth, acquisition and retention. Fiona\'s the strategist - she ensures what we build is grounded in commercial reality.',
     skills: ['Strategy', 'Revenue operations', 'CRM', 'Digital marketing', 'Loyalty'],
   },
   {
@@ -204,7 +204,7 @@ const team = [
     initials: 'AG',
     name: 'Ankur Ghai',
     role: 'Data & Analytics',
-    bio: 'Data scientist who specialises in translating complex data into business decisions. Ankur builds the data infrastructure — warehousing, ETL pipelines and predictive CRM models — that makes personalisation at scale possible.',
+    bio: 'Data scientist who specialises in translating complex data into business decisions. Ankur builds the data infrastructure - warehousing, ETL pipelines and predictive CRM models - that makes personalisation at scale possible.',
     skills: ['Data science', 'Tableau', 'Power BI', 'Python', 'ETL', 'Predictive modelling'],
   },
 ]
@@ -220,14 +220,14 @@ export default function Loyalty() {
               Loyalty &amp; CRM Consulting
             </p>
             <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight tracking-tight mb-6">
-              Loyalty that starts with your customers &mdash; not your platform.
+              Loyalty that starts with your customers - not your platform.
             </h1>
             <p className="text-xl text-gray-700 leading-relaxed mb-4">
               We&rsquo;re platform-agnostic. That means our advice is grounded in what&rsquo;s right for your venue,
-              your team and your members &mdash; not what earns a commission or locks you in.
+              your team and your members - not what earns a commission or locks you in.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed mb-10">
-              We&rsquo;ve spent 40+ years in hospitality, loyalty and CRM &mdash; in the roles you&rsquo;re in now, at
+              We&rsquo;ve spent 40+ years in hospitality, loyalty and CRM - in the roles you&rsquo;re in now, at
               venues like yours. We know what works, what doesn&rsquo;t, and what most loyalty programs are still
               getting wrong.
             </p>
@@ -261,7 +261,7 @@ export default function Loyalty() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Gold, Silver, Bronze&hellip; sound familiar?</h2>
           <p className="text-lg text-gray-600 max-w-3xl mb-4">
-            Most hospitality loyalty programs look the same, run the same, and deliver the same results &mdash; which
+            Most hospitality loyalty programs look the same, run the same, and deliver the same results - which
             is to say, not enough. The tiers don&rsquo;t differentiate. The offers don&rsquo;t personalise. And your
             best customers are being treated exactly like everyone else.
           </p>
@@ -287,7 +287,7 @@ export default function Loyalty() {
             <h2 className="text-3xl font-bold text-gray-900 mb-4">We start with strategy. Technology comes last.</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
               Most CRM failures aren&rsquo;t technology problems. They&rsquo;re strategy problems that get handed to a
-              software vendor. We work in the opposite order &mdash; and that changes everything.
+              software vendor. We work in the opposite order - and that changes everything.
             </p>
           </div>
           <div className="max-w-3xl divide-y divide-gray-200">
@@ -312,7 +312,7 @@ export default function Loyalty() {
           <div className="max-w-3xl mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Where we work with you.</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              We engage across the full spectrum of customer and loyalty strategy &mdash; from foundational assessments
+              We engage across the full spectrum of customer and loyalty strategy - from foundational assessments
               through to ongoing campaign optimisation. Most clients start in one area and expand from there.
             </p>
           </div>
@@ -337,7 +337,7 @@ export default function Loyalty() {
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Your members aren&rsquo;t all in the same place.</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
               The most effective loyalty strategy treats members differently depending on where they are in their
-              relationship with your venue. A new member needs different things than a loyal regular &mdash; and a
+              relationship with your venue. A new member needs different things than a loyal regular - and a
               lapsed member needs a different conversation entirely.
             </p>
             <p className="text-gray-500 mt-4">We align your CRM strategy to five lifecycle stages:</p>
@@ -359,7 +359,7 @@ export default function Loyalty() {
             ))}
           </div>
           <p className="mt-8 text-gray-600 leading-relaxed max-w-3xl">
-            We help you define the right strategy, triggers and communications for each stage &mdash; so your CRM
+            We help you define the right strategy, triggers and communications for each stage - so your CRM
             program works across the entire member relationship, not just at acquisition.
           </p>
         </div>
@@ -370,21 +370,21 @@ export default function Loyalty() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-3xl">
             <h2 className="text-3xl font-bold text-white mb-6">
-              We work with any platform. That&rsquo;s not a footnote &mdash; it&rsquo;s the whole point.
+              We work with any platform. That&rsquo;s not a footnote - it&rsquo;s the whole point.
             </h2>
             <div className="space-y-4 text-ct-gray-mid text-lg leading-relaxed">
               <p>
                 A lot of &ldquo;CRM consultants&rdquo; are actually platform resellers. They have a preferred vendor,
-                and their recommendation &mdash; whatever your situation &mdash; tends to land there.
+                and their recommendation - whatever your situation - tends to land there.
               </p>
               <p>
                 We&rsquo;re different. We&rsquo;re not affiliated with, paid by, or incentivised by any CRM or loyalty
-                technology vendor. Our role is to understand your venues, your team and your members &mdash; and
+                technology vendor. Our role is to understand your venues, your team and your members - and
                 recommend the right approach for your situation.
               </p>
               <p>
                 That might mean getting more from the platform you already have. It might mean switching. It might mean
-                a custom configuration. The right answer is the one that&rsquo;s right for you &mdash; and we&rsquo;ll
+                a custom configuration. The right answer is the one that&rsquo;s right for you - and we&rsquo;ll
                 tell you which one that is, honestly.
               </p>
               <p>
@@ -420,7 +420,7 @@ export default function Loyalty() {
                     </div>
                     <blockquote className="border-l-4 border-ct-gray-mid pl-4 mt-4">
                       <p className="text-gray-700 italic text-sm leading-relaxed">&ldquo;{cs.quote}&rdquo;</p>
-                      <p className="text-xs text-gray-400 mt-2">&mdash; {cs.attribution}</p>
+                      <p className="text-xs text-gray-400 mt-2">- {cs.attribution}</p>
                     </blockquote>
                   </div>
                   {/* Results + Services */}
@@ -462,7 +462,7 @@ export default function Loyalty() {
           <h2 className="text-3xl font-bold text-gray-900 mb-4">The people you&rsquo;ll work with.</h2>
           <p className="text-lg text-gray-600 max-w-3xl mb-12">
             We&rsquo;re a focused team of three specialists who between us cover the full scope of hospitality CRM
-            &mdash; from commercial strategy through to data science. You work directly with us, not with a junior team
+            - from commercial strategy through to data science. You work directly with us, not with a junior team
             managed from a distance.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -512,7 +512,7 @@ export default function Loyalty() {
               <Link href="/analytiq" className="underline hover:text-white transition-colors">
                 visit the ANALYTIQ page
               </Link>{' '}
-              &mdash; or book a combined conversation and we&rsquo;ll cover both.
+              - or book a combined conversation and we&rsquo;ll cover both.
             </p>
           </div>
         </div>

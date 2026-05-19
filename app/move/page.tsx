@@ -5,19 +5,19 @@ import ScrollReveal from '../components/ScrollReveal'
 
 export const metadata: Metadata = {
   title: 'The MOVE Methodology | Challenge That',
-  description: 'The missing manual your CRM vendor never gave you. A practical four-step framework for aligning CRM strategy, operations, and technology — written by the Challenge That team.',
+  description: 'The missing manual your CRM vendor never gave you. A practical four-step framework for aligning CRM strategy, operations, and technology - written by the Challenge That team.',
 }
 
 const authors = [
   {
     name: 'Ian Sampson',
     role: 'Co-founder, Challenge That',
-    bio: 'CRM strategy and commercial growth specialist with decades of experience turning platform investment into measurable customer outcomes — including across hospitality.',
+    bio: 'CRM strategy and commercial growth specialist with decades of experience turning platform investment into measurable customer outcomes - including across hospitality.',
   },
   {
     name: 'Kristen Makin',
     role: 'Co-founder, Challenge That',
-    bio: 'Loyalty and CRM operations expert who specialises in bridging strategy and day-to-day execution — the place where most implementations stall, in any industry.',
+    bio: 'Loyalty and CRM operations expert who specialises in bridging strategy and day-to-day execution - the place where most implementations stall, in any industry.',
   },
   {
     name: 'Fiona Nilsson',
@@ -39,7 +39,7 @@ export default function Move() {
                 The missing manual your CRM vendor never gave you.
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed mb-10">
-                The MOVE Methodology is a four-step framework for aligning CRM strategy, operations, and technology &mdash; giving your whole team a common language and a clear system that actually gets used. Used across industries, and right at home in hospitality.
+                The MOVE Methodology is a four-step framework for aligning CRM strategy, operations, and technology - giving your whole team a common language and a clear system that actually gets used. Used across industries, and right at home in hospitality.
               </p>
               <Link
                 href="https://www.amazon.com.au/MOVE-Methodology-Missing-Manual-CRM/dp/192327743X/"
@@ -53,7 +53,7 @@ export default function Move() {
             <div className="flex justify-center lg:justify-end">
               <Image
                 src="/assets/icons/transparent_book_cover.png"
-                alt="The MOVE Methodology — The Missing Manual for CRM"
+                alt="The MOVE Methodology - The Missing Manual for CRM"
                 width={340}
                 height={440}
                 className="drop-shadow-2xl"
@@ -73,10 +73,10 @@ export default function Move() {
             </h2>
             <div className="space-y-5 text-lg text-gray-600 leading-relaxed">
               <p>
-                The platform gets implemented, the data gets migrated, the team gets trained &mdash; and then, slowly, nothing changes. Guests don&rsquo;t feel known. Staff don&rsquo;t trust the data. And the system that was supposed to drive loyalty ends up as an expensive contact list.
+                The platform gets implemented, the data gets migrated, the team gets trained - and then, slowly, nothing changes. Guests don&rsquo;t feel known. Staff don&rsquo;t trust the data. And the system that was supposed to drive loyalty ends up as an expensive contact list.
               </p>
               <p>
-                The MOVE Methodology gives you a practical, four-step framework to fix that. Written by three practitioners with deep experience across CRM, loyalty, and &mdash; yes &mdash; hospitality, it bridges the gap between the teams who know your customers and the systems that should.
+                The MOVE Methodology gives you a practical, four-step framework to fix that. Written by three practitioners with deep experience across CRM, loyalty, and - yes - hospitality, it bridges the gap between the teams who know your customers and the systems that should.
               </p>
               <p className="font-medium text-gray-900">
                 Complete with practical frameworks and ready-to-use templates, this is the book that turns your CRM from a cost centre into a genuine competitive advantage.

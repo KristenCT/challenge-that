@@ -39,9 +39,9 @@ const team = [
 ]
 
 const differentiators = [
-  'Loyalty program design isn\'t just about rewards — it\'s about influencing behaviour and delivering value for both your members and your business.',
-  'CRM isn\'t just a piece of technology — it\'s how you manage your member relationships. That\'s where we start, before looking at platforms.',
-  'We\'re platform-agnostic, so our advice is shaped by what\'s right for your business — not a vendor.',
+  'Loyalty program design isn\'t just about rewards - it\'s about influencing behaviour and delivering value for both your members and your business.',
+  'CRM isn\'t just a piece of technology - it\'s how you manage your member relationships. That\'s where we start, before looking at platforms.',
+  'We\'re platform-agnostic, so our advice is shaped by what\'s right for your business - not a vendor.',
   'Data often tells a different story to what we expect. We help you uncover it and turn it into clear action.',
   'Creative matters, but performance matters more. We focus on what actually drives results.',
 ]
@@ -58,7 +58,7 @@ export default function About() {
             </h1>
             <p className="text-lg text-gray-300 leading-relaxed">
               Challenge That was built by hospitality marketing specialists who spent years frustrated by the same
-              problems our clients face &mdash; loyalty programs that don&rsquo;t differentiate, data that&rsquo;s
+              problems our clients face - loyalty programs that don&rsquo;t differentiate, data that&rsquo;s
               inaccessible, and insights that arrive too late to act on.
             </p>
           </div>
@@ -110,7 +110,7 @@ export default function About() {
             <div className="shrink-0">
               <Image
                 src="/assets/icons/transparent_book_cover.png"
-                alt="The MOVE Methodology — The Missing Manual for CRM"
+                alt="The MOVE Methodology - The Missing Manual for CRM"
                 width={180}
                 height={230}
                 className="drop-shadow-xl"
@@ -120,7 +120,7 @@ export default function About() {
               <h3 className="text-xl font-bold text-gray-900 mb-1">The MOVE Methodology</h3>
               <p className="text-ct-teal font-medium text-sm mb-4">The Missing Manual for CRM</p>
               <p className="text-gray-600 leading-relaxed mb-4">
-                A practical four-step framework for aligning CRM strategy, operations, and technology &mdash; giving your whole team a common language and a clear system that actually gets used. Complete with practical frameworks and ready-to-use templates.
+                A practical four-step framework for aligning CRM strategy, operations, and technology - giving your whole team a common language and a clear system that actually gets used. Complete with practical frameworks and ready-to-use templates.
               </p>
               <p className="text-sm text-gray-500 mb-6">
                 Co-authored by <span className="font-semibold text-gray-700">Ian Sampson</span>, <span className="font-semibold text-gray-700">Kristen Makin</span> and <span className="font-semibold text-gray-700">Fiona Nilsson</span>.

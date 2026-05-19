@@ -5,7 +5,7 @@ import ScrollReveal from '../components/ScrollReveal'
 
 export const metadata: Metadata = {
   title: 'Our Work | Challenge That',
-  description: 'Case studies from Challenge That — loyalty program design, CRM strategy and digital transformation for Australian hospitality and tourism venues.',
+  description: 'Case studies from Challenge That - loyalty program design, CRM strategy and digital transformation for Australian hospitality and tourism venues.',
 }
 
 const caseStudies = [
@@ -79,7 +79,7 @@ const caseStudies = [
       'A structured Preference Centre framework',
     ],
     services: ['Customer Experience Strategy', 'Personalisation Framework', 'Marketing Automation', 'Preference Centre Development'],
-    quote: 'Working with Challenge That is a breath of fresh air! Their solutions are practical, actionable, and operationally sound. We need consultants who tell it like it is — and Challenge That delivers.',
+    quote: 'Working with Challenge That is a breath of fresh air! Their solutions are practical, actionable, and operationally sound. We need consultants who tell it like it is - and Challenge That delivers.',
     attribution: 'Michaela Aguila',
     role: 'Destination NSW',
     photo: '/assets/partnerpictures/michaela-aguila.png',
