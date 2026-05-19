@@ -54,7 +54,7 @@ export function ArticleCTA({ heading, body, label }: { heading: string; body: st
   return (
     <div className="bg-ct-dark rounded-2xl p-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6 mt-10">
       <div>
-        <h3 className="text-lg font-bold text-white mb-1" style={{ fontFamily: 'var(--font-serif)' }}>{heading}</h3>
+        <h3 className="text-lg font-bold text-white mb-1">{heading}</h3>
         <p className="text-gray-400 text-sm">{body}</p>
       </div>
       <Link
@@ -81,7 +81,7 @@ export default function ArticleLayout({ tag, tagColor, title, readTime, topics, 
           <span className={`inline-block text-xs font-semibold uppercase tracking-wider px-2.5 py-1 rounded-full mb-4 ${tagStyles[tagColor]}`}>
             {tag}
           </span>
-          <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4" style={{ fontFamily: 'var(--font-serif)' }}>
+          <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-4">
             {title}
           </h1>
           <div className="flex items-center gap-3 text-sm text-gray-400">

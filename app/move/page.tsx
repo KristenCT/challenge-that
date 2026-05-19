@@ -34,7 +34,7 @@ export default function Move() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <p className="text-ct-teal text-xs font-bold tracking-widest uppercase mb-4">The Book</p>
-              <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6" style={{ fontFamily: 'var(--font-serif)' }}>
+              <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
                 The missing manual your CRM vendor never gave you.
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed mb-10">
@@ -67,7 +67,7 @@ export default function Move() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-ct-teal text-xs font-bold tracking-widest uppercase mb-4">About the book</p>
-            <h2 className="text-3xl font-bold text-gray-900 mb-8" style={{ fontFamily: 'var(--font-serif)' }}>
+            <h2 className="text-3xl font-bold text-gray-900 mb-8">
               Most CRM projects fail quietly.
             </h2>
             <div className="space-y-5 text-lg text-gray-600 leading-relaxed">
@@ -89,7 +89,7 @@ export default function Move() {
       <section className="bg-gray-50 py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <p className="text-ct-teal text-xs font-bold tracking-widest uppercase mb-4">The authors</p>
-          <h2 className="text-2xl font-bold text-gray-900 mb-12" style={{ fontFamily: 'var(--font-serif)' }}>
+          <h2 className="text-2xl font-bold text-gray-900 mb-12">
             Written by practitioners, not theorists.
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -113,7 +113,7 @@ export default function Move() {
       <section className="bg-ct-dark py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-2xl">
-            <h2 className="text-2xl font-bold text-white mb-3" style={{ fontFamily: 'var(--font-serif)' }}>
+            <h2 className="text-2xl font-bold text-white mb-3">
               Ready to make your CRM work?
             </h2>
             <p className="text-gray-400 mb-8">Available now on Amazon Australia.</p>

@@ -69,7 +69,7 @@ export default function Insights() {
       <section className="bg-ct-dark py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <p className="text-ct-teal-light text-xs font-bold tracking-widest uppercase mb-4">Insights</p>
-          <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4 max-w-2xl" style={{ fontFamily: 'var(--font-serif)' }}>
+          <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4 max-w-2xl">
             The loyalty and CRM problems nobody warns you about
           </h1>
           <p className="text-lg text-gray-300 max-w-xl leading-relaxed">
@@ -111,7 +111,7 @@ export default function Insights() {
                 <span className={`inline-block text-xs font-semibold uppercase tracking-wider px-2.5 py-1 rounded-full mb-4 ${tagStyles[featured.tagColor]}`}>
                   {featured.tag}
                 </span>
-                <h2 className="text-xl lg:text-2xl font-bold text-gray-900 mb-3 leading-snug group-hover:text-ct-slate transition-colors" style={{ fontFamily: 'var(--font-serif)' }}>
+                <h2 className="text-xl lg:text-2xl font-bold text-gray-900 mb-3 leading-snug group-hover:text-ct-slate transition-colors">
                   {featured.title}
                 </h2>
                 <p className="text-gray-600 leading-relaxed mb-6 text-sm">{featured.excerpt}</p>
@@ -137,7 +137,7 @@ export default function Insights() {
                   <span className={`inline-block text-xs font-semibold uppercase tracking-wider px-2.5 py-1 rounded-full mb-4 ${tagStyles[article.tagColor]}`}>
                     {article.tag}
                   </span>
-                  <h2 className="text-base font-bold text-gray-900 mb-3 leading-snug group-hover:text-ct-slate transition-colors" style={{ fontFamily: 'var(--font-serif)' }}>
+                  <h2 className="text-base font-bold text-gray-900 mb-3 leading-snug group-hover:text-ct-slate transition-colors">
                     {article.title}
                   </h2>
                   <p className="text-gray-500 text-sm leading-relaxed mb-5 line-clamp-3">{article.excerpt}</p>
@@ -156,7 +156,7 @@ export default function Insights() {
       <section className="bg-ct-dark py-16">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
           <div>
-            <h2 className="text-xl font-bold text-white mb-1" style={{ fontFamily: 'var(--font-serif)' }}>See these problems in your own data</h2>
+            <h2 className="text-xl font-bold text-white mb-1">See these problems in your own data</h2>
             <p className="text-gray-400 text-sm">ANALYTIQ surfaces loyalty gaps and CRM blind spots — without needing an analyst.</p>
           </div>
           <Link

@@ -88,7 +88,7 @@ export default function Work() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-ct-teal text-xs font-bold tracking-widest uppercase mb-4">Our work</p>
-            <h1 className="text-4xl lg:text-5xl font-bold text-white mb-6" style={{ fontFamily: 'var(--font-serif)' }}>
+            <h1 className="text-4xl lg:text-5xl font-bold text-white mb-6">
               Results that speak for themselves.
             </h1>
             <p className="text-lg text-gray-300 leading-relaxed">
@@ -121,7 +121,7 @@ export default function Work() {
                     </span>
                   )}
                 </div>
-                <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-6" style={{ fontFamily: 'var(--font-serif)' }}>
+                <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-6">
                   {cs.client}
                 </h2>
 
@@ -195,7 +195,7 @@ export default function Work() {
       <section className="bg-gray-50 py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <p className="text-ct-teal text-xs font-bold tracking-widest uppercase mb-4">What clients say</p>
-          <h2 className="text-2xl font-bold text-gray-900 mb-12" style={{ fontFamily: 'var(--font-serif)' }}>
+          <h2 className="text-2xl font-bold text-gray-900 mb-12">
             Straight from the people we work with.
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -223,7 +223,7 @@ export default function Work() {
       <section className="bg-ct-dark py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-2xl">
-            <h2 className="text-2xl font-bold text-white mb-4" style={{ fontFamily: 'var(--font-serif)' }}>
+            <h2 className="text-2xl font-bold text-white mb-4">
               Ready to add your venue to this list?
             </h2>
             <p className="text-gray-400 mb-8 leading-relaxed">

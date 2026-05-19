@@ -52,7 +52,7 @@ export default function About() {
       <section className="bg-ct-dark py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-3xl">
-            <h1 className="text-4xl lg:text-5xl font-bold text-white mb-6" style={{ fontFamily: 'var(--font-serif)' }}>
+            <h1 className="text-4xl lg:text-5xl font-bold text-white mb-6">
               We&rsquo;ve sat in the seat you&rsquo;re in.
             </h1>
             <p className="text-lg text-gray-300 leading-relaxed">
