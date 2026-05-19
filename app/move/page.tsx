@@ -10,19 +10,19 @@ export const metadata: Metadata = {
 
 const authors = [
   {
-    name: 'Ian Sampson',
-    role: 'Co-founder, Challenge That',
-    bio: 'CRM strategy and commercial growth specialist with decades of experience turning platform investment into measurable customer outcomes - including across hospitality.',
-  },
-  {
     name: 'Kristen Makin',
     role: 'Co-founder, Challenge That',
-    bio: 'Loyalty and CRM operations expert who specialises in bridging strategy and day-to-day execution - the place where most implementations stall, in any industry.',
+    bio: "A seasoned CRM and VIP marketing expert, Kristen's journey began in the online gaming industry during the early 2000s, where she had the privilege of working with some of the most innovative developers in the world. Throughout her career, she has successfully managed customers and teams on an international scale, with responsibility for over 70% of net revenue from existing customers.",
   },
   {
     name: 'Fiona Nilsson',
     role: 'Co-founder, Challenge That',
-    bio: 'Two decades building CRM and loyalty systems across hospitality, retail, and services. Known for a practical, frameworks-first approach that works regardless of platform.',
+    bio: 'A qualified and experienced senior Marketing Executive who has worked with customer-centric companies spanning Australia, New Zealand, Europe, Asia, the UK, Ireland, and the USA, Fiona is passionate about the data and customer insights needed to make pragmatic business decisions within a marketing framework.',
+  },
+  {
+    name: 'Ian Sampson',
+    role: 'Author',
+    bio: "A seasoned professional with a rich history in technology and business, he started his career as a Chartered Accountant with Ernst & Young, but his expertise has always revolved around the practical application of cutting-edge technology to improve businesses. This passion has seen him working for some of the world's largest companies across the globe.",
   },
 ]
 

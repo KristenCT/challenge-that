@@ -97,16 +97,11 @@ export default function Home() {
             <ScrollReveal delay={120}>
               <div className="rounded-2xl bg-ct-teal-subtle border border-ct-teal-subtle p-10 flex flex-col card-lift h-full">
                 <div className="flex items-start justify-between mb-6">
-                  <span className="text-xs font-bold tracking-widest uppercase text-ct-teal bg-ct-teal-subtle px-3 py-1 rounded-full">
-                    Platform
-                  </span>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src="/assets/icons/analytiq-teal-grey-full.svg" alt="ANALYTIQ" className="h-7 w-auto mt-1" />
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src="/assets/icons/transparent_Analysis_2.png" alt="" width={144} height={144} style={{ marginTop: '-24px', marginRight: '-24px' }} />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="/assets/icons/analytiq-teal-grey-full.svg" alt="ANALYTIQ" className="h-7 w-auto" />
-                </h3>
                 <p className="text-gray-600 leading-relaxed flex-1 mb-8">
                   Our proprietary analytics platform. Self-serve data and AI-powered insights built specifically for
                   hospitality teams. No analysts required.
