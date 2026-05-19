@@ -7,6 +7,11 @@ export const metadata: Metadata = {
   title: 'Loyalty & CRM Strategy | Challenge That',
   description:
     'Platform-agnostic loyalty and CRM consulting for Australian hospitality venues. Strategy first, technology second.',
+  openGraph: {
+    title: 'Loyalty & CRM Strategy | Challenge That',
+    description: 'Platform-agnostic loyalty and CRM consulting for Australian hospitality venues. Strategy first, technology second.',
+    url: 'https://challengethat.com.au/loyalty',
+  },
 }
 
 const problemCards = [

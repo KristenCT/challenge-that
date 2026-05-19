@@ -4,6 +4,11 @@ import ArticleLayout, { Pullquote, Callout } from '../../components/ArticleLayou
 export const metadata: Metadata = {
   title: 'Your Member Database Is Lying to You | Challenge That',
   description: 'Most venues assume their CRM data is messy but usable. The reality is often worse. The five data gaps that silently undermine personalisation and campaign performance.',
+  openGraph: {
+    title: 'Your Member Database Is Lying to You | Challenge That',
+    description: 'Most venues assume their CRM data is messy but usable. The reality is often worse. The five data gaps that silently undermine personalisation and campaign performance.',
+    url: 'https://challengethat.com.au/insights/data-gaps',
+  },
 }
 
 export default function Article() {

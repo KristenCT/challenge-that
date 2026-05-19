@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Geist, Libre_Baskerville } from 'next/font/google'
+import Script from 'next/script'
 import './globals.css'
 import Nav from './components/Nav'
 import Link from 'next/link'
@@ -16,10 +17,26 @@ const libreBaskerville = Libre_Baskerville({
   variable: '--font-serif',
 })
 
+const siteUrl = 'https://challengethat.com.au'
+const defaultTitle = 'Challenge That | Hospitality Loyalty & Analytics Specialists'
+const defaultDescription = 'Loyalty and CRM consulting and the ANALYTIQ analytics platform for Australian pubs, clubs and hospitality venues.'
+
 export const metadata: Metadata = {
-  title: 'Challenge That | Hospitality Loyalty & Analytics Specialists',
-  description:
-    'Loyalty and CRM consulting and the ANALYTIQ analytics platform for Australian pubs, clubs and hospitality venues.',
+  metadataBase: new URL(siteUrl),
+  title: defaultTitle,
+  description: defaultDescription,
+  openGraph: {
+    type: 'website',
+    siteName: 'Challenge That',
+    title: defaultTitle,
+    description: defaultDescription,
+    url: siteUrl,
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: defaultTitle,
+    description: defaultDescription,
+  },
 }
 
 export default function RootLayout({
@@ -30,6 +47,13 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${geist.variable} ${libreBaskerville.variable} h-full`}>
       <body className="min-h-full flex flex-col font-sans antialiased">
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-YDE23DLSGX" strategy="afterInteractive" />
+        <Script id="google-analytics" strategy="afterInteractive">{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-YDE23DLSGX');
+        `}</Script>
         <Nav />
         <main className="flex-1">{children}</main>
         <Footer />

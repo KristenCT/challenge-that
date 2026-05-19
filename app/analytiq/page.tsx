@@ -7,6 +7,11 @@ export const metadata: Metadata = {
   title: 'ANALYTIQ | Challenge That',
   description:
     'The analytics platform built for Australian pubs, clubs and hospitality venues. Self-serve data and AI-powered insights - no analyst required.',
+  openGraph: {
+    title: 'ANALYTIQ | Challenge That',
+    description: 'The analytics platform built for Australian pubs, clubs and hospitality venues. Self-serve data and AI-powered insights - no analyst required.',
+    url: 'https://challengethat.com.au/analytiq',
+  },
 }
 
 const painCards = [

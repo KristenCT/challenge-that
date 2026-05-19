@@ -6,6 +6,11 @@ export const metadata: Metadata = {
   title: 'Challenge That | Hospitality Loyalty & Analytics Specialists',
   description:
     'Loyalty and CRM consulting and the ANALYTIQ analytics platform for Australian pubs, clubs and hospitality venues.',
+  openGraph: {
+    title: 'Challenge That | Hospitality Loyalty & Analytics Specialists',
+    description: 'Loyalty and CRM consulting and the ANALYTIQ analytics platform for Australian pubs, clubs and hospitality venues.',
+    url: 'https://challengethat.com.au',
+  },
 }
 
 export default function Home() {

@@ -7,6 +7,11 @@ export const metadata: Metadata = {
   title: 'About | Challenge That',
   description:
     'Challenge That was built by hospitality marketing specialists with 40+ years of combined Loyalty and CRM experience.',
+  openGraph: {
+    title: 'About | Challenge That',
+    description: 'Challenge That was built by hospitality marketing specialists with 40+ years of combined Loyalty and CRM experience.',
+    url: 'https://challengethat.com.au/about',
+  },
 }
 
 const team = [

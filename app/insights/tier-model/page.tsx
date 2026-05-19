@@ -3,7 +3,12 @@ import ArticleLayout, { Pullquote, Callout } from '../../components/ArticleLayou
 
 export const metadata: Metadata = {
   title: 'Why the Gold Silver Bronze Tier Model Is Failing Australian Venues | Challenge That',
-  description: 'Tier-based loyalty programs consistently reward spend history over behaviour, and ignore the customers most likely to grow. Here\'s a better framework.',
+  description: "Tier-based loyalty programs consistently reward spend history over behaviour, and ignore the customers most likely to grow. Here's a better framework.",
+  openGraph: {
+    title: 'Why the Gold Silver Bronze Tier Model Is Failing Australian Venues | Challenge That',
+    description: "Tier-based loyalty programs consistently reward spend history over behaviour, and ignore the customers most likely to grow. Here's a better framework.",
+    url: 'https://challengethat.com.au/insights/tier-model',
+  },
 }
 
 export default function Article() {

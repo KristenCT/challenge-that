@@ -5,6 +5,11 @@ import ScrollReveal from '../components/ScrollReveal'
 export const metadata: Metadata = {
   title: 'Insights | Challenge That',
   description: 'Practical perspectives on loyalty, CRM and data for Australian hospitality venues - from the Challenge That team.',
+  openGraph: {
+    title: 'Insights | Challenge That',
+    description: 'Practical perspectives on loyalty, CRM and data for Australian hospitality venues - from the Challenge That team.',
+    url: 'https://challengethat.com.au/insights',
+  },
 }
 
 const articles = [

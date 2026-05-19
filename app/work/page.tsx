@@ -6,6 +6,11 @@ import ScrollReveal from '../components/ScrollReveal'
 export const metadata: Metadata = {
   title: 'Our Work | Challenge That',
   description: 'Case studies from Challenge That - loyalty program design, CRM strategy and digital transformation for Australian hospitality and tourism venues.',
+  openGraph: {
+    title: 'Our Work | Challenge That',
+    description: 'Case studies from Challenge That - loyalty program design, CRM strategy and digital transformation for Australian hospitality and tourism venues.',
+    url: 'https://challengethat.com.au/work',
+  },
 }
 
 const caseStudies = [

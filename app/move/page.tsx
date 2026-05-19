@@ -6,6 +6,11 @@ import ScrollReveal from '../components/ScrollReveal'
 export const metadata: Metadata = {
   title: 'The MOVE Methodology | Challenge That',
   description: 'The missing manual your CRM vendor never gave you. A practical four-step framework for aligning CRM strategy, operations, and technology - written by the Challenge That team.',
+  openGraph: {
+    title: 'The MOVE Methodology | Challenge That',
+    description: 'The missing manual your CRM vendor never gave you. A practical four-step framework for aligning CRM strategy, operations, and technology - written by the Challenge That team.',
+    url: 'https://challengethat.com.au/move',
+  },
 }
 
 const authors = [

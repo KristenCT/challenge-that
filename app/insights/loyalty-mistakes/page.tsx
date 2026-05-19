@@ -3,7 +3,12 @@ import ArticleLayout, { Pullquote, Callout, ArticleCTA } from '../../components/
 
 export const metadata: Metadata = {
   title: 'The Five Loyalty Mistakes Hospitality Venues Keep Making | Challenge That',
-  description: 'Most loyalty programs in Australian hospitality aren\'t broken - they\'re just built on assumptions that were never tested. Here are the five mistakes that matter most.',
+  description: "Most loyalty programs in Australian hospitality aren't broken - they're just built on assumptions that were never tested. Here are the five mistakes that matter most.",
+  openGraph: {
+    title: 'The Five Loyalty Mistakes Hospitality Venues Keep Making | Challenge That',
+    description: "Most loyalty programs in Australian hospitality aren't broken - they're just built on assumptions that were never tested. Here are the five mistakes that matter most.",
+    url: 'https://challengethat.com.au/insights/loyalty-mistakes',
+  },
 }
 
 export default function Article() {

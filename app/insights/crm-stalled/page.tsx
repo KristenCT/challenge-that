@@ -3,7 +3,12 @@ import ArticleLayout, { Pullquote, Callout } from '../../components/ArticleLayou
 
 export const metadata: Metadata = {
   title: 'Why Your CRM Implementation Stalled | Challenge That',
-  description: 'You bought the platform. You migrated the data. Six months later, your team is back to spreadsheets. Here\'s why CRM stalls happen and how to fix them.',
+  description: "You bought the platform. You migrated the data. Six months later, your team is back to spreadsheets. Here's why CRM stalls happen and how to fix them.",
+  openGraph: {
+    title: 'Why Your CRM Implementation Stalled | Challenge That',
+    description: "You bought the platform. You migrated the data. Six months later, your team is back to spreadsheets. Here's why CRM stalls happen and how to fix them.",
+    url: 'https://challengethat.com.au/insights/crm-stalled',
+  },
 }
 
 export default function Article() {
