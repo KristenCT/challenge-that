@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -70,9 +71,12 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Loyalty & CRM */}
             <div className="rounded-2xl bg-ct-slate-subtle border border-ct-slate-subtle p-10 flex flex-col">
-              <span className="text-xs font-bold tracking-widest uppercase text-ct-slate bg-ct-slate-subtle px-3 py-1 rounded-full w-fit mb-6">
-                Consulting
-              </span>
+              <div className="flex items-start justify-between mb-6">
+                <span className="text-xs font-bold tracking-widest uppercase text-ct-slate bg-ct-slate-subtle px-3 py-1 rounded-full">
+                  Consulting
+                </span>
+                <Image src="/assets/icons/transparent_Strategy.png" alt="" width={64} height={64} className="-mt-2 -mr-2" />
+              </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Loyalty &amp; CRM Strategy</h3>
               <p className="text-gray-600 leading-relaxed flex-1 mb-8">
                 Platform-agnostic consulting. We work with any Loyalty or CRM system to build programs that actually
@@ -88,9 +92,12 @@ export default function Home() {
 
             {/* ANALYTIQ */}
             <div className="rounded-2xl bg-ct-teal-subtle border border-ct-teal-subtle p-10 flex flex-col">
-              <span className="text-xs font-bold tracking-widest uppercase text-ct-teal bg-ct-teal-subtle px-3 py-1 rounded-full w-fit mb-6">
-                Platform
-              </span>
+              <div className="flex items-start justify-between mb-6">
+                <span className="text-xs font-bold tracking-widest uppercase text-ct-teal bg-ct-teal-subtle px-3 py-1 rounded-full">
+                  Platform
+                </span>
+                <Image src="/assets/icons/transparent_Analysis_2.png" alt="" width={64} height={64} className="-mt-2 -mr-2" />
+              </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">ANALYTIQ</h3>
               <p className="text-gray-600 leading-relaxed flex-1 mb-8">
                 Our proprietary analytics platform. Self-serve data and AI-powered insights built specifically for
