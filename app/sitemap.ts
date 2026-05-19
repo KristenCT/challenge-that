@@ -15,5 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/insights/crm-stalled`,              priority: 0.6, changeFrequency: 'monthly' },
     { url: `${base}/insights/tier-model`,               priority: 0.6, changeFrequency: 'monthly' },
     { url: `${base}/insights/data-gaps`,                priority: 0.6, changeFrequency: 'monthly' },
+    { url: `${base}/privacy`,                           priority: 0.3, changeFrequency: 'yearly'  },
+    { url: `${base}/terms`,                             priority: 0.3, changeFrequency: 'yearly'  },
   ]
 }
