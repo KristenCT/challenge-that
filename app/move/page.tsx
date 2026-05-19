@@ -29,15 +29,15 @@ export default function Move() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-ct-dark py-24 lg:py-32">
+      <section className="bg-white py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <p className="text-ct-teal text-xs font-bold tracking-widest uppercase mb-4">The Book</p>
-              <h1 className="text-4xl lg:text-5xl font-bold text-white mb-6" style={{ fontFamily: 'var(--font-serif)' }}>
+              <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6" style={{ fontFamily: 'var(--font-serif)' }}>
                 The missing manual your CRM vendor never gave you.
               </h1>
-              <p className="text-lg text-gray-300 leading-relaxed mb-10">
+              <p className="text-lg text-gray-600 leading-relaxed mb-10">
                 The MOVE Methodology is a four-step framework for aligning CRM strategy, operations, and technology &mdash; giving your whole team a common language and a clear system that actually gets used. Used across industries, and right at home in hospitality.
               </p>
               <Link
