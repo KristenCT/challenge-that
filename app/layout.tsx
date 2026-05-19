@@ -2,7 +2,6 @@ import type { Metadata } from 'next'
 import { Geist, Libre_Baskerville } from 'next/font/google'
 import './globals.css'
 import Nav from './components/Nav'
-import Image from 'next/image'
 import Link from 'next/link'
 
 const geist = Geist({
@@ -45,11 +44,10 @@ function Footer() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
-            <Image
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
               src="/assets/icons/White-logo-blue.png"
               alt="Challenge That"
-              width={120}
-              height={120}
               className="h-14 w-auto mb-4"
             />
             <p className="text-sm leading-relaxed">
