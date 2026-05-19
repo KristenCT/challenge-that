@@ -46,14 +46,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geist.variable} ${libreBaskerville.variable} h-full`}>
-      <body className="min-h-full flex flex-col font-sans antialiased">
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-YDE23DLSGX" strategy="afterInteractive" />
-        <Script id="google-analytics" strategy="afterInteractive">{`
+      <head>
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-YDE23DLSGX" strategy="beforeInteractive" />
+        <Script id="google-analytics" strategy="beforeInteractive">{`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', 'G-YDE23DLSGX');
         `}</Script>
+      </head>
+      <body className="min-h-full flex flex-col font-sans antialiased">
         <Nav />
         <main className="flex-1">{children}</main>
         <Footer />
