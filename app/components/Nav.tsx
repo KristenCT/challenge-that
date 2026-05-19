@@ -27,7 +27,7 @@ export default function Nav() {
             </Link>
             <Link href="/analytiq" className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors flex items-center">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/assets/icons/analytiq-teal-grey-full.svg" alt="ANALYTIQ" className="h-4 w-auto" />
+              <img src="/assets/icons/analytiq-teal-grey-full.svg" alt="ANALYTIQ" className="h-5 w-auto" />
             </Link>
             <Link href="/insights" className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors">
               Insights
@@ -73,7 +73,7 @@ export default function Nav() {
             </Link>
             <Link href="/analytiq" className="text-sm font-medium text-gray-700 py-1 flex items-center" onClick={() => setOpen(false)}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/assets/icons/analytiq-teal-grey-full.svg" alt="ANALYTIQ" className="h-4 w-auto" />
+              <img src="/assets/icons/analytiq-teal-grey-full.svg" alt="ANALYTIQ" className="h-5 w-auto" />
             </Link>
             <Link href="/insights" className="text-sm font-medium text-gray-700 py-1" onClick={() => setOpen(false)}>
               Insights
