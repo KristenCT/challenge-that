@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import ScrollReveal from '../components/ScrollReveal'
 
 export const metadata: Metadata = {
   title: 'About | Challenge That',
@@ -67,7 +68,7 @@ export default function About() {
       {/* Credentials */}
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="max-w-3xl">
+          <ScrollReveal className="max-w-3xl">
             <p className="text-ct-teal text-xs font-bold tracking-widest uppercase mb-4">Our credentials</p>
             <h2 className="text-2xl font-bold text-gray-900 mb-6">40+ years of combined experience.</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
@@ -75,7 +76,7 @@ export default function About() {
               gaming, land-based casinos, and Australian pubs and clubs. We specialise in three disciplines that work
               best when they work together: Marketing Strategy, CRM and loyalty, and Data Analysis.
             </p>
-          </div>
+          </ScrollReveal>
         </div>
       </section>
 
@@ -86,12 +87,14 @@ export default function About() {
             <h2 className="text-2xl font-bold text-gray-900 mb-8">What makes us different.</h2>
             <div className="space-y-4">
               {differentiators.map((item, i) => (
-                <div key={i} className="flex gap-5 p-6 bg-white rounded-xl border border-gray-100">
-                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-ct-teal-subtle flex items-center justify-center text-ct-teal font-bold text-sm">
-                    {i + 1}
+                <ScrollReveal key={i} delay={i * 80}>
+                  <div className="flex gap-5 p-6 bg-white rounded-xl border border-gray-100 card-lift">
+                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-ct-teal-subtle flex items-center justify-center text-ct-teal font-bold text-sm">
+                      {i + 1}
+                    </div>
+                    <p className="text-gray-700 leading-relaxed">{item}</p>
                   </div>
-                  <p className="text-gray-700 leading-relaxed">{item}</p>
-                </div>
+                </ScrollReveal>
               ))}
             </div>
           </div>
@@ -152,8 +155,9 @@ export default function About() {
           <p className="text-ct-teal text-xs font-bold tracking-widest uppercase mb-4">The people behind it</p>
           <h2 className="text-2xl font-bold text-gray-900 mb-12">Meet the team.</h2>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
-            {team.map((person) => (
-              <div key={person.name} className="flex flex-col">
+            {team.map((person, i) => (
+              <ScrollReveal key={person.name} delay={i * 100}>
+              <div className="flex flex-col">
                 <div className="w-full aspect-square relative rounded-2xl overflow-hidden mb-6 bg-gray-100">
                   <Image
                     src={person.photo}
@@ -180,6 +184,7 @@ export default function About() {
                   ))}
                 </div>
               </div>
+              </ScrollReveal>
             ))}
           </div>
         </div>

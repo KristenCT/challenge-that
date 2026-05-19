@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import ScrollReveal from '../components/ScrollReveal'
 
 export const metadata: Metadata = {
   title: 'Insights | Challenge That',
@@ -83,6 +84,7 @@ export default function Insights() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
 
           {/* Featured */}
+          <ScrollReveal>
           <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-6">Featured article</p>
           <Link href={`/insights/${featured.slug}`} className="group block mb-16">
             <div className="grid grid-cols-1 lg:grid-cols-2 border border-gray-100 rounded-2xl overflow-hidden hover:border-gray-300 transition-colors">
@@ -126,12 +128,14 @@ export default function Insights() {
               </div>
             </div>
           </Link>
+          </ScrollReveal>
 
           {/* Rest */}
           <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-6">More articles</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {rest.map((article) => (
-              <Link key={article.slug} href={`/insights/${article.slug}`} className="group block border border-gray-100 rounded-2xl overflow-hidden hover:border-gray-300 transition-colors">
+            {rest.map((article, i) => (
+              <ScrollReveal key={article.slug} delay={i * 80}>
+              <Link href={`/insights/${article.slug}`} className="group block border border-gray-100 rounded-2xl overflow-hidden hover:border-gray-300 transition-colors card-lift h-full">
                 <div className={`h-1 ${bandStyles[article.tagColor]}`} />
                 <div className="p-6">
                   <span className={`inline-block text-xs font-semibold uppercase tracking-wider px-2.5 py-1 rounded-full mb-4 ${tagStyles[article.tagColor]}`}>
@@ -147,6 +151,7 @@ export default function Insights() {
                   </div>
                 </div>
               </Link>
+              </ScrollReveal>
             ))}
           </div>
         </div>

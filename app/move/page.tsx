@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import ScrollReveal from '../components/ScrollReveal'
 
 export const metadata: Metadata = {
   title: 'The MOVE Methodology | Challenge That',
@@ -65,7 +66,7 @@ export default function Move() {
       {/* About the Book */}
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="max-w-3xl">
+          <ScrollReveal className="max-w-3xl">
             <p className="text-ct-teal text-xs font-bold tracking-widest uppercase mb-4">About the book</p>
             <h2 className="text-3xl font-bold text-gray-900 mb-8">
               Most CRM projects fail quietly.
@@ -81,7 +82,7 @@ export default function Move() {
                 Complete with practical frameworks and ready-to-use templates, this is the book that turns your CRM from a cost centre into a genuine competitive advantage.
               </p>
             </div>
-          </div>
+          </ScrollReveal>
         </div>
       </section>
 
@@ -93,8 +94,9 @@ export default function Move() {
             Written by practitioners, not theorists.
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {authors.map((author) => (
-              <div key={author.name} className="bg-white rounded-2xl border border-gray-100 p-8">
+            {authors.map((author, i) => (
+              <ScrollReveal key={author.name} delay={i * 100}>
+              <div className="bg-white rounded-2xl border border-gray-100 p-8 card-lift h-full">
                 <div className="w-12 h-12 rounded-full bg-ct-teal-subtle flex items-center justify-center mb-5">
                   <span className="text-sm font-bold text-ct-teal">
                     {author.name.split(' ').map((n: string) => n[0]).join('')}
@@ -104,6 +106,7 @@ export default function Move() {
                 <p className="text-ct-teal font-medium text-sm mb-4">{author.role}</p>
                 <p className="text-gray-600 text-sm leading-relaxed">{author.bio}</p>
               </div>
+              </ScrollReveal>
             ))}
           </div>
         </div>

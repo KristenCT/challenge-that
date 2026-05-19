@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import TestimonialCarousel from '../components/TestimonialCarousel'
+import ScrollReveal from '../components/ScrollReveal'
 
 export const metadata: Metadata = {
   title: 'Our Work | Challenge That',
@@ -107,7 +108,8 @@ export default function Work() {
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 space-y-24">
           {caseStudies.map((cs, i) => (
-            <div key={cs.client} className={`grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start ${i % 2 === 1 ? 'lg:[direction:rtl]' : ''}`}>
+            <ScrollReveal key={cs.client}>
+            <div className={`grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start ${i % 2 === 1 ? 'lg:[direction:rtl]' : ''}`}>
 
               {/* Left: Details */}
               <div className={i % 2 === 1 ? 'lg:[direction:ltr]' : ''}>
@@ -182,6 +184,7 @@ export default function Work() {
 
               </div>
             </div>
+            </ScrollReveal>
           ))}
         </div>
       </section>
