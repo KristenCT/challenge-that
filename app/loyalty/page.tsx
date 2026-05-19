@@ -105,30 +105,6 @@ const lifecycleStages = [
   { number: '05', title: 'Reactivation', desc: 'Re-engage lapsed members before they\'re gone for good' },
 ]
 
-const team = [
-  {
-    initials: 'FN',
-    name: 'Fiona Nilsson',
-    role: 'Marketing & Strategy',
-    bio: 'Experienced Marketing Director with a track record building commercial and marketing strategies across category growth, acquisition and retention. Fiona\'s the strategist - she ensures what we build is grounded in commercial reality.',
-    skills: ['Strategy', 'Revenue operations', 'CRM', 'Digital marketing', 'Loyalty'],
-  },
-  {
-    initials: 'KM',
-    name: 'Kristen Makin',
-    role: 'CRM & Loyalty',
-    bio: 'CRM specialist with deep expertise in loyalty program design, VIP programs and marketing technology transformation. Kristen is the architect of the programs we design and the platforms we configure.',
-    skills: ['CRM', 'Loyalty design', 'Salesforce', 'Marketing automation', 'Personalisation'],
-  },
-  {
-    initials: 'AG',
-    name: 'Ankur Ghai',
-    role: 'Data & Analytics',
-    bio: 'Data scientist who specialises in translating complex data into business decisions. Ankur builds the data infrastructure - warehousing, ETL pipelines and predictive CRM models - that makes personalisation at scale possible.',
-    skills: ['Data science', 'Tableau', 'Power BI', 'Python', 'ETL', 'Predictive modelling'],
-  },
-]
-
 export default function Loyalty() {
   return (
     <>
@@ -314,37 +290,6 @@ export default function Loyalty() {
                 and want an independent view, that&rsquo;s exactly what we&rsquo;re here for.
               </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Meet The Team */}
-      <section className="bg-gray-50 py-20">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">The people you&rsquo;ll work with.</h2>
-          <p className="text-lg text-gray-600 max-w-3xl mb-12">
-            We&rsquo;re a focused team of three specialists who between us cover the full scope of hospitality CRM
-            - from commercial strategy through to data science. You work directly with us, not with a junior team
-            managed from a distance.
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {team.map((member) => (
-              <div key={member.name} className="bg-white rounded-2xl border border-gray-100 p-8">
-                <div className="w-16 h-16 rounded-full bg-ct-slate-subtle flex items-center justify-center mb-6">
-                  <span className="text-lg font-bold text-ct-slate">{member.initials}</span>
-                </div>
-                <h3 className="font-bold text-gray-900 text-lg">{member.name}</h3>
-                <p className="text-ct-slate font-medium text-sm mb-4">{member.role}</p>
-                <p className="text-gray-600 text-sm leading-relaxed mb-6">{member.bio}</p>
-                <div className="flex flex-wrap gap-2">
-                  {member.skills.map((skill) => (
-                    <span key={skill} className="text-xs text-ct-slate italic">
-                      {skill}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            ))}
           </div>
         </div>
       </section>
