@@ -313,6 +313,18 @@ export default function Analytiq() {
               </div>
             </ScrollReveal>
           </div>
+          <ScrollReveal delay={60} className="mt-8">
+            <div>
+              <Image
+                src="/assets/analytiq/aiquerydashboard.png"
+                alt="ANALYTIQ AI query engine"
+                width={2904}
+                height={1714}
+                className="w-full h-auto rounded-xl shadow-md border border-gray-100"
+              />
+              <p className="mt-3 text-sm text-gray-500 text-center">The AI query engine - type a question, get a structured table back in seconds.</p>
+            </div>
+          </ScrollReveal>
         </div>
       </section>
 
