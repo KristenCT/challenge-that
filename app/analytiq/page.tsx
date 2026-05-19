@@ -287,7 +287,8 @@ export default function Analytiq() {
             ANALYTIQ gives every member of your team a clear, real-time view of the metrics that matter to their role.
             No training required. No analyst middleman.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+            {/* Left: gaming dashboard (tall) */}
             <ScrollReveal>
               <div>
                 <Image
@@ -300,7 +301,8 @@ export default function Analytiq() {
                 <p className="mt-3 text-sm text-gray-500 text-center">Gaming overview - turnover, visits, and year-on-year comparison at a glance.</p>
               </div>
             </ScrollReveal>
-            <ScrollReveal delay={60}>
+            {/* Right: member + AI query stacked */}
+            <ScrollReveal delay={60} className="flex flex-col gap-8">
               <div>
                 <Image
                   src="/assets/analytiq/memberdashboard.png"
@@ -311,20 +313,18 @@ export default function Analytiq() {
                 />
                 <p className="mt-3 text-sm text-gray-500 text-center">Member intelligence - active, inactive and lapsed members by tier, with ADT and visit frequency.</p>
               </div>
+              <div>
+                <Image
+                  src="/assets/analytiq/aiquerydashboard.png"
+                  alt="ANALYTIQ AI query engine"
+                  width={2904}
+                  height={1714}
+                  className="w-full h-auto rounded-xl shadow-md border border-gray-100"
+                />
+                <p className="mt-3 text-sm text-gray-500 text-center">The AI query engine - type a question, get a structured table back in seconds.</p>
+              </div>
             </ScrollReveal>
           </div>
-          <ScrollReveal delay={60} className="mt-8">
-            <div>
-              <Image
-                src="/assets/analytiq/aiquerydashboard.png"
-                alt="ANALYTIQ AI query engine"
-                width={2904}
-                height={1714}
-                className="w-full h-auto rounded-xl shadow-md border border-gray-100"
-              />
-              <p className="mt-3 text-sm text-gray-500 text-center">The AI query engine - type a question, get a structured table back in seconds.</p>
-            </div>
-          </ScrollReveal>
         </div>
       </section>
 
