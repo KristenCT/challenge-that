@@ -58,7 +58,7 @@ export default function About() {
       <section className="bg-ct-dark py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-3xl">
-            <h1 className="text-4xl lg:text-5xl font-bold text-white mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
               We&rsquo;ve sat in the seat you&rsquo;re in.
             </h1>
             <p className="text-lg text-gray-300 leading-relaxed">
@@ -111,7 +111,7 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <p className="text-ct-teal text-xs font-bold tracking-widest uppercase mb-4">The people behind it</p>
           <h2 className="text-2xl font-bold text-gray-900 mb-12">Meet the team.</h2>
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
             {team.map((person, i) => (
               <ScrollReveal key={person.name} delay={i * 100}>
               <div className="flex flex-col">

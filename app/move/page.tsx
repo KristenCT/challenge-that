@@ -37,10 +37,10 @@ export default function Move() {
       {/* Hero */}
       <section className="bg-white py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
             <div>
               <p className="text-ct-teal text-xs font-bold tracking-widest uppercase mb-4">The Book</p>
-              <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
                 The missing manual your CRM vendor never gave you.
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed mb-10">
@@ -61,7 +61,7 @@ export default function Move() {
                 alt="The MOVE Methodology - The Missing Manual for CRM"
                 width={340}
                 height={440}
-                className="drop-shadow-2xl"
+                className="drop-shadow-2xl max-w-[260px] sm:max-w-none"
               />
             </div>
           </div>

@@ -23,10 +23,10 @@ export default function Home() {
             <p className="hero-1 text-xs font-bold tracking-widest uppercase text-ct-teal mb-6">
               Australian Hospitality Specialists
             </p>
-            <h1 className="hero-2 text-5xl lg:text-6xl font-bold text-gray-900 leading-tight tracking-tight mb-6">
+            <h1 className="hero-2 text-3xl sm:text-4xl lg:text-6xl font-bold text-gray-900 leading-tight tracking-tight mb-6">
               Customer &amp; Loyalty Specialists for the Hospitality Industry.
             </h1>
-            <p className="hero-3 text-xl text-gray-600 leading-relaxed mb-10">
+            <p className="hero-3 text-base sm:text-xl text-gray-600 leading-relaxed mb-10">
               We help pubs, clubs and leisure venues understand their customers, build smarter loyalty strategies, and
               unlock the data already sitting in their systems.
             </p>
@@ -52,7 +52,7 @@ export default function Home() {
       <section className="bg-gray-50 py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <ScrollReveal className="max-w-3xl">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
               Most venues are missing opportunities - without knowing it.
             </h2>
             <div className="space-y-4 text-lg text-gray-600 leading-relaxed">

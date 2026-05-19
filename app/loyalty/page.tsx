@@ -115,10 +115,10 @@ export default function Loyalty() {
             <p className="text-xs font-bold tracking-widest uppercase text-ct-slate mb-6">
               Loyalty &amp; CRM Consulting
             </p>
-            <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight tracking-tight mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-gray-900 leading-tight tracking-tight mb-6">
               Loyalty that starts with your customers - not your platform.
             </h1>
-            <p className="text-xl text-gray-700 leading-relaxed mb-4">
+            <p className="text-base sm:text-xl text-gray-700 leading-relaxed mb-4">
               We&rsquo;re platform-agnostic. That means our advice is grounded in what&rsquo;s right for your venue,
               your team and your members - not what earns a commission or locks you in.
             </p>

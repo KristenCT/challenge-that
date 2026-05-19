@@ -75,7 +75,7 @@ export default function Insights() {
       <section className="bg-ct-dark py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <p className="text-ct-teal-light text-xs font-bold tracking-widest uppercase mb-4">Insights</p>
-          <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4 max-w-2xl">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 max-w-2xl">
             The loyalty and CRM problems nobody warns you about
           </h1>
           <p className="text-lg text-gray-300 max-w-xl leading-relaxed">
@@ -94,7 +94,7 @@ export default function Insights() {
           <Link href={`/insights/${featured.slug}`} className="group block mb-16">
             <div className="grid grid-cols-1 lg:grid-cols-2 border border-gray-100 rounded-2xl overflow-hidden hover:border-gray-300 transition-colors">
               {/* Visual */}
-              <div className="bg-gray-50 p-10 flex items-center">
+              <div className="bg-gray-50 p-6 lg:p-10 flex items-center">
                 <div className="w-full space-y-3">
                   {[
                     { label: 'Gold members engaged', pct: 23, color: 'bg-ct-slate' },
@@ -102,7 +102,7 @@ export default function Insights() {
                     { label: 'Bronze members engaged', pct: 9, color: 'bg-ct-gray-light' },
                   ].map((row) => (
                     <div key={row.label} className="flex items-center gap-3">
-                      <span className="text-xs text-gray-500 w-44 shrink-0">{row.label}</span>
+                      <span className="text-xs text-gray-500 w-28 sm:w-44 shrink-0">{row.label}</span>
                       <div className="flex-1 h-2 bg-gray-200 rounded-full overflow-hidden">
                         <div className={`h-full rounded-full ${row.color}`} style={{ width: `${row.pct * 2}%` }} />
                       </div>

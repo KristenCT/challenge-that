@@ -159,7 +159,7 @@ export default function Analytiq() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/assets/icons/analytiq-teal-grey-full.svg" alt="ANALYTIQ" className="h-10 w-auto mb-6" />
             <p className="text-xs font-bold tracking-widest uppercase text-ct-teal mb-6">Analytics Platform</p>
-            <h1 className="text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold leading-tight tracking-tight mb-6">
               <span className="text-gray-900">Every venue has data.</span>
               <br />
               <span className="text-ct-teal">Almost none can use it.</span>
@@ -339,7 +339,7 @@ export default function Analytiq() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {roles.map((role) => (
               <div key={role.title} className="bg-ct-teal-subtle border border-ct-teal-subtle rounded-xl p-7 flex items-start gap-6">
-                <Image src={role.icon} alt="" width={72} height={72} className="w-32 h-32 object-contain shrink-0" />
+                <Image src={role.icon} alt="" width={72} height={72} className="w-16 h-16 sm:w-24 sm:h-24 md:w-32 md:h-32 object-contain shrink-0" />
                 <div>
                   <h3 className="font-semibold text-ct-teal-mid mb-2">{role.title}</h3>
                   <p className="text-sm text-gray-600 leading-relaxed">{role.body}</p>

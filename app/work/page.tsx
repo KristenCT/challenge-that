@@ -99,7 +99,7 @@ export default function Work() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-ct-teal text-xs font-bold tracking-widest uppercase mb-4">Our work</p>
-            <h1 className="text-4xl lg:text-5xl font-bold text-white mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
               Results that speak for themselves.
             </h1>
             <p className="text-lg text-gray-300 leading-relaxed">
