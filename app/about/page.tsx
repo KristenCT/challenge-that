@@ -52,7 +52,7 @@ export default function About() {
       <section className="bg-ct-dark py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-3xl">
-            <h1 className="text-4xl lg:text-5xl font-bold text-white mb-6">
+            <h1 className="text-4xl lg:text-5xl font-bold text-white mb-6" style={{ fontFamily: 'var(--font-serif)' }}>
               We&rsquo;ve sat in the seat you&rsquo;re in.
             </h1>
             <p className="text-lg text-gray-300 leading-relaxed">
@@ -172,30 +172,27 @@ export default function About() {
       </section>
 
       {/* CTA */}
-      <section className="bg-white py-20">
+      <section className="bg-ct-dark py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-2xl">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">Ready to work together?</h2>
-            <p className="text-gray-600 mb-8">
-              Whether you&rsquo;re looking for loyalty strategy consulting or the ANALYTIQ analytics platform, we
-              &rsquo;re here to help.
+            <h2 className="text-2xl font-bold text-white mb-4">Ready to work together?</h2>
+            <p className="text-ct-gray-mid mb-8 leading-relaxed">
+              Whether you&rsquo;re looking for loyalty strategy consulting or the ANALYTIQ analytics platform, the first conversation is free.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
                 href="https://calendly.com/challenge-that/introduction"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 py-3 bg-ct-slate text-white font-medium rounded-lg hover:bg-ct-slate-dark transition-colors"
+                className="px-6 py-3 bg-white text-ct-dark font-semibold rounded-lg hover:bg-ct-slate-subtle transition-colors"
               >
-                Talk to us about loyalty
+                Book a free consultation
               </Link>
               <Link
-                href="https://calendly.com/challenge-that/introduction"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-6 py-3 bg-ct-teal text-white font-medium rounded-lg hover:bg-ct-teal-mid transition-colors"
+                href="/work"
+                className="px-6 py-3 border border-gray-600 text-white font-medium rounded-lg hover:border-gray-400 transition-colors"
               >
-                Book an ANALYTIQ demo
+                See our work →
               </Link>
             </div>
           </div>

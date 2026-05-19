@@ -66,7 +66,7 @@ export default function Insights() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-ct-dark py-16 lg:py-20">
+      <section className="bg-ct-dark py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <p className="text-ct-teal-light text-xs font-bold tracking-widest uppercase mb-4">Insights</p>
           <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4 max-w-2xl" style={{ fontFamily: 'var(--font-serif)' }}>
