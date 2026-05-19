@@ -46,10 +46,10 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
             <Image
-              src="/assets/logos/CT-logo-transparrent.png"
+              src="/assets/icons/White-logo-blue.png"
               alt="Challenge That"
-              width={100}
-              height={100}
+              width={120}
+              height={120}
               className="h-14 w-auto mb-4"
             />
             <p className="text-sm leading-relaxed">
