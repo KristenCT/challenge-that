@@ -150,6 +150,8 @@ export default function Analytiq() {
       <section className="bg-white py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-4xl">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/assets/icons/analytiq-teal-grey-full.svg" alt="ANALYTIQ" className="h-10 w-auto mb-6" />
             <p className="text-xs font-bold tracking-widest uppercase text-ct-teal mb-6">Analytics Platform</p>
             <h1 className="text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-6">
               <span className="text-gray-900">Every venue has data.</span>

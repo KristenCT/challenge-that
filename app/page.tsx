@@ -99,7 +99,10 @@ export default function Home() {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src="/assets/icons/transparent_Analysis_2.png" alt="" width={144} height={144} style={{ marginTop: '-24px', marginRight: '-24px' }} />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">ANALYTIQ</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/assets/icons/analytiq-teal-grey-full.svg" alt="ANALYTIQ" className="h-7 w-auto" />
+              </h3>
               <p className="text-gray-600 leading-relaxed flex-1 mb-8">
                 Our proprietary analytics platform. Self-serve data and AI-powered insights built specifically for
                 hospitality teams. No analysts required.
