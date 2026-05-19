@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const painCards = [
   {
     title: 'Reports arrive too late',
-    body: 'By the time you see last week’s numbers, you’ve already made the decisions.',
+    body: 'By the time you see last week's numbers, you've already made the decisions.',
   },
   {
     title: 'Dashboards need analysts',
@@ -31,7 +31,7 @@ const painCards = [
   },
   {
     title: 'Members are a mystery',
-    body: 'You know your top members exist. You just can’t identify, segment or act on them quickly enough.',
+    body: 'You know your top members exist. You just can't identify, segment or act on them quickly enough.',
   },
 ]
 
@@ -50,7 +50,7 @@ const features = [
   },
   {
     title: 'F&B reporting',
-    body: 'Venue-level filtering to compare performance across multiple restaurants or bars. Top and bottom items by revenue. Year-on-year comparison so you can see what’s growing and what isn’t.',
+    body: 'Venue-level filtering to compare performance across multiple restaurants or bars. Top and bottom items by revenue. Year-on-year comparison so you can see what's growing and what isn't.',
   },
   {
     title: 'Tier movement',
@@ -75,31 +75,31 @@ const queryExamples = [
   },
   {
     type: 'Churn detection',
-    question: 'Which high-value customers visited in 2025 but haven’t been in since January 2026?',
+    question: 'Which high-value customers visited in 2025 but haven't been in since January 2026?',
     result: 'Returns lapsed high-value members with their full 2025 turnover — ready for your reactivation campaign.',
   },
 ]
 
 const roles = [
   {
-    icon: ‘/assets/icons/Dashboard.png’,
-    title: ‘Head of Marketing / CRM Lead’,
-    body: ‘Full dashboard access plus the AI query engine. Answers member questions in minutes that used to take days. Runs ad hoc analysis without raising a request or waiting for a data team.’,
+    icon: '/assets/icons/Dashboard.png',
+    title: 'Head of Marketing / CRM Lead',
+    body: 'Full dashboard access plus the AI query engine. Answers member questions in minutes that used to take days. Runs ad hoc analysis without raising a request or waiting for a data team.',
   },
   {
-    icon: ‘/assets/icons/Analysis.png.png’,
-    title: ‘Venue Manager’,
-    body: ‘Daily performance view for their venue: gaming, F&B, member activity — without waiting for a report to be sent or logging into a system IT need to manage.’,
+    icon: '/assets/icons/Analysis.png.png',
+    title: 'Venue Manager',
+    body: 'Daily performance view for their venue: gaming, F&B, member activity — without waiting for a report to be sent or logging into a system IT need to manage.',
   },
   {
-    icon: ‘/assets/icons/Segmentation.png.png’,
-    title: ‘Operations / F&B Head’,
-    body: ‘Revenue by category, top and bottom performers, period comparisons — without touching a spreadsheet. Filters to their venue or area so they see what’s relevant.’,
+    icon: '/assets/icons/Segmentation.png.png',
+    title: 'Operations / F&B Head',
+    body: 'Revenue by category, top and bottom performers, period comparisons — without touching a spreadsheet. Filters to their venue or area so they see what's relevant.',
   },
   {
-    icon: ‘/assets/icons/Engage.png.png’,
-    title: ‘Multi-Venue groups’,
-    body: ‘Global view across all sites. Filter to any single venue in one click. Compare performance across the estate without building a separate consolidation report every time.’,
+    icon: '/assets/icons/Engage.png.png',
+    title: 'Multi-Venue groups',
+    body: 'Global view across all sites. Filter to any single venue in one click. Compare performance across the estate without building a separate consolidation report every time.',
   },
 ]
 
@@ -126,7 +126,7 @@ const connectionTiles = [
   },
   {
     title: 'Built by venue marketers',
-    body: 'Every feature was designed by people who’ve worked in Australian pubs and clubs.',
+    body: 'Every feature was designed by people who've worked in Australian pubs and clubs.',
   },
 ]
 
