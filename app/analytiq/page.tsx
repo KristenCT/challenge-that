@@ -287,30 +287,31 @@ export default function Analytiq() {
             ANALYTIQ gives every member of your team a clear, real-time view of the metrics that matter to their role.
             No training required. No analyst middleman.
           </p>
-          <div className="space-y-6">
-            {[
-              {
-                label: 'Gaming overview dashboard',
-                caption: 'Gaming overview - turnover, visits, and year-on-year comparison at a glance.',
-              },
-              {
-                label: 'Member tier breakdown',
-                caption:
-                  'Member intelligence - active, inactive and lapsed members by tier, with ADT and visit frequency.',
-              },
-              {
-                label: 'AI query interface',
-                caption: 'The AI query engine - type a question, get a structured table back in seconds.',
-              },
-            ].map((item) => (
-              <div
-                key={item.label}
-                className="rounded-xl border-2 border-dashed border-ct-teal-subtle bg-ct-teal-subtle p-16 text-center"
-              >
-                <p className="font-medium text-ct-teal mb-1">{item.label}</p>
-                <p className="text-sm text-ct-teal-light">{item.caption}</p>
+          <div className="space-y-10">
+            <ScrollReveal>
+              <div>
+                <Image
+                  src="/assets/analytiq/gamingdashboard.png"
+                  alt="ANALYTIQ gaming overview dashboard"
+                  width={2904}
+                  height={3268}
+                  className="w-full h-auto rounded-2xl shadow-lg border border-gray-100"
+                />
+                <p className="mt-3 text-sm text-gray-500 text-center">Gaming overview - turnover, visits, and year-on-year comparison at a glance.</p>
               </div>
-            ))}
+            </ScrollReveal>
+            <ScrollReveal delay={60}>
+              <div>
+                <Image
+                  src="/assets/analytiq/memberdashboard.png"
+                  alt="ANALYTIQ member intelligence dashboard"
+                  width={2904}
+                  height={1852}
+                  className="w-full h-auto rounded-2xl shadow-lg border border-gray-100"
+                />
+                <p className="mt-3 text-sm text-gray-500 text-center">Member intelligence - active, inactive and lapsed members by tier, with ADT and visit frequency.</p>
+              </div>
+            </ScrollReveal>
           </div>
         </div>
       </section>
