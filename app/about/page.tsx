@@ -106,54 +106,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* Published Work */}
-      <section className="bg-white py-20">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <p className="text-ct-teal text-xs font-bold tracking-widest uppercase mb-4">Published work</p>
-          <h2 className="text-2xl font-bold text-gray-900 mb-10">The MOVE Methodology.</h2>
-          <div className="flex flex-col md:flex-row gap-10 items-center bg-gray-50 rounded-2xl p-8 md:p-10">
-            <div className="shrink-0">
-              <Image
-                src="/assets/icons/transparent_book_cover.png"
-                alt="The MOVE Methodology - The Missing Manual for CRM"
-                width={180}
-                height={230}
-                className="drop-shadow-xl"
-              />
-            </div>
-            <div className="flex-1">
-              <h3 className="text-xl font-bold text-gray-900 mb-1">The MOVE Methodology</h3>
-              <p className="text-ct-teal font-medium text-sm mb-4">The Missing Manual for CRM</p>
-              <p className="text-gray-600 leading-relaxed mb-4">
-                A practical four-step framework for aligning CRM strategy, operations, and technology - giving your whole team a common language and a clear system that actually gets used. Complete with practical frameworks and ready-to-use templates.
-              </p>
-              <p className="text-sm text-gray-500 mb-6">
-                Co-authored by <span className="font-semibold text-gray-700">Ian Sampson</span>, <span className="font-semibold text-gray-700">Kristen Makin</span> and <span className="font-semibold text-gray-700">Fiona Nilsson</span>.
-              </p>
-              <div className="flex flex-wrap gap-3">
-                <Link
-                  href="/move"
-                  className="inline-flex items-center gap-2 px-5 py-2.5 bg-ct-dark text-white font-medium text-sm rounded-lg hover:opacity-80 transition-opacity"
-                >
-                  About the book
-                </Link>
-                <Link
-                  href="https://www.amazon.com.au/MOVE-Methodology-Missing-Manual-CRM/dp/192327743X/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-5 py-2.5 border border-gray-300 text-gray-700 font-medium text-sm rounded-lg hover:border-gray-400 transition-colors"
-                >
-                  Buy on Amazon
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-                  </svg>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Meet the Team */}
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
