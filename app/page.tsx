@@ -18,7 +18,7 @@ export default function Home() {
               Australian Hospitality Specialists
             </p>
             <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight tracking-tight mb-6">
-              Australia&rsquo;s hospitality customer and loyalty specialists.
+              Customer &amp; Loyalty Specialists for the Hospitality Industry.
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed mb-10">
               We help pubs, clubs and leisure venues understand their customers, build smarter loyalty strategies, and
