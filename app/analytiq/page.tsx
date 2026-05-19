@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import ScrollReveal from '../components/ScrollReveal'
 
 export const metadata: Metadata = {
   title: 'ANALYTIQ | Challenge That',
@@ -192,11 +193,13 @@ export default function Analytiq() {
           <h2 className="text-3xl font-bold text-gray-900 mb-2">Sound familiar?</h2>
           <p className="text-gray-500 mb-12">The problems we hear most from venues like yours.</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-            {painCards.map((card) => (
-              <div key={card.title} className="bg-white rounded-xl border border-gray-100 p-6 shadow-sm">
-                <h3 className="font-semibold text-gray-900 mb-2">{card.title}</h3>
-                <p className="text-sm text-gray-600 leading-relaxed">{card.body}</p>
-              </div>
+            {painCards.map((card, i) => (
+              <ScrollReveal key={card.title} delay={i * 60}>
+                <div className="bg-white rounded-xl border border-gray-100 p-6 shadow-sm card-lift h-full">
+                  <h3 className="font-semibold text-gray-900 mb-2">{card.title}</h3>
+                  <p className="text-sm text-gray-600 leading-relaxed">{card.body}</p>
+                </div>
+              </ScrollReveal>
             ))}
           </div>
         </div>
@@ -217,11 +220,13 @@ export default function Analytiq() {
             <p className="text-gray-500 mt-4">Five core areas, available at go-live:</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {features.map((f) => (
-              <div key={f.title} className="rounded-xl border border-gray-100 bg-gray-50 p-7">
-                <h3 className="font-semibold text-ct-teal mb-2">{f.title}</h3>
-                <p className="text-sm text-gray-600 leading-relaxed">{f.body}</p>
-              </div>
+            {features.map((f, i) => (
+              <ScrollReveal key={f.title} delay={i * 60}>
+                <div className="rounded-xl border border-gray-100 bg-gray-50 p-7 card-lift h-full">
+                  <h3 className="font-semibold text-ct-teal mb-2">{f.title}</h3>
+                  <p className="text-sm text-gray-600 leading-relaxed">{f.body}</p>
+                </div>
+              </ScrollReveal>
             ))}
           </div>
         </div>

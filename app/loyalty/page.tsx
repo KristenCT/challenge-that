@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import ScrollReveal from '../components/ScrollReveal'
 
 export const metadata: Metadata = {
   title: 'Loyalty & CRM Strategy | Challenge That',
@@ -266,11 +267,13 @@ export default function Loyalty() {
           </p>
           <p className="text-gray-500 mb-12">Here&rsquo;s what we hear most often from venues like yours:</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-            {problemCards.map((card) => (
-              <div key={card.title} className="bg-ct-slate-subtle border border-ct-slate-subtle rounded-xl p-6">
-                <h3 className="font-semibold text-ct-slate-dark mb-3 leading-snug">{card.title}</h3>
-                <p className="text-sm text-gray-600 leading-relaxed">{card.body}</p>
-              </div>
+            {problemCards.map((card, i) => (
+              <ScrollReveal key={card.title} delay={i * 60}>
+                <div className="bg-ct-slate-subtle border border-ct-slate-subtle rounded-xl p-6 card-lift h-full">
+                  <h3 className="font-semibold text-ct-slate-dark mb-3 leading-snug">{card.title}</h3>
+                  <p className="text-sm text-gray-600 leading-relaxed">{card.body}</p>
+                </div>
+              </ScrollReveal>
             ))}
           </div>
         </div>
@@ -314,12 +317,14 @@ export default function Loyalty() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {services.map((s) => (
-              <div key={s.title} className="bg-ct-slate-subtle border border-ct-slate-subtle rounded-xl p-7">
-                <Image src={s.icon} alt="" width={72} height={72} className="mb-5" />
-                <h3 className="font-semibold text-ct-slate-dark mb-2">{s.title}</h3>
-                <p className="text-sm text-gray-600 leading-relaxed">{s.body}</p>
-              </div>
+            {services.map((s, i) => (
+              <ScrollReveal key={s.title} delay={i * 70}>
+                <div className="bg-ct-slate-subtle border border-ct-slate-subtle rounded-xl p-7 card-lift h-full">
+                  <Image src={s.icon} alt="" width={72} height={72} className="mb-5" />
+                  <h3 className="font-semibold text-ct-slate-dark mb-2">{s.title}</h3>
+                  <p className="text-sm text-gray-600 leading-relaxed">{s.body}</p>
+                </div>
+              </ScrollReveal>
             ))}
           </div>
         </div>
