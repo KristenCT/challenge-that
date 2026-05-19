@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import TestimonialCarousel from '../components/TestimonialCarousel'
 
 export const metadata: Metadata = {
   title: 'Our Work | Challenge That',
@@ -23,6 +24,7 @@ const caseStudies = [
     quote: 'Challenge That provided the strategic leadership we needed to scale and grow The Fraternity Club. Their expertise has driven over 20% year-over-year growth while enhancing member engagement.',
     attribution: 'Glenn Ward',
     role: 'CEO, The Fraternity Club',
+    photo: '/assets/partnerpictures/glenn-ward.png',
   },
   {
     client: 'Mounties Group',
@@ -38,8 +40,9 @@ const caseStudies = [
     ],
     services: ['Data Consolidation', 'Loyalty Program Development', 'Customer Value Proposition', 'Customer Insights & Analysis'],
     quote: 'Challenge That has delivered multiple CRM projects, loyalty program improvements, and Martech selections. Their direct, results-driven approach ensures rapid progress and ROI.',
-    attribution: 'David Callen',
+    attribution: 'Dave Callan',
     role: 'Chief Experience Officer, Mounties Group',
+    photo: '/assets/partnerpictures/dave-callan.jpeg',
   },
   {
     client: 'Mindil Beach Casino & Resort',
@@ -58,6 +61,7 @@ const caseStudies = [
     quote: 'Challenge That provided clarity on customer segmentation through advanced data modeling. Their expertise in UX and technology has been invaluable.',
     attribution: 'Karley McRae',
     role: 'Executive Marketing Manager, MBCR',
+    photo: '/assets/partnerpictures/karley-mcrae.png',
   },
   {
     client: 'Destination NSW',
@@ -77,6 +81,7 @@ const caseStudies = [
     quote: 'Working with Challenge That is a breath of fresh air! Their solutions are practical, actionable, and operationally sound. We need consultants who tell it like it is — and Challenge That delivers.',
     attribution: 'Michaela Aguila',
     role: 'Destination NSW',
+    photo: '/assets/partnerpictures/michaela-aguila.png',
   },
 ]
 
@@ -191,31 +196,21 @@ export default function Work() {
         </div>
       </section>
 
-      {/* Testimonials strip */}
+      {/* Testimonials Carousel */}
       <section className="bg-gray-50 py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <p className="text-ct-teal text-xs font-bold tracking-widest uppercase mb-4">What clients say</p>
-          <h2 className="text-2xl font-bold text-gray-900 mb-12">
+          <p className="text-ct-teal text-xs font-bold tracking-widest uppercase mb-4 text-center">What clients say</p>
+          <h2 className="text-2xl font-bold text-gray-900 mb-14 text-center">
             Straight from the people we work with.
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {caseStudies.map((cs) => (
-              <div key={cs.client} className="bg-white rounded-2xl p-8 border border-gray-100">
-                <p className="text-gray-700 leading-relaxed mb-6 italic" style={{ fontFamily: 'var(--font-serif)' }}>
-                  &ldquo;{cs.quote}&rdquo;
-                </p>
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-ct-teal-subtle flex items-center justify-center text-ct-teal text-sm font-bold">
-                    {cs.attribution.split(' ').map(n => n[0]).join('').slice(0, 2)}
-                  </div>
-                  <div>
-                    <p className="text-sm font-semibold text-gray-900">{cs.attribution}</p>
-                    <p className="text-xs text-gray-500">{cs.role}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+          <TestimonialCarousel
+            testimonials={caseStudies.map(cs => ({
+              quote: cs.quote,
+              attribution: cs.attribution,
+              role: cs.role,
+              photo: cs.photo,
+            }))}
+          />
         </div>
       </section>
 
