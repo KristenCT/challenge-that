@@ -320,7 +320,7 @@ export default function Loyalty() {
             {services.map((s, i) => (
               <ScrollReveal key={s.title} delay={i * 70}>
                 <div className="bg-ct-slate-subtle border border-ct-slate-subtle rounded-xl p-7 card-lift h-full">
-                  <Image src={s.icon} alt="" width={72} height={72} className="mb-5" />
+                  <Image src={s.icon} alt="" width={96} height={96} className="mb-5" />
                   <h3 className="font-semibold text-ct-slate-dark mb-2">{s.title}</h3>
                   <p className="text-sm text-gray-600 leading-relaxed">{s.body}</p>
                 </div>
