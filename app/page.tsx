@@ -75,7 +75,7 @@ export default function Home() {
                   Consulting
                 </span>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/assets/icons/transparent_Strategy.png" alt="" width={72} height={72} />
+                <img src="/assets/icons/transparent_Strategy.png" alt="" width={144} height={144} style={{ marginTop: '-24px', marginRight: '-24px' }} />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Loyalty &amp; CRM Strategy</h3>
               <p className="text-gray-600 leading-relaxed flex-1 mb-8">
@@ -97,7 +97,7 @@ export default function Home() {
                   Platform
                 </span>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/assets/icons/transparent_Analysis_2.png" alt="" width={72} height={72} />
+                <img src="/assets/icons/transparent_Analysis_2.png" alt="" width={144} height={144} style={{ marginTop: '-24px', marginRight: '-24px' }} />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">ANALYTIQ</h3>
               <p className="text-gray-600 leading-relaxed flex-1 mb-8">
