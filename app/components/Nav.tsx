@@ -13,7 +13,7 @@ export default function Nav() {
         <div className="flex items-center justify-between h-16">
           <Link href="/" onClick={() => setOpen(false)}>
             <Image
-              src="/assets/logos/CT-logo-transparrenthd.png"
+              src="/assets/logos/CT-logo-transparrenthdv2.png"
               alt="Challenge That"
               width={80}
               height={80}
