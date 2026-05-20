@@ -132,7 +132,7 @@ function Footer() {
           </div>
         </div>
         <div className="border-t border-ct-dark mt-12 pt-8 flex flex-wrap items-center justify-between gap-4">
-          <p className="text-xs">&copy; 2026 Challenge That Pty Ltd. ABN 84 009 230 433. All rights reserved.</p>
+          <p className="text-xs">&copy; 2026 Challenge That Pty Ltd. ABN 27 644 821 410. All rights reserved.</p>
           <div className="flex gap-6">
             <Link href="/privacy" className="text-xs hover:text-white transition-colors">Privacy Policy</Link>
             <Link href="/terms" className="text-xs hover:text-white transition-colors">Terms of Use</Link>
