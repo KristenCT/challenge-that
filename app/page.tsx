@@ -180,7 +180,7 @@ export default function Home() {
                 <button type="submit" className="w-full px-6 py-3 bg-ct-teal text-white font-medium rounded-lg hover:bg-ct-teal-mid transition-colors">
                   Send message
                 </button>
-                <p className="text-xs text-gray-400 text-center">Or <a href="https://calendly.com/challenge-that/introduction" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-600">book a time directly</a> if you prefer.</p>
+                <p className="text-xs text-gray-400 text-center">Or <a href="https://calendly.com/challengethat/introduction" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-600">book a time directly</a> if you prefer.</p>
               </form>
             </ScrollReveal>
           </div>

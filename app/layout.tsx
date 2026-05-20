@@ -124,7 +124,7 @@ function Footer() {
                 <a href="mailto:info@challengethat.com.au" className="hover:text-white transition-colors">info@challengethat.com.au</a>
               </li>
               <li className="pt-1">
-                <Link href="https://calendly.com/challenge-that/introduction" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                <Link href="https://calendly.com/challengethat/introduction" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                   Book a demo →
                 </Link>
               </li>

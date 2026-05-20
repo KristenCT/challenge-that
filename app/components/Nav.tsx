@@ -42,7 +42,7 @@ export default function Nav() {
               About
             </Link>
             <Link
-              href="https://calendly.com/challenge-that/introduction"
+              href="https://calendly.com/challengethat/introduction"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 rounded-lg bg-ct-teal text-white text-sm font-medium hover:bg-ct-teal-mid transition-colors"
@@ -88,7 +88,7 @@ export default function Nav() {
               About
             </Link>
             <Link
-              href="https://calendly.com/challenge-that/introduction"
+              href="https://calendly.com/challengethat/introduction"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 rounded-lg bg-ct-teal text-white text-sm font-medium w-fit"

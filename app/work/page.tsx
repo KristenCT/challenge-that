@@ -292,7 +292,7 @@ export default function Work() {
               Whether you&rsquo;re looking for loyalty strategy consulting or the ANALYTIQ analytics platform, the first conversation is free.
             </p>
             <Link
-              href="https://calendly.com/challenge-that/introduction"
+              href="https://calendly.com/challengethat/introduction"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 bg-ct-teal text-white font-medium rounded-lg hover:bg-ct-teal-mid transition-colors"

@@ -174,7 +174,7 @@ export default function Analytiq() {
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
-                href="https://calendly.com/challenge-that/introduction"
+                href="https://calendly.com/challengethat/introduction"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 bg-ct-teal text-white font-medium rounded-lg hover:bg-ct-teal-mid transition-colors"
@@ -401,7 +401,7 @@ export default function Analytiq() {
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
-                href="https://calendly.com/challenge-that/introduction"
+                href="https://calendly.com/challengethat/introduction"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 bg-white text-ct-dark font-semibold rounded-lg hover:bg-ct-teal-subtle transition-colors"
@@ -409,7 +409,7 @@ export default function Analytiq() {
                 Book a demo
               </Link>
               <Link
-                href="https://calendly.com/challenge-that/introduction"
+                href="https://calendly.com/challengethat/introduction"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 border border-ct-teal text-ct-teal-subtle font-medium rounded-lg hover:border-ct-teal-light hover:text-white transition-colors"

@@ -58,7 +58,7 @@ export function ArticleCTA({ heading, body, label }: { heading: string; body: st
         <p className="text-gray-400 text-sm">{body}</p>
       </div>
       <Link
-        href="https://calendly.com/challenge-that/introduction"
+        href="https://calendly.com/challengethat/introduction"
         target="_blank"
         rel="noopener noreferrer"
         className="shrink-0 px-5 py-2.5 bg-ct-teal text-white text-sm font-medium rounded-lg hover:bg-ct-teal-mid transition-colors"

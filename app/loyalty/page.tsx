@@ -129,7 +129,7 @@ export default function Loyalty() {
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
-                href="https://calendly.com/challenge-that/introduction"
+                href="https://calendly.com/challengethat/introduction"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 bg-ct-slate text-white font-medium rounded-lg hover:bg-ct-slate-dark transition-colors"
@@ -306,7 +306,7 @@ export default function Loyalty() {
             <p className="text-white font-semibold text-lg mb-8">No obligation. No sales pitch. Just a straight conversation.</p>
             <div className="flex flex-wrap gap-4">
               <Link
-                href="https://calendly.com/challenge-that/introduction"
+                href="https://calendly.com/challengethat/introduction"
               target="_blank"
               rel="noopener noreferrer"
                 className="px-6 py-3 bg-white text-ct-dark font-semibold rounded-lg hover:bg-ct-slate-subtle transition-colors"
