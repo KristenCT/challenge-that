@@ -13,6 +13,15 @@ export const metadata: Metadata = {
   },
 }
 
+const additionalTestimonials = [
+  {
+    quote: 'Working with Kristen and Fiona helped clarify our goals and understand why our existing practices and systems weren\'t delivering what we needed. Their industry knowledge and ability to understand our challenges was key to defining our pathway forward. They guided us toward genuine solutions and supported us throughout the process. I\'d happily recommend them for their professionalism, insight, and collaborative approach.',
+    attribution: 'Michelle Nielsen',
+    role: 'Chief Commercial Officer, Holman Barnes Group',
+    photo: '/assets/partnerpictures/michelle-nielsen.jpeg',
+  },
+]
+
 const caseStudies = [
   {
     client: 'The Fraternity Club',
@@ -202,12 +211,15 @@ export default function Work() {
             Straight from the people we work with.
           </h2>
           <TestimonialCarousel
-            testimonials={caseStudies.map(cs => ({
-              quote: cs.quote,
-              attribution: cs.attribution,
-              role: cs.role,
-              photo: cs.photo,
-            }))}
+            testimonials={[
+              ...caseStudies.map(cs => ({
+                quote: cs.quote,
+                attribution: cs.attribution,
+                role: cs.role,
+                photo: cs.photo,
+              })),
+              ...additionalTestimonials,
+            ]}
           />
         </div>
       </section>
