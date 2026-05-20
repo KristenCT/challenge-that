@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import TestimonialCarousel from '../components/TestimonialCarousel'
 import ScrollReveal from '../components/ScrollReveal'
+import CountUp from '../components/CountUp'
 
 export const metadata: Metadata = {
   title: 'Our Work | Challenge That',
@@ -176,7 +177,9 @@ export default function Work() {
                     <div className="grid grid-cols-2 gap-6">
                       {cs.metrics.map((m) => (
                         <div key={m.value}>
-                          <p className="text-3xl font-bold text-white mb-1">{m.value}</p>
+                          <p className="text-3xl font-bold text-white mb-1">
+                            <CountUp value={m.value} />
+                          </p>
                           <p className="text-sm text-gray-400 leading-snug">{m.label}</p>
                         </div>
                       ))}
