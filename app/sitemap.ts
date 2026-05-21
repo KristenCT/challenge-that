@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next'
 
-const base = 'https://challengethat.com.au'
+const base = 'https://www.challengethat.com.au'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [

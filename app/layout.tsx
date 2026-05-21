@@ -17,7 +17,7 @@ const libreBaskerville = Libre_Baskerville({
   variable: '--font-serif',
 })
 
-const siteUrl = 'https://challengethat.com.au'
+const siteUrl = 'https://www.challengethat.com.au'
 const defaultTitle = 'Challenge That | Hospitality Loyalty & Analytics Specialists'
 const defaultDescription = 'Loyalty and CRM consulting and the ANALYTIQ analytics platform for Australian pubs, clubs and hospitality venues.'
 
