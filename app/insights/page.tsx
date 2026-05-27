@@ -14,13 +14,22 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: 'crm-growth-moment',
+    tag: 'CRM',
+    tagColor: 'coral',
+    title: 'The moment I realised CRM could drive growth',
+    excerpt: 'It was the early 2000s, an online sportsbook in the UK, five VIP segments, and a boardroom argument I lost. What happened next taught me everything I know about CRM, retention, and what happens when businesses can\'t see the connection between customer spend and customer value.',
+    readTime: '5 min read',
+    featured: true,
+  },
+  {
     slug: 'loyalty-mistakes',
     tag: 'Loyalty strategy',
     tagColor: 'slate',
     title: 'The five loyalty mistakes hospitality venues keep making (and how to fix them)',
     excerpt: 'Gold, Silver, Bronze. Tiers exist. Emails go out. The program is technically live. So why aren\'t members coming back more often? Most loyalty programs in Australian hospitality aren\'t broken - they\'re just built on assumptions that were never tested.',
     readTime: '8 min read',
-    featured: true,
+    featured: false,
   },
   {
     slug: 'crm-stalled',
@@ -95,21 +104,20 @@ export default function Insights() {
             <div className="grid grid-cols-1 lg:grid-cols-2 border border-gray-100 rounded-2xl overflow-hidden hover:border-gray-300 transition-colors">
               {/* Visual */}
               <div className="bg-gray-50 p-6 lg:p-10 flex items-center">
-                <div className="w-full space-y-3">
-                  {[
-                    { label: 'Gold members engaged', pct: 23, color: 'bg-ct-slate' },
-                    { label: 'Silver members engaged', pct: 18, color: 'bg-ct-gray-mid' },
-                    { label: 'Bronze members engaged', pct: 9, color: 'bg-ct-gray-light' },
-                  ].map((row) => (
-                    <div key={row.label} className="flex items-center gap-3">
-                      <span className="text-xs text-gray-500 w-28 sm:w-44 shrink-0">{row.label}</span>
-                      <div className="flex-1 h-2 bg-gray-200 rounded-full overflow-hidden">
-                        <div className={`h-full rounded-full ${row.color}`} style={{ width: `${row.pct * 2}%` }} />
-                      </div>
-                      <span className="text-xs font-semibold text-gray-700 w-8 text-right">{row.pct}%</span>
+                <div className="w-full space-y-4">
+                  <div className="grid grid-cols-2 gap-4">
+                    <div className="bg-white border border-gray-200 rounded-xl p-4">
+                      <p className="text-xs text-gray-400 uppercase tracking-wider mb-1">VIP campaign active</p>
+                      <p className="text-2xl font-bold text-ct-coral">High</p>
+                      <p className="text-xs text-gray-500 mt-1">retention &amp; revenue</p>
                     </div>
-                  ))}
-                  <p className="text-xs text-gray-400 pt-2 border-t border-gray-200">77% of members unreached - in a &ldquo;working&rdquo; program</p>
+                    <div className="bg-white border border-gray-200 rounded-xl p-4">
+                      <p className="text-xs text-gray-400 uppercase tracking-wider mb-1">Campaign cut</p>
+                      <p className="text-2xl font-bold text-gray-400">Gone</p>
+                      <p className="text-xs text-gray-500 mt-1">customers drifted, churned</p>
+                    </div>
+                  </div>
+                  <p className="text-xs text-gray-400 pt-2 border-t border-gray-200">The &ldquo;saving&rdquo; became a loss that dwarfed whatever was cut</p>
                 </div>
               </div>
               {/* Content */}
@@ -137,7 +145,7 @@ export default function Insights() {
 
           {/* Rest */}
           <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-6">More articles</p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {rest.map((article, i) => (
               <ScrollReveal key={article.slug} delay={i * 80}>
               <Link href={`/insights/${article.slug}`} className="group block border border-gray-100 rounded-2xl overflow-hidden hover:border-gray-300 transition-colors card-lift h-full">
