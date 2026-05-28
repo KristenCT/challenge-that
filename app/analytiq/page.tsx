@@ -139,13 +139,13 @@ const connectionTiles = [
 const testimonials = [
   {
     quote:
-      'We used to spend half a day every Monday downloading reports and building a picture of the previous week. Now the whole team can see it the moment they log in.',
-    attribution: 'Head of Marketing, [venue name]',
+      'Requests for member data used to take weeks to compile. Now my team can see it the moment they log in. ',
+    attribution: 'Head of Marketing',
   },
   {
     quote:
       'The AI query engine answered a member question in under two minutes that would have taken our data team three days. That alone changed how we run our campaigns.',
-    attribution: 'CRM Manager, [venue name]',
+    attribution: 'Gaming Manager',
   },
 ]
 
