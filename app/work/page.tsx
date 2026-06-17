@@ -21,6 +21,12 @@ const additionalTestimonials = [
     role: 'Chief Commercial Officer, Holman Barnes Group',
     photo: '/assets/partnerpictures/michelle-nielsen.jpeg',
   },
+  {
+    quote: 'The team at Challenge That did far more than just help us develop our CRM strategy, they helped develop our business processes to support our goals. They helped us see gaps in our current ways of working, and how we could be working smarter. Kristen challenged our thinking and guided us towards creating more effective and efficient business processes. Kristen\'s energy and encouragement helped us keep up the momentum and see the bigger picture. I would highly recommend any organisation investing in CRM to engage with the Challenge That team before you start their CRM journey.',
+    attribution: 'Rachael Javes',
+    role: 'Executive Director - Strategic Engagement and Growth, Gidget Foundation Australia',
+    photo: '/assets/partnerpictures/rachael-javes.jpeg',
+  },
 ]
 
 const caseStudies = [
