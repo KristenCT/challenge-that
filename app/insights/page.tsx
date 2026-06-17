@@ -14,13 +14,22 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: 'move-map',
+    tag: 'MOVE methodology',
+    tagColor: 'teal',
+    title: 'M is for Map: Why most CRM strategies fail before they start',
+    excerpt: 'Of the four principles in the MOVE methodology, Map is where the work begins. It\'s also where most businesses skip ahead. Not deliberately — but the pressure to get the platform live wins, and six months later they\'re sitting with a system that doesn\'t reflect how they actually work.',
+    readTime: '7 min read',
+    featured: true,
+  },
+  {
     slug: 'crm-growth-moment',
     tag: 'CRM',
     tagColor: 'coral',
     title: 'The moment I realised CRM could drive growth',
     excerpt: 'It was the early 2000s, an online sportsbook in the UK, five VIP segments, and a boardroom argument I lost. What happened next taught me everything I know about CRM, retention, and what happens when businesses can\'t see the connection between customer spend and customer value.',
     readTime: '5 min read',
-    featured: true,
+    featured: false,
   },
   {
     slug: 'loyalty-mistakes',
@@ -104,20 +113,21 @@ export default function Insights() {
             <div className="grid grid-cols-1 lg:grid-cols-2 border border-gray-100 rounded-2xl overflow-hidden hover:border-gray-300 transition-colors">
               {/* Visual */}
               <div className="bg-gray-50 p-6 lg:p-10 flex items-center">
-                <div className="w-full space-y-4">
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="bg-white border border-gray-200 rounded-xl p-4">
-                      <p className="text-xs text-gray-400 uppercase tracking-wider mb-1">VIP campaign active</p>
-                      <p className="text-2xl font-bold text-ct-coral">High</p>
-                      <p className="text-xs text-gray-500 mt-1">retention &amp; revenue</p>
+                <div className="w-full space-y-3">
+                  <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-4">Customer product journey</p>
+                  {[
+                    { stage: 'Awareness', status: 'Defined', color: 'text-ct-teal' },
+                    { stage: 'Onboarding', status: 'Defined', color: 'text-ct-teal' },
+                    { stage: 'Active', status: 'Defined', color: 'text-ct-teal' },
+                    { stage: 'Retained', status: 'Undefined', color: 'text-gray-300' },
+                    { stage: 'Lapsed', status: 'Undefined', color: 'text-gray-300' },
+                  ].map((row) => (
+                    <div key={row.stage} className="bg-white border border-gray-200 rounded-lg px-4 py-3 flex items-center justify-between">
+                      <span className="text-sm font-medium text-gray-700">{row.stage}</span>
+                      <span className={`text-xs font-semibold ${row.color}`}>{row.status}</span>
                     </div>
-                    <div className="bg-white border border-gray-200 rounded-xl p-4">
-                      <p className="text-xs text-gray-400 uppercase tracking-wider mb-1">Campaign cut</p>
-                      <p className="text-2xl font-bold text-gray-400">Gone</p>
-                      <p className="text-xs text-gray-500 mt-1">customers drifted, churned</p>
-                    </div>
-                  </div>
-                  <p className="text-xs text-gray-400 pt-2 border-t border-gray-200">The &ldquo;saving&rdquo; became a loss that dwarfed whatever was cut</p>
+                  ))}
+                  <p className="text-xs text-gray-400 pt-2 border-t border-gray-200">Undefined stages become invisible problems in production</p>
                 </div>
               </div>
               {/* Content */}
