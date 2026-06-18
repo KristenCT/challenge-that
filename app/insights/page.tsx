@@ -23,6 +23,15 @@ const articles = [
     featured: true,
   },
   {
+    slug: 'invisible-customers',
+    tag: 'Customer value',
+    tagColor: 'amber',
+    title: 'The customers shaping this business weren\'t the ones worth keeping',
+    excerpt: 'Twelve thousand members, strong foot traffic, a venue people loved. When we mapped the complaints against the value data, the correlation was uncomfortable. The customers driving the most noise were among the least valuable in the database.',
+    readTime: '6 min read',
+    featured: false,
+  },
+  {
     slug: 'crm-growth-moment',
     tag: 'CRM',
     tagColor: 'coral',
