@@ -23,6 +23,15 @@ const articles = [
     featured: true,
   },
   {
+    slug: 'loyalty-engagement-gap',
+    tag: 'Loyalty engagement',
+    tagColor: 'slate',
+    title: 'Loyalty is easy to join and easy to ignore. What does that mean for pubs and clubs?',
+    excerpt: 'Ninety three per cent of Australians belong to a loyalty program, yet the number they actually engage with keeps falling. A look at what a growing membership database can quietly disguise - and why AI won\'t fix fragmented member data on its own.',
+    readTime: '6 min read',
+    featured: false,
+  },
+  {
     slug: 'invisible-customers',
     tag: 'Customer value',
     tagColor: 'amber',
