@@ -15,8 +15,9 @@ export default function Nav() {
             <Image
               src="/assets/logos/CT-logo-transparrenthdv3.png"
               alt="Challenge That"
-              width={80}
-              height={80}
+              width={320}
+              height={90}
+              quality={100}
               className="h-16 w-auto"
             />
           </Link>
