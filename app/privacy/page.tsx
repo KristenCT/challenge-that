@@ -24,7 +24,7 @@ export default function Privacy() {
             <h2 className="text-xl font-bold text-gray-900 mb-3">Who we are</h2>
             <p>
               Challenge That Pty Ltd (&ldquo;Challenge That&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;) operates challengethat.com.au.
-              We are a hospitality loyalty and CRM consulting firm based in Maroubra, NSW, Australia.
+              We are a hospitality loyalty and CRM consulting firm based in Randwick, NSW, Australia.
               We are committed to protecting your personal information in accordance with the <em>Privacy Act 1988</em> (Cth) and the Australian Privacy Principles (APPs).
             </p>
             <p className="mt-3">
@@ -125,7 +125,7 @@ export default function Privacy() {
             </p>
             <div className="mt-4 space-y-1 text-sm">
               <p><strong className="text-gray-800">Challenge That Pty Ltd</strong></p>
-              <p>Maroubra, NSW, Australia</p>
+              <p>PO Box 393, Randwick, NSW 2031</p>
               <p><a href="mailto:info@challengethat.com.au" className="text-ct-teal hover:underline">info@challengethat.com.au</a></p>
               <p><a href="tel:0401379901" className="text-ct-teal hover:underline">0401 379 901</a></p>
             </div>

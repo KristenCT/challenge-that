@@ -115,7 +115,7 @@ function Footer() {
             <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">Get in touch</h3>
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2">
-                <span>Maroubra, NSW, Australia</span>
+                <span>PO Box 393, Randwick, NSW 2031</span>
               </li>
               <li>
                 <a href="tel:0401379901" className="hover:text-white transition-colors">0401 379 901</a>

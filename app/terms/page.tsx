@@ -24,7 +24,7 @@ export default function Terms() {
             <h2 className="text-xl font-bold text-gray-900 mb-3">About this site</h2>
             <p>
               This website is operated by Challenge That Pty Ltd (ABN 27 644 821 410), a hospitality loyalty and CRM
-              consulting firm based in Maroubra, NSW, Australia (&ldquo;Challenge That&rdquo;, &ldquo;we&rdquo;,
+              consulting firm based in Randwick, NSW, Australia (&ldquo;Challenge That&rdquo;, &ldquo;we&rdquo;,
               &ldquo;us&rdquo;). By accessing or using this website, you agree to these terms.
             </p>
           </div>
@@ -94,7 +94,7 @@ export default function Terms() {
             <div className="space-y-1 text-sm">
               <p><strong className="text-gray-800">Challenge That Pty Ltd</strong></p>
               <p>ABN 27 644 821 410</p>
-              <p>Maroubra, NSW, Australia</p>
+              <p>PO Box 393, Randwick, NSW 2031</p>
               <p><a href="mailto:info@challengethat.com.au" className="text-ct-teal hover:underline">info@challengethat.com.au</a></p>
               <p><a href="tel:0401379901" className="text-ct-teal hover:underline">0401 379 901</a></p>
             </div>
