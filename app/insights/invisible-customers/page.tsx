@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import ArticleLayout, { Pullquote } from '../../components/ArticleLayout'
+import AnimatedBars from '../../components/charts/AnimatedBars'
 
 export const metadata: Metadata = {
   title: 'The Customers Shaping This Business Weren\'t the Ones Worth Keeping | Challenge That',
@@ -47,6 +48,16 @@ export default function Article() {
       <h2>What happened</h2>
       <p>Active membership revenue increased by 40%.</p>
       <p>Cross-spend ratio &mdash; the measure of how broadly customers were spending across different parts of the venue &mdash; increased by 17%.</p>
+
+      <AnimatedBars
+        title="Results after the rebuild"
+        tagColor="amber"
+        items={[
+          { label: 'Active membership revenue', value: 40, max: 50, display: '+40%' },
+          { label: 'Cross-spend ratio', value: 17, max: 50, display: '+17%' },
+        ]}
+      />
+
       <p>Both numbers moved because the same underlying thing changed. The business finally understood who it was actually serving. The most valuable customers started receiving an experience that matched their value. They responded the way valuable customers always respond when they feel genuinely recognised: they engaged more, spent more, and stayed longer.</p>
       <p>The loud ones didn&rsquo;t leave. They just stopped running the show.</p>
 

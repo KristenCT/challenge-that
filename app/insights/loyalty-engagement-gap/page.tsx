@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import ArticleLayout, { Pullquote } from '../../components/ArticleLayout'
+import AnimatedBars from '../../components/charts/AnimatedBars'
 
 export const metadata: Metadata = {
   title: 'Loyalty Is Easy to Join and Easy to Ignore: What That Means for Pubs and Clubs | Challenge That',
@@ -26,6 +27,17 @@ export default function Article() {
       <p>Australians have never belonged to more loyalty programs, and never paid attention to fewer of them.</p>
       <p>That&rsquo;s the uncomfortable finding at the centre of a recent Mi3 piece on loyalty marketing, built around commentary from Quantum Jump CEO Ben Goodale and Australian GM Rachel Wintle.</p>
       <p>Ninety three per cent of Australians are now a member of at least one loyalty program, yet the average number of programs people actively engage with has fallen to its lowest point in a decade. Gen Z&rsquo;s participation has dropped from five programs in 2022 to three and a half.</p>
+
+      <AnimatedBars
+        title="Gen Z: average loyalty programs actively engaged with"
+        tagColor="slate"
+        items={[
+          { label: '2022', value: 5, max: 6, display: '5', variant: 'muted' },
+          { label: 'Now', value: 3.5, max: 6, display: '3.5' },
+        ]}
+        source="Source: Mi3 loyalty engagement research"
+      />
+
       <p>For pubs, clubs, and hospitality venues, this isn&rsquo;t a distant retail trend. It&rsquo;s a preview of what happens when a membership base grows faster than the insight needed to understand it.</p>
 
       <h2>A full database isn&rsquo;t the same as an engaged one</h2>
@@ -33,6 +45,16 @@ export default function Article() {
       <p>The research backs this up. Almost two thirds of loyalty members believe brands already hold enough data about them. Only 40% say they regularly receive offers that actually feel relevant. That&rsquo;s a wide, expensive gap between the data being collected and the value being returned from it.</p>
 
       <Pullquote>Almost two thirds of loyalty members believe brands already hold enough data about them. Only 40% say they regularly receive offers that actually feel relevant.</Pullquote>
+
+      <AnimatedBars
+        title="The relevance gap"
+        tagColor="slate"
+        items={[
+          { label: 'Feel brands already hold enough data about them', value: 65, max: 100, display: '~65%', variant: 'muted' },
+          { label: 'Regularly receive offers that feel relevant', value: 40, max: 100, display: '40%' },
+        ]}
+        source="Source: Mi3 loyalty engagement research"
+      />
 
       <p>For a club or pub, that gap tends to show up in familiar ways. A promotion goes out to the whole membership list because there&rsquo;s no easy way to segment it. A high value member on the top tier gets the same generic birthday email as someone who visited once eighteen months ago. Gaming, F&B, and events data all live in different systems that don&rsquo;t talk to each other, so no one has a single, reliable view of who&rsquo;s actually engaged.</p>
 

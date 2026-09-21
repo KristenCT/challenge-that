@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import ArticleLayout, { Pullquote, Callout, ArticleCTA } from '../../components/ArticleLayout'
+import IconGrid from '../../components/charts/IconGrid'
 
 export const metadata: Metadata = {
   title: 'The Five Loyalty Mistakes Hospitality Venues Keep Making | Challenge That',
@@ -25,6 +26,18 @@ export default function Article() {
     >
       <p>Most loyalty programs in Australian hospitality aren&rsquo;t broken. They&rsquo;re just built on assumptions that were never tested. The program is technically live - tiers exist, emails go out, points accumulate. The question is whether any of it is actually changing customer behaviour.</p>
       <p>After more than four decades working with pubs, clubs, and venues across Australia, we&rsquo;ve seen the same mistakes appear with striking regularity. Here are the five that matter most - and what to do instead.</p>
+
+      <IconGrid
+        title="The five mistakes, at a glance"
+        tagColor="slate"
+        items={[
+          'Treating all Gold members the same',
+          'Leading with rewards instead of relevance',
+          'Measuring enrolments instead of outcomes',
+          'Letting your CRM vendor define your strategy',
+          'Ignoring the 70% who joined and went quiet',
+        ]}
+      />
 
       <h2>Mistake 1: Treating all Gold members the same</h2>
       <p>Your Gold tier is not a segment. It&rsquo;s a bucket. A member who visits on a Friday night, drinks well, and brings friends sits in the same tier as one who visits once a quarter for a cheap parma and a tap beer. <strong>Same tier, wildly different value - and yet they receive identical communications.</strong></p>

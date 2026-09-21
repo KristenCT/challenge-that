@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import ArticleLayout, { Pullquote, Callout } from '../../components/ArticleLayout'
+import AnimatedBars from '../../components/charts/AnimatedBars'
 
 export const metadata: Metadata = {
   title: 'Your Member Database Is Lying to You | Challenge That',
@@ -34,6 +35,16 @@ export default function Article() {
       <p>When customers can enrol at the bar, online, and via app, duplicates are inevitable. We regularly find 30&ndash;50% duplicate rates in unaudited databases. The practical consequences are severe: a customer&rsquo;s transaction history is split, their tier calculation may be wrong, and you may be sending two copies of every campaign to the same person.</p>
 
       <Pullquote>We regularly find 30&ndash;50% duplicate rates in unaudited databases - and split transaction history that makes segmentation unreliable.</Pullquote>
+
+      <AnimatedBars
+        title="Two of the five gaps, by the numbers"
+        tagColor="amber"
+        items={[
+          { label: 'Records missing a valid email or mobile number', value: 70, max: 100, display: '40–70%' },
+          { label: 'Duplicate records in an unaudited database', value: 50, max: 100, display: '30–50%' },
+        ]}
+        source="Range reflects what we typically find auditing venue CRM databases."
+      />
 
       <h2>Gap 3: Stale or outdated records</h2>
       <p>The average member database we see has records that are 2&ndash;4 years old without any reconfirmation. People move. Email addresses change. Phone numbers are recycled. A database that was 80% contactable three years ago may be 50% contactable today - but nothing in the platform flags this unless you look.</p>

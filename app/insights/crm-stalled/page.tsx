@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import ArticleLayout, { Pullquote, Callout } from '../../components/ArticleLayout'
+import TrendLine from '../../components/charts/TrendLine'
 
 export const metadata: Metadata = {
   title: 'Why Your CRM Implementation Stalled | Challenge That',
@@ -25,6 +26,19 @@ export default function Article() {
     >
       <p>The pattern is consistent enough to have a name. We call it the CRM cliff: a venue invests in a platform, migrates data, trains staff, launches - and then, somewhere around the three-to-six month mark, usage quietly drops. Campaigns stop being sent. Segments sit unchanged. The team goes back to what they know.</p>
       <p>It&rsquo;s not a people problem. It&rsquo;s an implementation problem - one that almost always traces back to the same set of structural gaps.</p>
+
+      <TrendLine
+        title="The CRM cliff"
+        yLabel="Platform usage"
+        tagColor="teal"
+        caption="Illustrative — the pattern we see across most stalled implementations."
+        points={[
+          { x: 'Launch', y: 82 },
+          { x: 'Month 3', y: 70, marker: 'Where most stalls begin' },
+          { x: 'Month 6', y: 22 },
+          { x: 'Ongoing', y: 18 },
+        ]}
+      />
 
       <h2>The gap between &ldquo;go live&rdquo; and &ldquo;actually useful&rdquo;</h2>
       <p>Most CRM vendors will get you to go-live. That&rsquo;s what their implementation teams are measured on. <strong>What happens after go-live - building the workflows, establishing the cadence, connecting the data sources that matter - that part is usually left to you.</strong></p>

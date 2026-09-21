@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import ArticleLayout, { Pullquote, Callout } from '../../components/ArticleLayout'
+import CompareCards from '../../components/charts/CompareCards'
 
 export const metadata: Metadata = {
   title: 'Why the Gold Silver Bronze Tier Model Is Failing Australian Venues | Challenge That',
@@ -31,6 +32,26 @@ export default function Article() {
       <p>Consider two members. The first visits every Friday, brings two friends, and spends consistently. The second visited heavily last year during a renovation at their usual venue, has since returned to their old habits, and now visits once every six weeks. Under most spend-based systems, they may sit in the same tier - despite having radically different forward-looking value.</p>
 
       <Pullquote>Spend-based tiers reward history over intent. The customers most likely to grow are often invisible.</Pullquote>
+
+      <CompareCards
+        title="Same tier. Different value."
+        tagColor="coral"
+        sameLabel="Both: Gold tier"
+        cards={[
+          {
+            eyebrow: 'Member A',
+            description: 'Visits every Friday, brings two friends, spends consistently.',
+            status: 'Momentum building',
+            trend: 'up',
+          },
+          {
+            eyebrow: 'Member B',
+            description: 'Spent heavily last year during a competitor’s renovation, now visits once every six weeks.',
+            status: 'Drifting back to old habits',
+            trend: 'down',
+          },
+        ]}
+      />
 
       <h2>What behavioural segmentation adds to tier design</h2>
       <p>The fix isn&rsquo;t to abolish tiers. It&rsquo;s to run behavioural segmentation alongside them - inside them, ideally - so that your communication and offers are shaped by what a member is likely to do next, not just what they&rsquo;ve done in the past.</p>

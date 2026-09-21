@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import ArticleLayout, { Pullquote } from '../../components/ArticleLayout'
+import StageFlow from '../../components/charts/StageFlow'
 
 export const metadata: Metadata = {
   title: 'M is for Map: Why Most CRM Strategies Fail Before They Start | Challenge That',
@@ -34,6 +35,32 @@ export default function Article() {
       <p>The first is the <strong>product journey</strong>. This is your high-level blueprint: the primary lifecycle your customer travels through from the moment they first encounter your business to the point where they become an active, retained customer, or eventually lapse. It covers each stage of that journey, what the customer needs to do to progress, what your team needs to do internally, and what resources are required to support both.</p>
       <p>The product journey is intentionally high-level. It should be fast to complete. Its job is to give everyone in the business a shared picture of how the customer experience is supposed to work, and to create the foundation everything else is built on. Critically, once you&rsquo;ve defined your primary product journey, all other product journeys should follow the same structure as closely as possible. Consistency across journeys creates a consistent, predictable customer experience. And a predictable experience is a manageable one.</p>
       <p>The second layer is the <strong>MOVE canvas</strong>. This is where the detail lives. For each stage of the product journey, the MOVE canvas documents the exact steps your team needs to take, what the customer needs to do, what triggers movement from one step to the next, what constitutes a stall, and what happens when someone falls out of the process entirely. It&rsquo;s the document you hand to a technical team and say: build this.</p>
+
+      <div className="not-prose my-8 rounded-2xl border border-gray-100 bg-gray-50 p-6 lg:p-8">
+        <StageFlow
+          title="Layer 1 — Product journey (high-level)"
+          tagColor="teal"
+          stages={[
+            { label: 'Awareness' },
+            { label: 'Onboarding' },
+            { label: 'Active' },
+            { label: 'Retained' },
+            { label: 'Lapsed' },
+          ]}
+        />
+        <div className="my-6 border-t border-gray-200" />
+        <StageFlow
+          title="Layer 2 — MOVE canvas (per stage, in detail)"
+          tagColor="teal"
+          stages={[
+            { label: 'Team steps' },
+            { label: 'Customer steps' },
+            { label: 'Trigger' },
+            { label: 'Stall signal' },
+            { label: 'Fallback' },
+          ]}
+        />
+      </div>
 
       <Pullquote>Together, the product journey and the MOVE canvas become your CRM blueprint. Not a wishlist. Not a vague brief. A clear, specific set of requirements that leaves nothing open to interpretation.</Pullquote>
 

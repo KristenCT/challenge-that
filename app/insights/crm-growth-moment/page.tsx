@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import ArticleLayout, { Pullquote } from '../../components/ArticleLayout'
+import TrendLine from '../../components/charts/TrendLine'
 
 export const metadata: Metadata = {
   title: 'The Moment I Realised CRM Could Drive Growth | Challenge That',
@@ -33,6 +34,18 @@ export default function Article() {
       <p>And the numbers tanked.</p>
 
       <Pullquote>The &ldquo;saving&rdquo; became a loss that dwarfed whatever we&rsquo;d cut. The campaign wasn&rsquo;t a cost centre. It was a revenue driver wearing a marketing budget.</Pullquote>
+
+      <TrendLine
+        title="VIP customer engagement"
+        yLabel="Engagement"
+        tagColor="coral"
+        caption="Illustrative — the pattern described above, not measured data."
+        points={[
+          { x: 'Campaign live', y: 78 },
+          { x: 'Campaign cut', y: 76, marker: 'Cut to hit year-end targets' },
+          { x: 'Weeks later', y: 28 },
+        ]}
+      />
 
       <p>What the CCO didn&rsquo;t see &mdash; couldn&rsquo;t see, because no one had connected those dots clearly enough &mdash; was that the campaign wasn&rsquo;t a cost centre. It was a revenue driver wearing a marketing budget. The moment we stopped showing those customers they mattered, they behaved accordingly. They drifted. They churned. The &ldquo;saving&rdquo; became a loss that dwarfed whatever we&rsquo;d cut.</p>
       <p>That experience never left me.</p>
