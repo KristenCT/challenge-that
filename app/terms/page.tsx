@@ -67,7 +67,7 @@ export default function Terms() {
           <div>
             <h2 className="text-xl font-bold text-gray-900 mb-3">Third-party links</h2>
             <p>
-              This site contains links to third-party websites including Calendly and Amazon. These links are
+              This site contains links to third-party websites including HubSpot and Amazon. These links are
               provided for convenience only. We do not endorse or take responsibility for the content or practices
               of any third-party site.
             </p>

@@ -206,7 +206,7 @@ export default function Insights() {
             <p className="text-gray-400 text-sm">ANALYTIQ surfaces loyalty gaps and CRM blind spots - without needing an analyst.</p>
           </div>
           <Link
-            href="https://calendly.com/challengethat/introduction"
+            href="https://meetings-ap1.hubspot.com/kristen-makin/ct-introduction"
             target="_blank"
             rel="noopener noreferrer"
             className="shrink-0 px-6 py-3 bg-ct-teal text-white font-medium rounded-lg hover:bg-ct-teal-mid transition-colors text-sm"

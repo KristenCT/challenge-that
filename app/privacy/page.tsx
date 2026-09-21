@@ -47,7 +47,7 @@ export default function Privacy() {
               </li>
               <li className="flex gap-3">
                 <span className="text-ct-teal font-bold shrink-0">—</span>
-                <span><strong className="text-gray-800">Booking via Calendly:</strong> If you book a consultation through our Calendly link, that information is collected and stored by Calendly under their own privacy policy. We receive your name, email, and any notes you include.</span>
+                <span><strong className="text-gray-800">Booking via HubSpot:</strong> If you book a consultation through our HubSpot booking link, that information is collected and stored by HubSpot under their own privacy policy. We receive your name, email, and any notes you include.</span>
               </li>
             </ul>
           </div>
@@ -84,7 +84,7 @@ export default function Privacy() {
             <ul className="space-y-2 list-none pl-0">
               {[
                 { name: 'Google Analytics', url: 'https://policies.google.com/privacy' },
-                { name: 'Calendly', url: 'https://calendly.com/privacy' },
+                { name: 'HubSpot', url: 'https://legal.hubspot.com/privacy-policy' },
                 { name: 'Amazon (for book purchases)', url: 'https://www.amazon.com.au/gp/help/customer/display.html?nodeId=468496' },
               ].map(item => (
                 <li key={item.name} className="flex gap-3">

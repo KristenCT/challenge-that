@@ -157,7 +157,7 @@ export default function About() {
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
-                href="https://calendly.com/challengethat/introduction"
+                href="https://meetings-ap1.hubspot.com/kristen-makin/ct-introduction"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 bg-white text-ct-dark font-semibold rounded-lg hover:bg-ct-slate-subtle transition-colors"
